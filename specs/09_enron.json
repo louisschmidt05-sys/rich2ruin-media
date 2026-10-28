@@ -1,0 +1,194 @@
+{
+ "format": "THE SCAM",
+ "lines": [
+  {
+   "text": "Ninety dollars a share. Fifteen months later: sixty-one cents.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "$90.75",
+      "gold"
+     ],
+     [
+      "$0.61",
+      "red"
+     ]
+    ],
+    "size": 190,
+    "y": 620,
+    "sub": "one stock \u00b7 fifteen months"
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "slam",
+     1.8
+    ]
+   ]
+  },
+  {
+   "text": "Enron. A Houston energy giant.",
+   "scene": {
+    "type": "year",
+    "big": "ENRON",
+    "sub": "Houston, Texas \u00b7 energy giant",
+    "icon": "bank"
+   }
+  },
+  {
+   "text": "Fortune called it America's most innovative large company.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "AMERICA'S MOST",
+      "cream"
+     ],
+     [
+      "INNOVATIVE",
+      "gold"
+     ]
+    ],
+    "size": 110,
+    "sub": "Fortune's Most Admired Companies survey"
+   }
+  },
+  {
+   "text": "Its trick: book the profits of future deals, today.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "MARK-TO-MARKET",
+      "gold"
+     ]
+    ],
+    "size": 105,
+    "sub": "future profits, booked today"
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "text": "Losses were parked in side companies set up by its finance chief, Andrew Fastow.",
+   "scene": {
+    "type": "name",
+    "name": "ANDREW FASTOW",
+    "sub": "chief financial officer",
+    "tag": "LJM \u00b7 RAPTORS"
+   }
+  },
+  {
+   "text": "August 2000: the stock hits ninety dollars seventy-five.",
+   "scene": {
+    "type": "stat",
+    "label": "AUGUST 2000",
+    "value": 90.75,
+    "dec": 2,
+    "prefix": "$",
+    "sub": "ALL-TIME HIGH",
+    "color": "gold",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "November 28th, 2001: sixty-one cents.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "AUG 2000",
+      90.75
+     ],
+     [
+      "DEC 2000",
+      83.13
+     ],
+     [
+      "NOV 28 2001",
+      0.61
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 2,
+    "red_from": 1,
+    "flash": false,
+    "tag": [
+     0,
+     2
+    ],
+    "prefix": "$",
+    "suffix": "",
+    "title": "ENRON SHARE PRICE",
+    "source": "US DOLLARS PER SHARE",
+    "dec": 2
+   },
+   "big": true,
+   "big_at": 0.5,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Days later, Enron files for bankruptcy. The largest in US history at the time.",
+   "scene": {
+    "type": "news",
+    "masthead": "The Houston Ledger",
+    "date": "DECEMBER 2, 2001",
+    "headline": "ENRON FILES FOR BANKRUPTCY"
+   }
+  },
+  {
+   "text": "Its auditor, Arthur Andersen, had shredded Enron documents. The firm never recovered.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "ARTHUR ANDERSEN",
+      "cream"
+     ],
+     [
+      "SHREDDED",
+      "red"
+     ]
+    ],
+    "size": 110,
+    "sub": "the auditor went down with its client"
+   },
+   "twist": true,
+   "sfx": [
+    [
+     "slam",
+     0.2
+    ]
+   ]
+  },
+  {
+   "text": "CEO Jeffrey Skilling: twenty-four years in prison.",
+   "scene": {
+    "type": "stat",
+    "icon": "bars",
+    "label": "JEFFREY SKILLING",
+    "value": 24,
+    "suffix": " YEARS",
+    "sub": "LATER CUT BY 10 YEARS",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "09_enron"
+}

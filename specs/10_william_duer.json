@@ -1,0 +1,240 @@
+{
+ "format": "RICH TO RUIN",
+ "lines": [
+  {
+   "text": "America's first financial panic? Blame a former Treasury man.",
+   "scene": {
+    "type": "photo",
+    "img": "images/10_william_duer/Columbian_Magazine,_View_of_the_Federal_Edifice_in_New_York,_1789.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Federal Hall, Wall Street, Columbian Magazine, 1789 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "AMERICA'S",
+       "cream"
+      ],
+      [
+       "FIRST PANIC",
+       "red"
+      ]
+     ],
+     "size": 120,
+     "y": 1100
+    },
+    "y": 600
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "whoosh",
+     1.5
+    ]
+   ]
+  },
+  {
+   "text": "William Duer. Hamilton's first Assistant Secretary of the Treasury.",
+   "scene": {
+    "type": "name",
+    "name": "WILLIAM DUER",
+    "sub": "first Assistant Secretary of the Treasury",
+    "tag": "UNDER ALEXANDER HAMILTON"
+   }
+  },
+  {
+   "text": "He bets on government debt and bank stocks.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "DEBT.",
+      "gold"
+     ],
+     [
+      "BANK STOCKS.",
+      "cream"
+     ]
+    ],
+    "size": 130,
+    "sub": "all on borrowed money"
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "text": "With banker Alexander Macomb, he piles up loans.",
+   "scene": {
+    "type": "photo",
+    "img": "images/10_william_duer/Tontine_coffee_house.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Francis Guy, Wall Street & the Tontine Coffee House, c. 1797 · public domain",
+    "y": 640,
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "+ MACOMB",
+       "gold"
+      ],
+      [
+       "= LOANS",
+       "cream"
+      ]
+     ],
+     "size": 110,
+     "y": 1000
+    }
+   }
+  },
+  {
+   "text": "March 9th, 1792: Duer stops paying.",
+   "scene": {
+    "type": "year",
+    "big": "1792",
+    "sub": "March 9 · Duer stops paying",
+    "color": "red"
+   },
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Securities fall over twenty percent in weeks.",
+   "scene": {
+    "type": "stat",
+    "label": "IN A FEW WEEKS",
+    "value": 20,
+    "prefix": "−",
+    "suffix": "%+",
+    "sub": "US SECURITIES",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Hamilton buys 100,000 dollars of securities to calm the market.",
+   "say": "Hamilton buys a hundred thousand dollars of securities to calm the market.",
+   "scene": {
+    "type": "photo",
+    "img": "images/10_william_duer/Google_Arts_Project_-_Alexander_Hamilton_(1792_portrait)_by_John_Trumbull.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.25,
+     1.1
+    ],
+    "to": [
+     0.5,
+     0.22,
+     1.25
+    ],
+    "dim": 0.35,
+    "credit": "John Trumbull, Alexander Hamilton, 1792 · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "TREASURY STEPS IN",
+     "label_y": 1000,
+     "value": 100000,
+     "prefix": "$",
+     "y": 1130,
+     "color": "green",
+     "end_sfx": "cash"
+    }
+   }
+  },
+  {
+   "text": "Estimated losses: three million dollars.",
+   "scene": {
+    "type": "stat",
+    "label": "ESTIMATED LOSSES",
+    "value": 3,
+    "prefix": "$",
+    "suffix": "M",
+    "sub": "IMPOVERISHED MANY, IN ALL CLASSES",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Two months later, 24 brokers sign the Buttonwood Agreement: the birth of the New York Stock Exchange.",
+   "scene": {
+    "type": "photo",
+    "img": "images/10_william_duer/Tontine_Coffee_House_1792.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Tontine Coffee-House subscription receipt, May 1792 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "24 BROKERS",
+       "gold"
+      ],
+      [
+       "MAY 17, 1792",
+       "cream"
+      ]
+     ],
+     "size": 105,
+     "y": 1000
+    },
+    "y": 640
+   },
+   "twist": true
+  },
+  {
+   "text": "Duer dies in debtors' prison in 1799.",
+   "scene": {
+    "type": "year",
+    "big": "1799",
+    "sub": "still in debtors' prison",
+    "color": "grey"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "10_william_duer"
+}
