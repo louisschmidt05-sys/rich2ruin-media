@@ -4,7 +4,7 @@ import json, os, re, sys, time
 import requests
 
 API = "https://commons.wikimedia.org/w/api.php"
-UA = {"User-Agent": "rich2ruin-media-bot/1.0 (GitHub Actions; educational history reels)"}
+UA = {"User-Agent": "rich2ruin-media-bot/1.1 (https://github.com/louisschmidt05-sys/rich2ruin-media; educational history reels) python-requests"}
 ALLOWED = re.compile(r"(public domain|^pd|cc0)", re.I)
 
 spec = json.load(open("images.json"))
@@ -12,11 +12,13 @@ credits = json.load(open("credits.json")) if os.path.exists("credits.json") else
 ok, skipped = 0, []
 
 for item in spec["images"]:
+  try:
     name = item["file"]
     key = f'{item["reel"]}/{name}'
     r = requests.get(API, headers=UA, timeout=30, params={
         "action": "query", "format": "json", "titles": f"File:{name}",
         "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 1600})
+    r.raise_for_status()
     pages = r.json()["query"]["pages"]
     page = next(iter(pages.values()))
     if "imageinfo" not in page:
@@ -43,8 +45,10 @@ for item in spec["images"]:
         "author": re.sub("<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip(),
         "source": info.get("descriptionurl"), "use": item.get("use", "")}
     ok += 1
+  except Exception as e:
+    skipped.append((item["file"], f"error: {type(e).__name__}: {e}"[:300]))
 
 json.dump(credits, open("credits.json", "w"), indent=1, ensure_ascii=False)
-print(f"kept {ok} images")
-for n, why in skipped:
-    print("SKIPPED", n, "->", why)
+report = [f"kept {ok} images"] + [f"SKIPPED {n} -> {why}" for n, why in skipped]
+print("\n".join(report))
+open("fetch_log.txt", "w").write("\n".join(report) + "\n")
