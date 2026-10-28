@@ -1,2 +1,3 @@
-kept 18 images
+kept 41 images
 SKIPPED Verzameling_van_een_meenigte_tulipaanen_p15.png -> licence not public domain: CC BY-SA 4.0
+SKIPPED Ca'_Rezzonico_-_Canal_Grande_da_Palazzo_Balbi_a_Rialto_C.1722_-_Canaletto.jpg -> licence not public domain: CC BY-SA 4.0
