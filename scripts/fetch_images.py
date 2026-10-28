@@ -17,7 +17,7 @@ for item in spec["images"]:
     key = f'{item["reel"]}/{name}'
     r = requests.get(API, headers=UA, timeout=30, params={
         "action": "query", "format": "json", "titles": f"File:{name}",
-        "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 1600})
+        "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 2400})
     r.raise_for_status()
     pages = r.json()["query"]["pages"]
     page = next(iter(pages.values()))

@@ -1,18 +1,100 @@
 {
-  "_note": "Wikimedia Commons file names. The workflow downloads each one, checks its licence on Commons and keeps it only if it is public domain or CC0.",
-  "images": [
-    {"reel": "01_tulip_mania", "file": "Semper_Augustus_Tulip_17th_century.jpg", "use": "the Semper Augustus bulb"},
-    {"reel": "01_tulip_mania", "file": "Jan_Brueghel_the_Younger,_Satire_on_Tulip_Mania,_c._1640.jpg", "use": "satire of the craze"},
-    {"reel": "01_tulip_mania", "file": "Hans_Bollongier_-_Stilleven_met_bloemen.jpg", "use": "Dutch luxury still life"},
-    {"reel": "02_south_sea_bubble", "file": "William_Hogarth_-_The_South_Sea_Scheme.png", "use": "Hogarth's satire of the scheme"},
-    {"reel": "02_south_sea_bubble", "file": "Allegorie_op_de_neergang_van_de_South_Sea_Company,_RP-P-OB-18.742.jpg", "use": "allegory of the fall"},
-    {"reel": "03_crash_1929", "file": "Crowd_outside_nyse.jpg", "use": "crowd outside the NYSE"},
-    {"reel": "03_crash_1929", "file": "Crowds_gathering_outside_New_York_Stock_Exchange.jpg", "use": "crowd, second angle"},
-    {"reel": "03_crash_1929", "file": "19291030_Crash_of_'29_-_New_York_Times.jpg", "use": "front page, Oct 30 1929"},
-    {"reel": "04_ponzi", "file": "Charles_Ponzi.jpg", "use": "portrait"},
-    {"reel": "04_ponzi", "file": "Charles_Ponzi_mug_shot.jpg", "use": "the arrest"},
-    {"reel": "04_ponzi", "file": "Ponzi1920.jpg", "use": "Ponzi in 1920"},
-    {"reel": "06_john_law", "file": "John_Law_by_Alexis_Simon_Belle.jpg", "use": "portrait"},
-    {"reel": "06_john_law", "file": "John_Law_cartoon_(1720).png", "use": "1720 satire"}
-  ]
+ "_note": "Wikimedia Commons file names. The workflow downloads each one, checks its licence on Commons and keeps it only if it is public domain or CC0.",
+ "images": [
+  {
+   "reel": "01_tulip_mania",
+   "file": "Semper_Augustus_Tulip_17th_century.jpg",
+   "use": "the Semper Augustus bulb"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Jan_Brueghel_the_Younger,_Satire_on_Tulip_Mania,_c._1640.jpg",
+   "use": "satire of the craze"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Hans_Bollongier_-_Stilleven_met_bloemen.jpg",
+   "use": "Dutch luxury still life"
+  },
+  {
+   "reel": "02_south_sea_bubble",
+   "file": "William_Hogarth_-_The_South_Sea_Scheme.png",
+   "use": "Hogarth's satire of the scheme"
+  },
+  {
+   "reel": "02_south_sea_bubble",
+   "file": "Allegorie_op_de_neergang_van_de_South_Sea_Company,_RP-P-OB-18.742.jpg",
+   "use": "allegory of the fall"
+  },
+  {
+   "reel": "03_crash_1929",
+   "file": "Crowd_outside_nyse.jpg",
+   "use": "crowd outside the NYSE"
+  },
+  {
+   "reel": "03_crash_1929",
+   "file": "Crowds_gathering_outside_New_York_Stock_Exchange.jpg",
+   "use": "crowd, second angle"
+  },
+  {
+   "reel": "03_crash_1929",
+   "file": "19291030_Crash_of_'29_-_New_York_Times.jpg",
+   "use": "front page, Oct 30 1929"
+  },
+  {
+   "reel": "04_ponzi",
+   "file": "Charles_Ponzi.jpg",
+   "use": "portrait"
+  },
+  {
+   "reel": "04_ponzi",
+   "file": "Charles_Ponzi_mug_shot.jpg",
+   "use": "the arrest"
+  },
+  {
+   "reel": "04_ponzi",
+   "file": "Ponzi1920.jpg",
+   "use": "Ponzi in 1920"
+  },
+  {
+   "reel": "06_john_law",
+   "file": "John_Law_by_Alexis_Simon_Belle.jpg",
+   "use": "portrait"
+  },
+  {
+   "reel": "06_john_law",
+   "file": "John_Law_cartoon_(1720).png",
+   "use": "1720 satire"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Flora's_Wagon_of_Fools_(Flora's_Mallewagen)_tulipomania,_Hendrik_Gerritsz_Pot_c1637.jpg",
+   "use": "Flora's wagon of fools, satire c.1637"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Pamphlet_dutch_tulipomania_1637.jpg",
+   "use": "1637 pamphlet"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Verzameling_van_een_meenigte_tulipaanen_p15.png",
+   "use": "tulip catalogue page"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Judith_Leyster_-_Early_Brabantson_Tulip_-_tulip_book_FHM_-_1643.jpg",
+   "use": "tulip book, Judith Leyster"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Jacob_van_Ruisdael_-_Panoramic_View_of_Haarlem.jpg",
+   "use": "Haarlem"
+  },
+  {
+   "reel": "01_tulip_mania",
+   "file": "Jacob_marrel_-_two_tulips.jpg",
+   "use": "two tulips, Jacob Marrel"
+  }
+ ]
 }
