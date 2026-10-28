@@ -89,5 +89,40 @@
   "author": "Unknown authorUnknown author",
   "source": "https://commons.wikimedia.org/wiki/File:John_Law_cartoon_(1720).png",
   "use": "1720 satire"
+ },
+ "01_tulip_mania/Flora's_Wagon_of_Fools_(Flora's_Mallewagen)_tulipomania,_Hendrik_Gerritsz_Pot_c1637.jpg": {
+  "path": "images/01_tulip_mania/Flora's_Wagon_of_Fools_(Flora's_Mallewagen)_tulipomania,_Hendrik_Gerritsz_Pot_c1.jpg",
+  "licence": "Public domain",
+  "author": "Hendrik Gerritsz Pot",
+  "source": "https://commons.wikimedia.org/wiki/File:Flora%27s_Wagon_of_Fools_(Flora%27s_Mallewagen)_tulipomania,_Hendrik_Gerritsz_Pot_c1637.jpg",
+  "use": "Flora's wagon of fools, satire c.1637"
+ },
+ "01_tulip_mania/Pamphlet_dutch_tulipomania_1637.jpg": {
+  "path": "images/01_tulip_mania/Pamphlet_dutch_tulipomania_1637.jpg",
+  "licence": "Public domain",
+  "author": "",
+  "source": "https://commons.wikimedia.org/wiki/File:Pamphlet_dutch_tulipomania_1637.jpg",
+  "use": "1637 pamphlet"
+ },
+ "01_tulip_mania/Judith_Leyster_-_Early_Brabantson_Tulip_-_tulip_book_FHM_-_1643.jpg": {
+  "path": "images/01_tulip_mania/Judith_Leyster_-_Early_Brabantson_Tulip_-_tulip_book_FHM_-_1643.jpg",
+  "licence": "Public domain",
+  "author": "Judith Leyster",
+  "source": "https://commons.wikimedia.org/wiki/File:Judith_Leyster_-_Early_Brabantson_Tulip_-_tulip_book_FHM_-_1643.jpg",
+  "use": "tulip book, Judith Leyster"
+ },
+ "01_tulip_mania/Jacob_van_Ruisdael_-_Panoramic_View_of_Haarlem.jpg": {
+  "path": "images/01_tulip_mania/Jacob_van_Ruisdael_-_Panoramic_View_of_Haarlem.jpg",
+  "licence": "Public domain",
+  "author": "Jacob van Ruisdael",
+  "source": "https://commons.wikimedia.org/wiki/File:Jacob_van_Ruisdael_-_Panoramic_View_of_Haarlem.jpg",
+  "use": "Haarlem"
+ },
+ "01_tulip_mania/Jacob_marrel_-_two_tulips.jpg": {
+  "path": "images/01_tulip_mania/Jacob_marrel_-_two_tulips.jpg",
+  "licence": "Public domain",
+  "author": "Jacob Marrel",
+  "source": "https://commons.wikimedia.org/wiki/File:Jacob_marrel_-_two_tulips.jpg",
+  "use": "two tulips, Jacob Marrel"
  }
 }
