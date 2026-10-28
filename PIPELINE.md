@@ -47,14 +47,13 @@ Check: duration 30–55 s, `ffprobe` shows h264 1080x1920 + aac. Pull 3 frames a
 - `git add reels/<id>.mp4 specs/<id>.json`, commit, push. Public URL:
   `https://raw.githubusercontent.com/louisschmidt05-sys/rich2ruin-media/main/reels/<id>.mp4`
 - Metricool brand id `7707098` (rich.2ruin), timezone Europe/Paris. Schedule with `createScheduledPost`:
-  Mon / Wed / Fri of the following week at 17:43, providers instagram + tiktok + youtube,
+  the next 3 FREE Mon / Wed / Fri slots (check `getScheduledPosts` over the next 3 weeks) at 17:43, providers instagram + tiktok + youtube,
   `instagramData.type=REEL`, `isAiGenerated=true`; `tiktokData.isAigc=true` + title;
   `youtubeData` type `short`, title ending `#shorts`, `madeForKids=false`, `isAiGeneratedContent=true`,
   category `EDUCATION`; `videoCoverMilliseconds: 1500`.
 - Caption: 1–2 punchy lines, "Follow for history's greatest crashes/scams/falls.", credits line
   ("Artworks/Photos: public domain. AI voiceover."), 5 hashtags. No financial advice, no promotion of
   any financial product.
-- Before scheduling, `getScheduledPosts` for the target week so nothing is doubled.
 
 ## 6. Learn
 - Pull last 2 weeks of Instagram/TikTok/YouTube metrics (`getAnalyticsAvailableMetrics`, then
