@@ -1,0 +1,164 @@
+{
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "September 3rd, 1929.",
+   "scene": {
+    "type": "year",
+    "big": "1929",
+    "sub": "September 3rd · Wall Street"
+   }
+  },
+  {
+   "text": "The Dow Jones hits 381. A record.",
+   "scene": {
+    "type": "stat",
+    "label": "DOW JONES PEAK",
+    "value": 381.17,
+    "dec": 2,
+    "sub": "SEPTEMBER 3, 1929",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "October 24th. Black Thursday. A record 12.9 million shares change hands.",
+   "scene": {
+    "type": "news",
+    "masthead": "The Wall Street Ledger",
+    "date": "OCTOBER 24, 1929",
+    "headline": "BLACK THURSDAY: PANIC ON THE FLOOR"
+   }
+  },
+  {
+   "text": "Monday: minus 12.8 percent.",
+   "scene": {
+    "type": "stat",
+    "label": "BLACK MONDAY",
+    "value": -12.82,
+    "dec": 2,
+    "suffix": "%",
+    "sub": "OCTOBER 28, 1929",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Tuesday: another 11.7 percent. Over 16 million shares traded in a single day.",
+   "scene": {
+    "type": "stat",
+    "label": "BLACK TUESDAY",
+    "value": -11.73,
+    "dec": 2,
+    "suffix": "%",
+    "sub": "16.4 MILLION SHARES TRADED",
+    "color": "red"
+   },
+   "big": true,
+   "big_at": 1.9,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "And it keeps falling.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "SEP 1929",
+      381.17
+     ],
+     [
+      "OCT 28",
+      260.64
+     ],
+     [
+      "OCT 29",
+      230.07
+     ],
+     [
+      "JUL 1932",
+      41.22
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 3,
+    "red_from": 0,
+    "flash": false,
+    "tag": [
+     0,
+     3
+    ],
+    "dec": 0,
+    "title": "DOW JONES",
+    "source": "CLOSING VALUES",
+    "all_labels": false
+   }
+  },
+  {
+   "text": "July 1932: the Dow sits at 41.",
+   "scene": {
+    "type": "stat",
+    "label": "JULY 8, 1932",
+    "value": 41.22,
+    "from": 381.17,
+    "dec": 2,
+    "sub": "LOWEST CLOSE OF THE CENTURY",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "An 89 percent loss.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "-89%",
+      "red"
+     ]
+    ],
+    "size": 300,
+    "y": 720,
+    "sub": "in less than three years"
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ]
+   ]
+  },
+  {
+   "text": "It takes until 1954 to get back to the top.",
+   "scene": {
+    "type": "year",
+    "big": "1954",
+    "sub": "back to the 1929 peak",
+    "color": "gold"
+   },
+   "twist": true
+  },
+  {
+   "text": "Twenty-five years.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "25 YEARS",
+      "gold"
+     ]
+    ],
+    "size": 190,
+    "y": 740,
+    "sub": "to recover"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "03_crash_1929"
+}

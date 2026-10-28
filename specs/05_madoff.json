@@ -1,0 +1,139 @@
+{
+ "format": "THE SCAM",
+ "lines": [
+  {
+   "text": "December 2008. A man tells his sons his fund is one big lie.",
+   "scene": {
+    "type": "year",
+    "big": "2008",
+    "sub": "“one big lie”",
+    "color": "red"
+   }
+  },
+  {
+   "text": "That man is Bernie Madoff.",
+   "scene": {
+    "type": "name",
+    "name": "BERNIE MADOFF",
+    "sub": "New York",
+    "tag": "WALL STREET INSIDER"
+   }
+  },
+  {
+   "text": "He once chaired the Nasdaq stock exchange.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "FORMER CHAIRMAN",
+      "cream"
+     ],
+     [
+      "OF THE NASDAQ",
+      "gold"
+     ]
+    ],
+    "size": 110
+   }
+  },
+  {
+   "text": "His clients' statements showed almost 65 billion dollars.",
+   "scene": {
+    "type": "stat",
+    "label": "ON PAPER",
+    "value": 65,
+    "prefix": "$",
+    "suffix": "B",
+    "sub": "CLIENT ACCOUNT STATEMENTS",
+    "color": "green",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "Much of it never existed.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "MUCH OF IT",
+      "cream"
+     ],
+     [
+      "NEVER EXISTED",
+      "red"
+     ]
+    ],
+    "size": 120
+   },
+   "sfx": [],
+   "big": true,
+   "big_at": 0.6,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Direct losses: around 18 billion.",
+   "scene": {
+    "type": "stat",
+    "label": "DIRECT LOSSES",
+    "value": 18,
+    "prefix": "$",
+    "suffix": "B",
+    "sub": "COURT TRUSTEE ESTIMATE",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "He's arrested the next day.",
+   "scene": {
+    "type": "news",
+    "masthead": "The Manhattan Ledger",
+    "date": "DECEMBER 11, 2008",
+    "headline": "WALL STREET LEGEND ARRESTED"
+   }
+  },
+  {
+   "text": "His sentence: 150 years in federal prison.",
+   "scene": {
+    "type": "stat",
+    "icon": "bars",
+    "label": "THE SENTENCE",
+    "value": 150,
+    "suffix": " YEARS",
+    "sub": "JUNE 29, 2009",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "He died in federal custody in 2021.",
+   "scene": {
+    "type": "year",
+    "big": "2021",
+    "sub": "died in federal custody",
+    "color": "grey"
+   },
+   "twist": true
+  },
+  {
+   "text": "Recovered for victims so far: over 14 billion dollars.",
+   "scene": {
+    "type": "stat",
+    "label": "RECOVERED FOR VICTIMS",
+    "value": 14,
+    "prefix": "$",
+    "suffix": "B+",
+    "color": "green",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "05_madoff"
+}

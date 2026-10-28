@@ -1,0 +1,174 @@
+{
+ "format": "RICH TO RUIN",
+ "lines": [
+  {
+   "text": "A bank that survived 233 years, destroyed by one trader.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "233 YEARS",
+      "gold"
+     ],
+     [
+      "1 TRADER",
+      "red"
+     ]
+    ],
+    "size": 180,
+    "y": 620
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "slam",
+     1.6
+    ]
+   ]
+  },
+  {
+   "text": "Barings. Founded in London in 1762.",
+   "scene": {
+    "type": "year",
+    "big": "1762",
+    "sub": "Barings Bank · London",
+    "icon": "bank"
+   }
+  },
+  {
+   "text": "In Singapore, Nick Leeson bets the bank's money on Japanese stock futures.",
+   "scene": {
+    "type": "name",
+    "name": "NICK LEESON",
+    "sub": "trader · Singapore",
+    "tag": "NIKKEI 225 FUTURES"
+   }
+  },
+  {
+   "text": "He hides his losses in a secret account: 88888.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "ACCOUNT",
+      "cream"
+     ],
+     [
+      "88888",
+      "red"
+     ]
+    ],
+    "size": 210,
+    "y": 640,
+    "sub": "the hidden error account"
+   },
+   "say": "He hides his losses in a secret account: eight, eight, eight, eight, eight."
+  },
+  {
+   "text": "Then, an earthquake hits Kobe, and Japan's markets.",
+   "scene": {
+    "type": "year",
+    "big": "KOBE",
+    "sub": "January 1995 · earthquake",
+    "color": "red"
+   }
+  },
+  {
+   "text": "He bets on a rebound. It never comes.",
+   "scene": {
+    "type": "chart",
+    "illustrative": true,
+    "points": [
+     [
+      "",
+      62
+     ],
+     [
+      "",
+      55
+     ],
+     [
+      "",
+      60
+     ],
+     [
+      "",
+      38
+     ],
+     [
+      "",
+      22
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 4,
+    "red_from": 2,
+    "title": "THE NIKKEI BET",
+    "big": "NO REBOUND",
+    "big_at": 1.4
+   },
+   "big": true,
+   "big_at": 1.0,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Total losses: 827 million pounds.",
+   "scene": {
+    "type": "stat",
+    "label": "TOTAL LOSSES",
+    "value": 827,
+    "prefix": "£",
+    "suffix": "M",
+    "sub": "ABOUT $1.3 BILLION",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "February 26th, 1995: Barings is declared insolvent.",
+   "scene": {
+    "type": "news",
+    "masthead": "The City Ledger",
+    "date": "FEBRUARY 26, 1995",
+    "headline": "BARINGS COLLAPSES AFTER 233 YEARS"
+   }
+  },
+  {
+   "text": "It's sold for one pound.",
+   "scene": {
+    "type": "stat",
+    "label": "SALE PRICE",
+    "value": 1,
+    "prefix": "£",
+    "sub": "BOUGHT BY DUTCH BANK ING",
+    "color": "gold",
+    "end_sfx": "cash"
+   },
+   "twist": true
+  },
+  {
+   "text": "Leeson gets six and a half years in a Singapore prison.",
+   "scene": {
+    "type": "stat",
+    "icon": "bars",
+    "label": "THE SENTENCE",
+    "value": 6.5,
+    "dec": 1,
+    "suffix": " YEARS",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "07_barings"
+}

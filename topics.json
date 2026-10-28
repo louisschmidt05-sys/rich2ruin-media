@@ -1,0 +1,27 @@
+{
+ "_note": "Queue of reel topics. status: backlog | scheduled | published | rejected. Keep >= 10 in backlog.",
+ "topics": [
+  {"id": "01b_tulip_mania_archive", "title": "Tulip mania (1637)", "format": "THE CRASH", "style": "archive", "status": "scheduled", "date": "2026-10-30"},
+  {"id": "04b_ponzi_archive", "title": "Charles Ponzi (1920)", "format": "THE SCAM", "style": "archive", "status": "scheduled", "date": "2026-11-02"},
+  {"id": "03b_crash_1929_archive", "title": "Wall Street crash (1929)", "format": "THE CRASH", "style": "archive", "status": "scheduled", "date": "2026-11-04"},
+  {"id": "05_madoff", "title": "Bernie Madoff (2008)", "format": "THE SCAM", "style": "graphic", "status": "scheduled", "date": "2026-11-06"},
+  {"id": "02b_south_sea_archive", "title": "South Sea Bubble (1720)", "format": "THE CRASH", "style": "archive", "status": "scheduled", "date": "2026-11-09"},
+  {"id": "07_barings", "title": "Barings Bank (1995)", "format": "RICH TO RUIN", "style": "graphic", "status": "scheduled", "date": "2026-11-11"},
+  {"id": "06b_john_law_archive", "title": "John Law & the Mississippi Company (1720)", "format": "RICH TO RUIN", "style": "archive", "status": "scheduled", "date": "2026-11-13"},
+
+  {"title": "Railway Mania in Britain (1840s)", "format": "THE CRASH", "style": "archive", "status": "backlog"},
+  {"title": "Enron collapse (2001)", "format": "THE SCAM", "style": "graphic", "status": "backlog"},
+  {"title": "William Duer and the Panic of 1792", "format": "RICH TO RUIN", "style": "archive", "status": "backlog"},
+  {"title": "Black Monday (19 October 1987)", "format": "THE CRASH", "style": "graphic", "status": "backlog"},
+  {"title": "The Panama Canal scandal (France, 1889-1892)", "format": "THE SCAM", "style": "archive", "status": "backlog"},
+  {"title": "Lehman Brothers bankruptcy (2008)", "format": "RICH TO RUIN", "style": "graphic", "status": "backlog"},
+  {"title": "Weimar hyperinflation (1923)", "format": "THE CRASH", "style": "archive", "status": "backlog"},
+  {"title": "FTX collapse and the Bankman-Fried conviction (2022-2024)", "format": "THE SCAM", "style": "graphic", "status": "backlog"},
+  {"title": "Long-Term Capital Management (1998)", "format": "RICH TO RUIN", "style": "graphic", "status": "backlog"},
+  {"title": "The Panic of 1907", "format": "THE CRASH", "style": "archive", "status": "backlog"},
+  {"title": "Crédit Mobilier scandal (1872)", "format": "THE SCAM", "style": "archive", "status": "backlog"},
+  {"title": "The Hunt brothers and the silver crash (1980)", "format": "RICH TO RUIN", "style": "graphic", "status": "backlog"},
+  {"title": "Dot-com bubble (2000)", "format": "THE CRASH", "style": "graphic", "status": "backlog"},
+  {"title": "Florida land boom and bust (1920s)", "format": "THE CRASH", "style": "archive", "status": "backlog"}
+ ]
+}

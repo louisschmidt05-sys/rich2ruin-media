@@ -1,0 +1,196 @@
+{
+ "format": "RICH TO RUIN",
+ "lines": [
+  {
+   "text": "He killed a man in a duel, fled London, and ended up running the finances of France.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "A DUEL.",
+      "red"
+     ],
+     [
+      "AN ESCAPE.",
+      "cream"
+     ],
+     [
+      "FRANCE'S MONEY.",
+      "gold"
+     ]
+    ],
+    "size": 120,
+    "y": 560
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "whoosh",
+     1.4
+    ],
+    [
+     "cash",
+     2.8
+    ]
+   ]
+  },
+  {
+   "text": "John Law. A Scottish gambler.",
+   "scene": {
+    "type": "name",
+    "name": "JOHN LAW",
+    "sub": "Scottish gambler & economist",
+    "tag": "THE GAMBLER"
+   }
+  },
+  {
+   "text": "In 1716, he opens a bank in Paris that issues paper money.",
+   "scene": {
+    "type": "year",
+    "big": "1716",
+    "sub": "a Paris bank · paper money",
+    "icon": "note",
+    "icon_kw": {
+     "sym": ""
+    }
+   }
+  },
+  {
+   "text": "Then comes the Mississippi Company. Shares start at 500 livres.",
+   "scene": {
+    "type": "stat",
+    "label": "MISSISSIPPI COMPANY",
+    "value": 500,
+    "suffix": " LIVRES",
+    "sub": "ONE SHARE",
+    "color": "cream",
+    "icon": "ship"
+   }
+  },
+  {
+   "text": "At the peak: ten thousand.",
+   "scene": {
+    "type": "stat",
+    "label": "AT THE PEAK",
+    "value": 10000,
+    "from": 500,
+    "suffix": " LIVRES",
+    "sub": "20 TIMES THE STARTING PRICE",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "January 1720: Law becomes Controller General of Finances.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "CONTROLLER GENERAL",
+      "gold"
+     ],
+     [
+      "OF FINANCES",
+      "cream"
+     ]
+    ],
+    "size": 90,
+    "sub": "January 1720"
+   }
+  },
+  {
+   "text": "By May, he's dismissed. By December, he has left France.",
+   "scene": {
+    "type": "year",
+    "big": "1720",
+    "sub": "dismissed in May · gone by December",
+    "color": "red"
+   },
+   "sfx": [],
+   "big": true,
+   "big_at": 0.1,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "The shares sink back to 500 livres.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "1719",
+      500
+     ],
+     [
+      "PEAK",
+      10000
+     ],
+     [
+      "SEP 1720",
+      2000
+     ],
+     [
+      "DEC 1720",
+      1000
+     ],
+     [
+      "SEP 1721",
+      500
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 4,
+    "red_from": 1,
+    "flash": false,
+    "tag": [
+     1,
+     4
+    ],
+    "suffix": "",
+    "title": "MISSISSIPPI SHARES",
+    "source": "LIVRES PER SHARE"
+   }
+  },
+  {
+   "text": "Law spends his last years gambling across Europe.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "ROME.",
+      "cream"
+     ],
+     [
+      "COPENHAGEN.",
+      "cream"
+     ],
+     [
+      "VENICE.",
+      "gold"
+     ]
+    ],
+    "size": 120,
+    "y": 560
+   },
+   "twist": true
+  },
+  {
+   "text": "He died poor in Venice in 1729.",
+   "scene": {
+    "type": "year",
+    "big": "1729",
+    "sub": "died poor in Venice",
+    "color": "grey"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "06_john_law"
+}

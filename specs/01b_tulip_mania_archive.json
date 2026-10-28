@@ -1,0 +1,336 @@
+{
+ "id": "01b_tulip_mania_archive",
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "In 1637,",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Jacob_van_Ruisdael_-_Panoramic_View_of_Haarlem.jpg",
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Jacob van Ruisdael, view of Haarlem · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "1637",
+     "sub": "The Dutch Republic",
+     "y": 1000
+    }
+   },
+   "pause": 0.08,
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ]
+  },
+  {
+   "text": "one flower bulb cost more than ten years of a craftsman's pay.",
+   "scene": {
+    "type": "compare",
+    "icon": "tulip",
+    "a": "1 TULIP BULB",
+    "b1": "10+ YEARS OF A",
+    "b2": "CRAFTSMAN'S PAY"
+   }
+  },
+  {
+   "text": "Holland. Tulips become the ultimate luxury.",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Hans_Bollongier_-_Stilleven_met_bloemen.jpg",
+    "from": [
+     0.5,
+     0.25,
+     1.4
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.25
+    ],
+    "credit": "Hans Bollongier · public domain",
+    "overlay": {
+     "type": "icons",
+     "icon": "tulip",
+     "rows": 0,
+     "cols": 0,
+     "badge": "LUXURY"
+    }
+   }
+  },
+  {
+   "text": "The rarest, the Semper Augustus, reaches ten thousand guilders.",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Semper_Augustus_Tulip_17th_century.jpg",
+    "from": [
+     0.5,
+     0.42,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.38,
+     1.15
+    ],
+    "credit": "Semper Augustus, 17th c. · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "SEMPER AUGUSTUS",
+     "label_y": 980,
+     "value": 10000,
+     "prefix": "ƒ",
+     "y": 1110,
+     "color": "gold",
+     "end_sfx": "cash"
+    }
+   }
+  },
+  {
+   "text": "By late 1636, even ordinary bulbs sell for hundreds.",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Jacob_marrel_-_two_tulips.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.12
+    ],
+    "y": 680,
+    "credit": "Jacob Marrel, two tulips · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "EVEN COMMON BULBS",
+       "cream"
+      ],
+      [
+       "HUNDREDS OF GUILDERS",
+       "gold"
+      ]
+     ],
+     "size": 76,
+     "y": 1090
+    }
+   }
+  },
+  {
+   "text": "People trade contracts for bulbs still buried in the ground.",
+   "scene": {
+    "type": "chart",
+    "illustrative": true,
+    "curve": "exp",
+    "points": [
+     [
+      "1634",
+      6
+     ],
+     [
+      "",
+      9
+     ],
+     [
+      "",
+      16
+     ],
+     [
+      "",
+      32
+     ],
+     [
+      "",
+      62
+     ],
+     [
+      "FEB 1637",
+      100
+     ],
+     [
+      "",
+      5
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 4.6,
+    "title": "TRADING PROMISES",
+    "sub": "contracts for bulbs still underground"
+   }
+  },
+  {
+   "text": "Then, February 1637. Haarlem. The buyers vanish.",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Pamphlet_dutch_tulipomania_1637.jpg",
+    "mode": "fit",
+    "bw": true,
+    "from": [
+     0.5,
+     0.5,
+     0.58
+    ],
+    "to": [
+     0.5,
+     0.5,
+     0.66
+    ],
+    "y": 700,
+    "credit": "Tulip-trade pamphlet, 1637 · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "FEB 1637",
+     "sub": "Haarlem · no buyers",
+     "color": "red",
+     "y": 1080
+    }
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "slam",
+     0.1
+    ]
+   ]
+  },
+  {
+   "text": "Within days, the market collapses.",
+   "scene": {
+    "type": "chart",
+    "illustrative": true,
+    "curve": "exp",
+    "points": [
+     [
+      "1634",
+      6
+     ],
+     [
+      "",
+      9
+     ],
+     [
+      "",
+      16
+     ],
+     [
+      "",
+      32
+     ],
+     [
+      "",
+      62
+     ],
+     [
+      "FEB 1637",
+      100
+     ],
+     [
+      "",
+      5
+     ]
+    ],
+    "show_from": 4.6,
+    "show_to": 6,
+    "red_from": 5,
+    "big": "COLLAPSE",
+    "big_at": 0.9
+   },
+   "big": true,
+   "big_at": 0.8,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "The twist? Historians say very few people were actually ruined.",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Jan_Brueghel_the_Younger,_Satire_on_Tulip_Mania,_c._1640.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.1
+    ],
+    "y": 600,
+    "credit": "Jan Brueghel the Younger, c. 1640 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "THE TWIST",
+       "gold"
+      ],
+      [
+       "VERY FEW RUINED",
+       "cream"
+      ]
+     ],
+     "size": 96,
+     "y": 1010,
+     "sub": "— modern historians"
+    }
+   },
+   "twist": true
+  },
+  {
+   "text": "But the legend of the first bubble never died.",
+   "scene": {
+    "type": "photo",
+    "img": "images/01_tulip_mania/Flora's_Wagon_of_Fools_(Flora's_Mallewagen)_tulipomania,_Hendrik_Gerritsz_Pot_c1.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.05
+    ],
+    "to": [
+     0.45,
+     0.5,
+     1.25
+    ],
+    "y": 640,
+    "credit": "Hendrik Gerritsz Pot, c. 1637 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "THE FIRST BUBBLE",
+       "gold"
+      ]
+     ],
+     "size": 110,
+     "y": 1100
+    }
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

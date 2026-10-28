@@ -1,0 +1,298 @@
+{
+ "format": "RICH TO RUIN",
+ "lines": [
+  {
+   "text": "He killed a man in a duel, fled London, and ended up running the finances of France.",
+   "scene": {
+    "type": "photo",
+    "img": "images/06_john_law/John_Law_by_Alexis_Simon_Belle.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.35,
+     1.2
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.4
+    ],
+    "credit": "Alexis Simon Belle (attr.), John Law · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "A DUEL.",
+       "red"
+      ],
+      [
+       "AN ESCAPE.",
+       "cream"
+      ],
+      [
+       "FRANCE'S MONEY.",
+       "gold"
+      ]
+     ],
+     "size": 100,
+     "y": 980
+    },
+    "dim": 0.35
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "whoosh",
+     1.4
+    ],
+    [
+     "cash",
+     2.8
+    ]
+   ]
+  },
+  {
+   "text": "John Law. A Scottish gambler.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "JOHN LAW",
+      "cream"
+     ]
+    ],
+    "size": 150,
+    "sub": "Scottish gambler & economist",
+    "y": 720
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "text": "In 1716, he opens a bank in Paris that issues paper money.",
+   "scene": {
+    "type": "photo",
+    "img": "images/06_john_law/Billet_de_100_livres_tournois,_Banque_de_Law,_n°_445597,_1er_juillet_1720,_GB12.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Banque Royale note, 1720 · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "1716",
+     "sub": "a Paris bank · paper money",
+     "y": 1060
+    },
+    "y": 640
+   },
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ]
+  },
+  {
+   "text": "Then comes the Mississippi Company. Shares start at 500 livres.",
+   "scene": {
+    "type": "stat",
+    "label": "MISSISSIPPI COMPANY",
+    "value": 500,
+    "suffix": " LIVRES",
+    "sub": "ONE SHARE",
+    "color": "cream",
+    "icon": "ship"
+   }
+  },
+  {
+   "text": "At the peak: ten thousand.",
+   "scene": {
+    "type": "photo",
+    "img": "images/06_john_law/Rue_Quincampoix_En_l'année_1720,_G.13190.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Rue Quincampoix, 1720 · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "AT THE PEAK",
+     "label_y": 990,
+     "value": 10000,
+     "from": 500,
+     "suffix": " LIVRES",
+     "y": 1120,
+     "color": "gold",
+     "end_sfx": "cash"
+    },
+    "y": 640
+   }
+  },
+  {
+   "text": "January 1720: Law becomes Controller General of Finances.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "CONTROLLER GENERAL",
+      "gold"
+     ],
+     [
+      "OF FINANCES",
+      "cream"
+     ]
+    ],
+    "size": 90,
+    "sub": "January 1720"
+   }
+  },
+  {
+   "text": "By May, he's dismissed. By December, he has left France.",
+   "scene": {
+    "type": "photo",
+    "img": "images/06_john_law/John_Law_cartoon_(1720).png",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     0.75
+    ],
+    "to": [
+     0.5,
+     0.5,
+     0.9
+    ],
+    "credit": "Satirical print on John Law, 1720 · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "1720",
+     "sub": "dismissed in May · gone by December",
+     "color": "red",
+     "y": 1060
+    },
+    "y": 660
+   },
+   "big": true,
+   "big_at": 0.1,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "The shares sink back to 500 livres.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "1719",
+      500
+     ],
+     [
+      "PEAK",
+      10000
+     ],
+     [
+      "SEP 1720",
+      2000
+     ],
+     [
+      "DEC 1720",
+      1000
+     ],
+     [
+      "SEP 1721",
+      500
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 4,
+    "red_from": 1,
+    "flash": false,
+    "tag": [
+     1,
+     4
+    ],
+    "suffix": "",
+    "title": "MISSISSIPPI SHARES",
+    "source": "LIVRES PER SHARE"
+   }
+  },
+  {
+   "text": "Law spends his last years gambling across Europe.",
+   "scene": {
+    "type": "photo",
+    "img": "images/06_john_law/Verwarde_Actionisten_en_de_toren_van_Babel,_1720_De_Verwarde_Actionisten_Torenbo.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Het Groote Tafereel der Dwaasheid, 1720 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "ROME.",
+       "cream"
+      ],
+      [
+       "COPENHAGEN.",
+       "cream"
+      ],
+      [
+       "VENICE.",
+       "gold"
+      ]
+     ],
+     "size": 100,
+     "y": 1000
+    },
+    "y": 600
+   },
+   "twist": true
+  },
+  {
+   "text": "He died poor in Venice in 1729.",
+   "scene": {
+    "type": "year",
+    "big": "1729",
+    "sub": "died poor in Venice",
+    "color": "grey"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "06b_john_law_archive"
+}

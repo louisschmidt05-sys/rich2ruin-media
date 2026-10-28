@@ -1,0 +1,270 @@
+{
+ "format": "THE SCAM",
+ "lines": [
+  {
+   "text": "In 1920, one man promised 50 percent profit in just 45 days.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "+50%",
+      "green"
+     ],
+     [
+      "IN 45 DAYS",
+      "cream"
+     ]
+    ],
+    "size": 190,
+    "y": 620
+   },
+   "sfx": [
+    [
+     "slam",
+     0.15
+    ],
+    [
+     "cash",
+     1.4
+    ]
+   ]
+  },
+  {
+   "text": "His name became a word: Charles Ponzi.",
+   "scene": {
+    "type": "photo",
+    "img": "images/04_ponzi/Charles_Ponzi.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Charles Ponzi at his desk, 1920 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "CHARLES PONZI",
+       "cream"
+      ]
+     ],
+     "size": 110,
+     "y": 1060,
+     "sub": "Boston, 1920"
+    },
+    "y": 660
+   },
+   "sfx": [
+    [
+     "whoosh_down",
+     0
+    ],
+    [
+     "impact",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "His pitch: postal reply coupons. Buy them cheap in Italy, cash them in America.",
+   "scene": {
+    "type": "photo",
+    "img": "images/04_ponzi/British-International-Reply-Coupon.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     0.9
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.05
+    ],
+    "credit": "International reply coupon (British issue) · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "BUY CHEAP IN ITALY",
+       "cream"
+      ],
+      [
+       "CASH IN AMERICA",
+       "green"
+      ]
+     ],
+     "size": 80,
+     "y": 1080
+    },
+    "y": 640
+   }
+  },
+  {
+   "text": "January: 18 investors.",
+   "scene": {
+    "type": "stat",
+    "label": "JANUARY 1920",
+    "value": 18,
+    "sub": "INVESTORS",
+    "color": "cream"
+   }
+  },
+  {
+   "text": "By July: nearly a million dollars a day.",
+   "scene": {
+    "type": "photo",
+    "img": "images/04_ponzi/The_Shopping_Hour,_Washington_Street,_Boston,_MA.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Washington Street, Boston (postcard) · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "JULY 1920",
+     "label_y": 990,
+     "value": 1000000,
+     "prefix": "$",
+     "suffix": "/DAY",
+     "y": 1120,
+     "color": "green",
+     "sub": "NEARLY",
+     "end_sfx": "cash"
+    },
+    "y": 640
+   }
+  },
+  {
+   "text": "The secret? Old investors were paid with new investors' money.",
+   "scene": {
+    "type": "text",
+    "icon": "note",
+    "icon_scale": 1.2,
+    "lines": [
+     [
+      "NEW MONEY",
+      "green"
+     ],
+     [
+      "PAYS OLD MONEY",
+      "cream"
+     ]
+    ],
+    "size": 110,
+    "sub": "a scheme that now bears his name"
+   }
+  },
+  {
+   "text": "August 1920: it all collapses.",
+   "scene": {
+    "type": "photo",
+    "img": "images/04_ponzi/Charles_Ponzi_mug_shot.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.62,
+     0.45,
+     1.5
+    ],
+    "credit": "Charles Ponzi, police photograph · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "AUG 1920",
+     "sub": "the scheme collapses",
+     "color": "red",
+     "y": 1060
+    },
+    "y": 640,
+    "bw": true,
+    "dim": 0.3
+   },
+   "big": true,
+   "big_at": 0.1,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Six banks go down with him.",
+   "scene": {
+    "type": "icons",
+    "icon": "bank",
+    "rows": 2,
+    "cols": 3,
+    "title": "Six banks fail",
+    "scale": 0.55,
+    "y0": 640,
+    "dy": 330
+   }
+  },
+  {
+   "text": "Investors get back less than 30 cents on the dollar.",
+   "scene": {
+    "type": "stat",
+    "label": "RECOVERED PER $1",
+    "value": 30,
+    "prefix": "< ",
+    "suffix": "¢",
+    "color": "red",
+    "sub": "LOSSES: ABOUT $20 MILLION IN 1920 MONEY",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Ponzi died in 1949 in Rio de Janeiro, with 75 dollars to his name.",
+   "scene": {
+    "type": "photo",
+    "img": "images/04_ponzi/Avenida_Rio_Branco_(001RR007001).jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Avenida Rio Branco, Rio de Janeiro · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "1949 · RIO DE JANEIRO",
+     "label_y": 990,
+     "value": 75,
+     "prefix": "$",
+     "y": 1120,
+     "color": "gold",
+     "sub": "HIS ENTIRE ESTATE",
+     "end_sfx": "ding"
+    },
+    "y": 640
+   },
+   "twist": true
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "04b_ponzi_archive"
+}

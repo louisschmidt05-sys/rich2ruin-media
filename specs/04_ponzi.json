@@ -1,0 +1,164 @@
+{
+ "format": "THE SCAM",
+ "lines": [
+  {
+   "text": "In 1920, one man promised 50 percent profit in just 45 days.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "+50%",
+      "green"
+     ],
+     [
+      "IN 45 DAYS",
+      "cream"
+     ]
+    ],
+    "size": 190,
+    "y": 620
+   },
+   "sfx": [
+    [
+     "slam",
+     0.15
+    ],
+    [
+     "cash",
+     1.4
+    ]
+   ]
+  },
+  {
+   "text": "His name became a word: Charles Ponzi.",
+   "scene": {
+    "type": "name",
+    "name": "CHARLES PONZI",
+    "sub": "Boston, 1920",
+    "tag": "THE ORIGINAL"
+   }
+  },
+  {
+   "text": "His pitch: postal reply coupons. Buy them cheap in Italy, cash them in America.",
+   "scene": {
+    "type": "text",
+    "icon": "coupon",
+    "lines": [
+     [
+      "BUY CHEAP IN ITALY",
+      "cream"
+     ],
+     [
+      "CASH IN AMERICA",
+      "green"
+     ]
+    ],
+    "size": 80,
+    "y": 700
+   }
+  },
+  {
+   "text": "January: 18 investors.",
+   "scene": {
+    "type": "stat",
+    "label": "JANUARY 1920",
+    "value": 18,
+    "sub": "INVESTORS",
+    "color": "cream"
+   }
+  },
+  {
+   "text": "By July: nearly a million dollars a day.",
+   "scene": {
+    "type": "stat",
+    "label": "JULY 1920",
+    "value": 1000000,
+    "prefix": "$",
+    "suffix": "/DAY",
+    "sub": "NEARLY · FLOWING IN",
+    "color": "green",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "The secret? Old investors were paid with new investors' money.",
+   "scene": {
+    "type": "text",
+    "icon": "note",
+    "icon_scale": 1.2,
+    "lines": [
+     [
+      "NEW MONEY",
+      "green"
+     ],
+     [
+      "PAYS OLD MONEY",
+      "cream"
+     ]
+    ],
+    "size": 110,
+    "sub": "a scheme that now bears his name"
+   }
+  },
+  {
+   "text": "August 1920: it all collapses.",
+   "scene": {
+    "type": "year",
+    "big": "AUG 1920",
+    "sub": "the scheme collapses",
+    "color": "red"
+   },
+   "sfx": [],
+   "big": true,
+   "big_at": 0.1,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Six banks go down with him.",
+   "scene": {
+    "type": "icons",
+    "icon": "bank",
+    "rows": 2,
+    "cols": 3,
+    "title": "Six banks fail",
+    "scale": 0.55,
+    "y0": 640,
+    "dy": 330
+   }
+  },
+  {
+   "text": "Investors get back less than 30 cents on the dollar.",
+   "scene": {
+    "type": "stat",
+    "label": "RECOVERED PER $1",
+    "value": 30,
+    "prefix": "< ",
+    "suffix": "¢",
+    "color": "red",
+    "sub": "LOSSES: ABOUT $20 MILLION IN 1920 MONEY",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Ponzi died in 1949 in Rio de Janeiro, with 75 dollars to his name.",
+   "scene": {
+    "type": "stat",
+    "label": "1949 · RIO DE JANEIRO",
+    "value": 75,
+    "prefix": "$",
+    "sub": "HIS ENTIRE ESTATE",
+    "color": "gold",
+    "end_sfx": "ding"
+   },
+   "twist": true
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "04_ponzi"
+}

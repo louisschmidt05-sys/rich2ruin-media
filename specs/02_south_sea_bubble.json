@@ -1,0 +1,227 @@
+{
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "London, 1720.",
+   "scene": {
+    "type": "year",
+    "big": "1720",
+    "sub": "London",
+    "icon": "ship"
+   }
+  },
+  {
+   "text": "One stock drives the city wild: the South Sea Company.",
+   "scene": {
+    "type": "text",
+    "icon": "ship",
+    "icon_scale": 0.9,
+    "lines": [
+     [
+      "THE SOUTH SEA",
+      "cream"
+     ],
+     [
+      "COMPANY",
+      "gold"
+     ]
+    ],
+    "size": 110
+   }
+  },
+  {
+   "text": "In January, one share costs 128 pounds.",
+   "scene": {
+    "type": "stat",
+    "label": "JANUARY 1720",
+    "value": 128,
+    "prefix": "£",
+    "sub": "ONE SHARE",
+    "color": "cream"
+   }
+  },
+  {
+   "text": "By early August: one thousand.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "JAN 1720",
+      128
+     ],
+     [
+      "AUG 1720",
+      1000
+     ],
+     [
+      "SEP 1720",
+      150
+     ],
+     [
+      "DEC 1720",
+      100
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 1,
+    "tag": [
+     0,
+     1
+    ],
+    "prefix": "£",
+    "title": "SOUTH SEA SHARES",
+    "source": "PRICE PER SHARE, £"
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "cash",
+     1.3
+    ]
+   ]
+  },
+  {
+   "text": "Investors rush in. Even Isaac Newton owns shares.",
+   "scene": {
+    "type": "name",
+    "name": "ISAAC NEWTON",
+    "sub": "physicist · shareholder",
+    "tag": "EVEN HIM"
+   }
+  },
+  {
+   "text": "Then the bubble bursts.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "JAN 1720",
+      128
+     ],
+     [
+      "AUG 1720",
+      1000
+     ],
+     [
+      "SEP 1720",
+      150
+     ],
+     [
+      "DEC 1720",
+      100
+     ]
+    ],
+    "show_from": 1,
+    "show_to": 2,
+    "red_from": 1,
+    "tag": [
+     0,
+     1,
+     2
+    ],
+    "prefix": "£",
+    "title": "SOUTH SEA SHARES",
+    "source": "PRICE PER SHARE, £",
+    "big": "BURST",
+    "big_at": 0.6
+   },
+   "big": true,
+   "big_at": 0.4,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "By the end of September: 150 pounds.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "JAN 1720",
+      128
+     ],
+     [
+      "AUG 1720",
+      1000
+     ],
+     [
+      "SEP 1720",
+      150
+     ],
+     [
+      "DEC 1720",
+      100
+     ]
+    ],
+    "show_from": 2,
+    "show_to": 3,
+    "red_from": 1,
+    "flash": false,
+    "tag": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "prefix": "£",
+    "title": "SOUTH SEA SHARES",
+    "source": "PRICE PER SHARE, £",
+    "big": "-85%",
+    "big_at": 0.3
+   },
+   "sfx": [
+    [
+     "impact",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "Parliament investigates, and finds fraud among the directors.",
+   "scene": {
+    "type": "news",
+    "masthead": "The London Ledger",
+    "date": "1721 · PARLIAMENT REPORTS",
+    "headline": "FRAUD AT THE SOUTH SEA COMPANY"
+   },
+   "twist": true
+  },
+  {
+   "text": "And Newton? Nobody knows exactly what he lost.",
+   "scene": {
+    "type": "myth",
+    "kicker": "AND NEWTON?",
+    "myth": "LOST A FORTUNE?",
+    "reality": "UNKNOWN",
+    "sub": "his losses were never proven"
+   }
+  },
+  {
+   "text": "But the story goes: he couldn't calculate the madness of people.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "“THE MADNESS",
+      "cream"
+     ],
+     [
+      "OF PEOPLE”",
+      "gold"
+     ]
+    ],
+    "size": 120,
+    "sub": "— attributed to Newton"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "02_south_sea_bubble"
+}

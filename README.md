@@ -1,7 +1,11 @@
-# Rich 2 Ruin — media
+# Rich 2 Ruin — media & production
 
-Public-domain archive images and published reels for the Rich 2 Ruin account.
+Automated faceless reels about money history (Instagram, TikTok, YouTube Shorts).
 
-- `images.json`: images to fetch from Wikimedia Commons
-- `scripts/fetch_images.py`: downloads them, keeps only public domain / CC0, writes `credits.json`
-- `.github/workflows/fetch-images.yml`: runs the script on GitHub Actions
+- `PIPELINE.md` — weekly runbook (start here)
+- `EDITORIAL.md` — editorial line and hard rules
+- `topics.json` — topic queue and publishing status
+- `engine/` — reel renderer (Python + ffmpeg, Kokoro TTS, generated music/SFX)
+- `specs/` — one JSON script per reel
+- `reels/` — published videos (public URLs used by Metricool)
+- `images.json` + `scripts/fetch_images.py` + workflow — public-domain archive fetcher

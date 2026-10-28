@@ -1,0 +1,243 @@
+{
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "In 1637,",
+   "scene": {
+    "type": "year",
+    "big": "1637",
+    "sub": "The Dutch Republic"
+   },
+   "pause": 0.08
+  },
+  {
+   "text": "one flower bulb cost more than ten years of a craftsman's pay.",
+   "scene": {
+    "type": "compare",
+    "icon": "tulip",
+    "a": "1 TULIP BULB",
+    "b1": "10+ YEARS OF A",
+    "b2": "CRAFTSMAN'S PAY"
+   }
+  },
+  {
+   "text": "Holland. Tulips become the ultimate luxury.",
+   "scene": {
+    "type": "icons",
+    "icon": "tulip",
+    "rows": 3,
+    "cols": 5,
+    "title": "The Dutch Republic, 1630s",
+    "badge": "LUXURY",
+    "colors": [
+     "red",
+     [
+      240,
+      120,
+      40
+     ],
+     [
+      230,
+      200,
+      70
+     ],
+     [
+      200,
+      60,
+      120
+     ]
+    ],
+    "scale": 0.55,
+    "dy": 210
+   }
+  },
+  {
+   "text": "The rarest, the Semper Augustus, reaches ten thousand guilders.",
+   "scene": {
+    "type": "stat",
+    "icon": "tulip_flamed",
+    "label": "SEMPER AUGUSTUS",
+    "value": 10000,
+    "prefix": "ƒ",
+    "sub": "GUILDERS · FOR ONE BULB",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "By late 1636, even ordinary bulbs sell for hundreds.",
+   "scene": {
+    "type": "chart",
+    "illustrative": true,
+    "curve": "exp",
+    "points": [
+     [
+      "1634",
+      6
+     ],
+     [
+      "",
+      9
+     ],
+     [
+      "",
+      16
+     ],
+     [
+      "",
+      32
+     ],
+     [
+      "",
+      62
+     ],
+     [
+      "FEB 1637",
+      100
+     ],
+     [
+      "",
+      5
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 4.4,
+    "title": "EVEN COMMON BULBS",
+    "sub": "hundreds of guilders"
+   }
+  },
+  {
+   "text": "People trade contracts for bulbs still buried in the ground.",
+   "scene": {
+    "type": "chart",
+    "illustrative": true,
+    "curve": "exp",
+    "points": [
+     [
+      "1634",
+      6
+     ],
+     [
+      "",
+      9
+     ],
+     [
+      "",
+      16
+     ],
+     [
+      "",
+      32
+     ],
+     [
+      "",
+      62
+     ],
+     [
+      "FEB 1637",
+      100
+     ],
+     [
+      "",
+      5
+     ]
+    ],
+    "show_from": 4.4,
+    "show_to": 5,
+    "title": "TRADING PROMISES",
+    "sub": "contracts for bulbs still underground"
+   }
+  },
+  {
+   "text": "Then, February 1637. Haarlem. The buyers vanish.",
+   "scene": {
+    "type": "year",
+    "big": "FEB 1637",
+    "sub": "Haarlem · no buyers",
+    "color": "red"
+   }
+  },
+  {
+   "text": "Within days, the market collapses.",
+   "scene": {
+    "type": "chart",
+    "illustrative": true,
+    "curve": "exp",
+    "points": [
+     [
+      "1634",
+      6
+     ],
+     [
+      "",
+      9
+     ],
+     [
+      "",
+      16
+     ],
+     [
+      "",
+      32
+     ],
+     [
+      "",
+      62
+     ],
+     [
+      "FEB 1637",
+      100
+     ],
+     [
+      "",
+      5
+     ]
+    ],
+    "show_from": 5,
+    "show_to": 6,
+    "red_from": 5,
+    "big": "COLLAPSE",
+    "big_at": 0.7
+   },
+   "big": true,
+   "big_at": 0.55,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "The twist? Historians say very few people were actually ruined.",
+   "scene": {
+    "type": "myth",
+    "myth": "MASS RUIN?",
+    "reality": "VERY FEW",
+    "sub": "were actually ruined",
+    "source": "— modern historians"
+   },
+   "twist": true
+  },
+  {
+   "text": "But the legend of the first bubble never died.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "THE FIRST",
+      "cream"
+     ],
+     [
+      "BUBBLE",
+      "gold"
+     ]
+    ],
+    "size": 150,
+    "sub": "a legend that never died"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "01_tulip_mania"
+}

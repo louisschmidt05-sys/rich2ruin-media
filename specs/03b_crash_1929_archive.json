@@ -1,0 +1,293 @@
+{
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "September 3rd, 1929.",
+   "scene": {
+    "type": "photo",
+    "img": "images/03_crash_1929/Stockbrokers_at_the_New_York_Stock_Exchange.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.45,
+     1.0
+    ],
+    "to": [
+     0.45,
+     0.45,
+     1.15
+    ],
+    "credit": "Stockbrokers at the New York Stock Exchange · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "1929",
+     "sub": "September 3rd · Wall Street",
+     "y": 1040
+    }
+   },
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ]
+  },
+  {
+   "text": "The Dow Jones hits 381. A record.",
+   "scene": {
+    "type": "stat",
+    "label": "DOW JONES PEAK",
+    "value": 381.17,
+    "dec": 2,
+    "sub": "SEPTEMBER 3, 1929",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "October 24th. Black Thursday. A record 12.9 million shares change hands.",
+   "scene": {
+    "type": "photo",
+    "img": "images/03_crash_1929/Crowds_gathering_outside_New_York_Stock_Exchange_(2).jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.55,
+     1.2
+    ],
+    "credit": "Crowd outside the NYSE, 1929 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "BLACK THURSDAY",
+       "red"
+      ],
+      [
+       "12.9M SHARES",
+       "cream"
+      ]
+     ],
+     "size": 100,
+     "y": 1060
+    },
+    "dim": 0.3
+   },
+   "sfx": [
+    [
+     "paper",
+     0
+    ],
+    [
+     "impact",
+     0.4
+    ]
+   ]
+  },
+  {
+   "text": "Monday: minus 12.8 percent.",
+   "scene": {
+    "type": "stat",
+    "label": "BLACK MONDAY",
+    "value": -12.82,
+    "dec": 2,
+    "suffix": "%",
+    "sub": "OCTOBER 28, 1929",
+    "color": "red",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "Tuesday: another 11.7 percent. Over 16 million shares traded in a single day.",
+   "scene": {
+    "type": "photo",
+    "img": "images/03_crash_1929/19291030_Crash_of_'29_-_New_York_Times.jpg",
+    "mode": "cover",
+    "from": [
+     0.4,
+     0.25,
+     1.6
+    ],
+    "to": [
+     0.38,
+     0.32,
+     1.9
+    ],
+    "credit": "The New York Times, October 30, 1929 · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "BLACK TUESDAY",
+     "label_y": 990,
+     "value": -11.73,
+     "dec": 2,
+     "suffix": "%",
+     "y": 1120,
+     "color": "red"
+    },
+    "bw": true,
+    "dim": 0.5
+   },
+   "big": true,
+   "big_at": 1.9,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "And it keeps falling.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "SEP 1929",
+      381.17
+     ],
+     [
+      "OCT 28",
+      260.64
+     ],
+     [
+      "OCT 29",
+      230.07
+     ],
+     [
+      "JUL 1932",
+      41.22
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 3,
+    "red_from": 0,
+    "flash": false,
+    "tag": [
+     0,
+     3
+    ],
+    "dec": 0,
+    "title": "DOW JONES",
+    "source": "CLOSING VALUES",
+    "all_labels": false
+   }
+  },
+  {
+   "text": "July 1932: the Dow sits at 41.",
+   "scene": {
+    "type": "photo",
+    "img": "images/03_crash_1929/White_Angel_Breadline,_San_Francisco,_1932,_by_Dorothea_Lange,_3.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.35,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.4,
+     1.15
+    ],
+    "credit": "Dorothea Lange, White Angel Breadline, 1932 · public domain",
+    "overlay": {
+     "type": "stat",
+     "label": "JULY 8, 1932",
+     "label_y": 990,
+     "value": 41.22,
+     "from": 381.17,
+     "dec": 2,
+     "y": 1120,
+     "color": "red",
+     "sub": "THE DOW AT ITS LOW",
+     "end_sfx": "slam"
+    }
+   }
+  },
+  {
+   "text": "An 89 percent loss.",
+   "scene": {
+    "type": "photo",
+    "img": "images/03_crash_1929/Unemployed_marching_to_see_Mitchell,_1931.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.12
+    ],
+    "credit": "Unemployed march, 1931 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "-89%",
+       "red"
+      ]
+     ],
+     "size": 260,
+     "y": 1060,
+     "sub": "in less than three years"
+    },
+    "y": 640
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ]
+   ]
+  },
+  {
+   "text": "It takes until 1954 to get back to the top.",
+   "scene": {
+    "type": "year",
+    "big": "1954",
+    "sub": "back to the 1929 peak",
+    "color": "gold"
+   },
+   "twist": true
+  },
+  {
+   "text": "Twenty-five years.",
+   "scene": {
+    "type": "photo",
+    "img": "images/03_crash_1929/People_lining_up_at_Times_Square.jpg",
+    "mode": "cover",
+    "from": [
+     0.4,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.6,
+     0.5,
+     1.1
+    ],
+    "credit": "People lining up at Times Square · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "25 YEARS",
+       "gold"
+      ]
+     ],
+     "size": 170,
+     "y": 1080,
+     "sub": "to recover"
+    }
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "03b_crash_1929_archive"
+}

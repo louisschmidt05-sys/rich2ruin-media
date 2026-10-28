@@ -1,0 +1,339 @@
+{
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "London, 1720.",
+   "scene": {
+    "type": "photo",
+    "img": "images/02_south_sea_bubble/SouthSeaHouse_Stowe'sSurveyOfLondon_1754.png",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.55,
+     0.5,
+     1.2
+    ],
+    "credit": "South Sea House, engraving 1754 · public domain",
+    "overlay": {
+     "type": "year",
+     "big": "1720",
+     "sub": "London",
+     "y": 1040
+    }
+   },
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ]
+  },
+  {
+   "text": "One stock drives the city wild: the South Sea Company.",
+   "scene": {
+    "type": "photo",
+    "img": "images/02_south_sea_bubble/Edward_Matthew_Ward_(1816-1879)_-_The_South_Sea_Bubble,_a_Scene_in_'Change_Alley.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.12
+    ],
+    "credit": "E. M. Ward, The South Sea Bubble, 1847 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "THE SOUTH SEA",
+       "cream"
+      ],
+      [
+       "COMPANY",
+       "gold"
+      ]
+     ],
+     "size": 110,
+     "y": 1080
+    },
+    "y": 640
+   }
+  },
+  {
+   "text": "In January, one share costs 128 pounds.",
+   "scene": {
+    "type": "stat",
+    "label": "JANUARY 1720",
+    "value": 128,
+    "prefix": "£",
+    "sub": "ONE SHARE",
+    "color": "cream"
+   }
+  },
+  {
+   "text": "By early August: one thousand.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "JAN 1720",
+      128
+     ],
+     [
+      "AUG 1720",
+      1000
+     ],
+     [
+      "SEP 1720",
+      150
+     ],
+     [
+      "DEC 1720",
+      100
+     ]
+    ],
+    "show_from": 0,
+    "show_to": 1,
+    "tag": [
+     0,
+     1
+    ],
+    "prefix": "£",
+    "title": "SOUTH SEA SHARES",
+    "source": "PRICE PER SHARE, £"
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "cash",
+     1.3
+    ]
+   ]
+  },
+  {
+   "text": "Investors rush in. Even Isaac Newton owns shares.",
+   "scene": {
+    "type": "photo",
+    "img": "images/02_south_sea_bubble/GodfreyKneller-IsaacNewton-1689.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.3,
+     1.25
+    ],
+    "to": [
+     0.5,
+     0.3,
+     1.45
+    ],
+    "credit": "Godfrey Kneller, Isaac Newton, 1689 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "ISAAC NEWTON",
+       "cream"
+      ],
+      [
+       "OWNS SHARES",
+       "gold"
+      ]
+     ],
+     "size": 100,
+     "y": 1060
+    }
+   }
+  },
+  {
+   "text": "Then the bubble bursts.",
+   "scene": {
+    "type": "chart",
+    "points": [
+     [
+      "JAN 1720",
+      128
+     ],
+     [
+      "AUG 1720",
+      1000
+     ],
+     [
+      "SEP 1720",
+      150
+     ],
+     [
+      "DEC 1720",
+      100
+     ]
+    ],
+    "show_from": 1,
+    "show_to": 2,
+    "red_from": 1,
+    "tag": [
+     0,
+     1,
+     2
+    ],
+    "prefix": "£",
+    "title": "SOUTH SEA SHARES",
+    "source": "PRICE PER SHARE, £",
+    "big": "BURST",
+    "big_at": 0.6
+   },
+   "big": true,
+   "big_at": 0.4,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "By the end of September: 150 pounds.",
+   "scene": {
+    "type": "photo",
+    "img": "images/02_south_sea_bubble/South_Sea_Company_1720.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     0.95
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.1
+    ],
+    "credit": "South Sea stock receipt, 1720 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "£1,000 → £150",
+       "red"
+      ]
+     ],
+     "size": 110,
+     "y": 1080,
+     "sub": "by the end of September"
+    },
+    "y": 650
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "impact",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "Parliament investigates, and finds fraud among the directors.",
+   "scene": {
+    "type": "photo",
+    "img": "images/02_south_sea_bubble/A_monument_dedicated_to_posterity_in_commemoration_of_ye_incredible_folly_transa.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.12
+    ],
+    "credit": "Satirical print on the folly of 1720 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "FRAUD",
+       "red"
+      ]
+     ],
+     "size": 180,
+     "y": 1060,
+     "sub": "Parliament investigates the directors"
+    },
+    "y": 640
+   },
+   "twist": true,
+   "sfx": [
+    [
+     "paper",
+     0
+    ],
+    [
+     "slam",
+     0.3
+    ]
+   ]
+  },
+  {
+   "text": "And Newton? Nobody knows exactly what he lost.",
+   "scene": {
+    "type": "myth",
+    "kicker": "AND NEWTON?",
+    "myth": "LOST A FORTUNE?",
+    "reality": "UNKNOWN",
+    "sub": "his losses were never proven"
+   }
+  },
+  {
+   "text": "But the story goes: he couldn't calculate the madness of people.",
+   "scene": {
+    "type": "photo",
+    "img": "images/02_south_sea_bubble/William_Hogarth_-_The_South_Sea_Scheme.png",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.45,
+     1.15
+    ],
+    "credit": "William Hogarth, The South Sea Scheme, 1721 · public domain",
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "“THE MADNESS",
+       "cream"
+      ],
+      [
+       "OF PEOPLE”",
+       "gold"
+      ]
+     ],
+     "size": 110,
+     "y": 1060,
+     "sub": "— attributed to Newton"
+    },
+    "y": 640,
+    "dim": 0.25
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ],
+ "id": "02b_south_sea_archive"
+}
