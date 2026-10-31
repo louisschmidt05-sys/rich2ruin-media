@@ -1,0 +1,294 @@
+{
+ "id": "11_panama_scandal",
+ "format": "THE SCAM",
+ "lines": [
+  {
+   "text": "He built the Suez Canal. Then Panama ruined him.",
+   "scene": {
+    "type": "photo",
+    "img": "images/11_panama_scandal/L'inauguration_du_canal_de_Suez,_17_November_1869_Gal18_riou_001f.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Édouard Riou, opening of the Suez Canal, 1869 · public domain",
+    "y": 640,
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "SUEZ: HERO",
+       "gold"
+      ],
+      [
+       "PANAMA: RUIN",
+       "red"
+      ]
+     ],
+     "size": 115,
+     "y": 1080
+    }
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "whoosh",
+     1.5
+    ]
+   ]
+  },
+  {
+   "text": "Ferdinand de Lesseps, France's canal hero.",
+   "scene": {
+    "type": "photo",
+    "img": "images/11_panama_scandal/Ferdinand_Marie,_vicomte_de_Lesseps.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.4,
+     1.05
+    ],
+    "to": [
+     0.5,
+     0.38,
+     1.18
+    ],
+    "credit": "Ferdinand de Lesseps, 19th-c. photograph · public domain",
+    "y": 640,
+    "dim": 0.3
+   }
+  },
+  {
+   "text": "1879: at 74, he promises Panama in twelve years.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "12 YEARS",
+      "gold"
+     ],
+     [
+      "600M FRANCS",
+      "cream"
+     ]
+    ],
+    "size": 140,
+    "sub": "the plan · no locks"
+   },
+   "say": "1879: at seventy-four, he promises Panama in twelve years."
+  },
+  {
+   "text": "The dig drags on. Thousands of workers die.",
+   "scene": {
+    "type": "photo",
+    "img": "images/11_panama_scandal/NSRW_Panama_Canal_French_Excavator.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "French excavator left in the jungle, Panama · public domain",
+    "y": 640,
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "THOUSANDS",
+       "red"
+      ],
+      [
+       "OF WORKERS DIE",
+       "cream"
+      ]
+     ],
+     "size": 105,
+     "y": 1130
+    }
+   }
+  },
+  {
+   "text": "About a hundred politicians are paid off.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "~100",
+      "red"
+     ],
+     [
+      "POLITICIANS",
+      "cream"
+     ],
+     [
+      "PAID OFF",
+      "red"
+     ]
+    ],
+    "size": 130,
+    "sub": "nicknamed the « chéquards »"
+   }
+  },
+  {
+   "text": "February 1889: the company is liquidated.",
+   "scene": {
+    "type": "year",
+    "big": "1889",
+    "sub": "February · liquidation",
+    "color": "red"
+   },
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Over a billion francs of savings: gone.",
+   "scene": {
+    "type": "photo",
+    "img": "images/11_panama_scandal/ActionPanama.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "Panama Canal company bond, 1888 · public domain",
+    "y": 640,
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "1 BILLION+",
+       "red"
+      ],
+      [
+       "FRANCS GONE",
+       "cream"
+      ]
+     ],
+     "size": 110,
+     "y": 1060
+    }
+   }
+  },
+  {
+   "text": "1893: Lesseps, 88, and his son get five years.",
+   "scene": {
+    "type": "photo",
+    "img": "images/11_panama_scandal/Ferdinand_de_Lesseps_in_1893.jpg",
+    "mode": "cover",
+    "from": [
+     0.5,
+     0.35,
+     1.05
+    ],
+    "to": [
+     0.5,
+     0.32,
+     1.18
+    ],
+    "credit": "Ferdinand de Lesseps, press drawing, 1893 · public domain",
+    "y": 640,
+    "overlay": {
+     "type": "stat",
+     "label": "THE SENTENCE",
+     "label_y": 1000,
+     "value": 5,
+     "suffix": " YEARS",
+     "y": 1130,
+     "color": "red",
+     "end_sfx": "slam"
+    },
+    "dim": 0.35
+   },
+   "say": "1893: Lesseps, eighty-eight, and his son get five years."
+  },
+  {
+   "text": "The twist? Time limits void their sentences. Only an ex-minister is jailed.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "1 EX-MINISTER",
+      "red"
+     ],
+     [
+      "IN PRISON",
+      "cream"
+     ]
+    ],
+    "size": 120,
+    "sub": "Charles Baïhaut · the only politician convicted"
+   },
+   "twist": true,
+   "sfx": [
+    [
+     "slam",
+     0.2
+    ]
+   ]
+  },
+  {
+   "text": "The canal finally opens in 1914. Built by the Americans.",
+   "scene": {
+    "type": "photo",
+    "img": "images/11_panama_scandal/Plan_général_du_Canal_(Juillet_1886)_-_Compagnie_Universelle_du_Canal_Interocéan.jpg",
+    "mode": "fit",
+    "from": [
+     0.5,
+     0.5,
+     1.0
+    ],
+    "to": [
+     0.5,
+     0.5,
+     1.15
+    ],
+    "credit": "General plan of the canal, Panama company, 1886 · public domain",
+    "y": 640,
+    "overlay": {
+     "type": "text",
+     "lines": [
+      [
+       "1914",
+       "gold"
+      ],
+      [
+       "BUILT BY THE US",
+       "cream"
+      ]
+     ],
+     "size": 120,
+     "y": 1050
+    }
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

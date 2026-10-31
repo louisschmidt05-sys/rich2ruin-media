@@ -1,0 +1,160 @@
+{
+ "id": "12_black_monday",
+ "format": "THE CRASH",
+ "lines": [
+  {
+   "text": "In one day, Wall Street lost over 500 billion dollars.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "$500 BILLION",
+      "gold"
+     ],
+     [
+      "IN ONE DAY",
+      "red"
+     ]
+    ],
+    "size": 150,
+    "y": 620,
+    "sub": "New York Stock Exchange · 1987"
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "slam",
+     1.6
+    ]
+   ]
+  },
+  {
+   "text": "August 1987. The Dow hits a record: 2,722.",
+   "scene": {
+    "type": "stat",
+    "label": "AUGUST 25, 1987",
+    "value": 2722,
+    "sub": "DOW JONES · ALL-TIME HIGH",
+    "color": "gold",
+    "end_sfx": "cash"
+   },
+   "say": "August 1987. The Dow hits a record: twenty-seven twenty-two."
+  },
+  {
+   "text": "Up as much as 43 percent that year.",
+   "scene": {
+    "type": "stat",
+    "label": "1987, AT THE PEAK",
+    "value": 43,
+    "prefix": "+",
+    "suffix": "%",
+    "sub": "A BULL MARKET SINCE 1982",
+    "color": "green",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "Then comes Monday, October 19th.",
+   "scene": {
+    "type": "year",
+    "big": "MONDAY",
+    "sub": "October 19, 1987",
+    "color": "red"
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "text": "Selling triggers computer models that sell even more.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "SELL",
+      "red"
+     ],
+     [
+      "SELL MORE",
+      "red"
+     ]
+    ],
+    "size": 150,
+    "sub": "portfolio insurance · program trading"
+   }
+  },
+  {
+   "text": "A record 604 million shares change hands.",
+   "scene": {
+    "type": "stat",
+    "label": "SHARES TRADED",
+    "value": 604,
+    "suffix": "M",
+    "sub": "3× A NORMAL DAY",
+    "color": "cream",
+    "end_sfx": "slam"
+   }
+  },
+  {
+   "text": "The Dow closes down 508 points: minus 22.6 percent.",
+   "scene": {
+    "type": "stat",
+    "label": "DOW JONES · ONE DAY",
+    "value": 22.6,
+    "dec": 1,
+    "prefix": "−",
+    "suffix": "%",
+    "sub": "−508 POINTS",
+    "color": "red"
+   },
+   "big": true,
+   "big_at": 0.6,
+   "big_sfx": "crash",
+   "drop": true,
+   "say": "The Dow closes down five hundred and eight points: minus twenty-two point six percent."
+  },
+  {
+   "text": "Next day, the Fed promises cash to keep the system running.",
+   "scene": {
+    "type": "news",
+    "masthead": "The Wall Street Ledger",
+    "date": "OCTOBER 20, 1987",
+    "headline": "FED READY TO SUPPLY LIQUIDITY"
+   }
+  },
+  {
+   "text": "The twist? In two days, the Dow wins back 57 percent of the loss.",
+   "scene": {
+    "type": "stat",
+    "label": "WON BACK IN 2 DAYS",
+    "value": 57,
+    "suffix": "%",
+    "sub": "OF THE BLACK MONDAY LOSS",
+    "color": "green",
+    "end_sfx": "cash"
+   },
+   "twist": true
+  },
+  {
+   "text": "But beating the old record takes almost two years.",
+   "scene": {
+    "type": "year",
+    "big": "1989",
+    "sub": "August 24 · a new record, at last",
+    "color": "gold"
+   }
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

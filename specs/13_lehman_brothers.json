@@ -1,0 +1,187 @@
+{
+ "id": "13_lehman_brothers",
+ "format": "RICH TO RUIN",
+ "lines": [
+  {
+   "text": "158 years old. Gone in one weekend.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "158 YEARS",
+      "gold"
+     ],
+     [
+      "ONE WEEKEND",
+      "red"
+     ]
+    ],
+    "size": 170,
+    "y": 620
+   },
+   "sfx": [
+    [
+     "slam",
+     0.1
+    ],
+    [
+     "slam",
+     1.5
+    ]
+   ]
+  },
+  {
+   "text": "Lehman Brothers began as a small store in Alabama.",
+   "scene": {
+    "type": "year",
+    "big": "LEHMAN",
+    "sub": "Montgomery, Alabama · a dry-goods store",
+    "icon": "bank"
+   }
+  },
+  {
+   "text": "By 2008, it's America's fourth-largest investment bank.",
+   "scene": {
+    "type": "stat",
+    "label": "US INVESTMENT BANKS",
+    "value": 4,
+    "prefix": "#",
+    "sub": "LEHMAN BROTHERS · 2008",
+    "color": "gold",
+    "end_sfx": "cash"
+   }
+  },
+  {
+   "text": "Its big bet: American mortgages, including subprime.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "MORTGAGES",
+      "gold"
+     ],
+     [
+      "SUBPRIME",
+      "red"
+     ]
+    ],
+    "size": 140,
+    "sub": "the American housing market"
+   },
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "text": "September 10th, 2008: a 3.9 billion dollar loss.",
+   "scene": {
+    "type": "stat",
+    "label": "ONE QUARTER'S LOSS",
+    "value": 3.9,
+    "dec": 1,
+    "prefix": "−$",
+    "suffix": "B",
+    "sub": "ANNOUNCED SEPT 10, 2008",
+    "color": "red",
+    "end_sfx": "slam"
+   },
+   "say": "September tenth, 2008: a three point nine billion dollar loss."
+  },
+  {
+   "text": "That weekend, the government refuses a bailout.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "NO",
+      "red"
+     ],
+     [
+      "BAILOUT",
+      "red"
+     ]
+    ],
+    "size": 180,
+    "sub": "Washington says no"
+   }
+  },
+  {
+   "text": "Bank of America picks Merrill Lynch. Britain blocks Barclays.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "MERRILL: SOLD",
+      "cream"
+     ],
+     [
+      "BARCLAYS: BLOCKED",
+      "red"
+     ]
+    ],
+    "size": 95,
+    "sub": "the last buyers walk away"
+   }
+  },
+  {
+   "text": "Monday, September 15th: Lehman files for bankruptcy.",
+   "scene": {
+    "type": "news",
+    "masthead": "The Wall Street Ledger",
+    "date": "SEPTEMBER 15, 2008",
+    "headline": "LEHMAN BROTHERS FILES FOR BANKRUPTCY"
+   }
+  },
+  {
+   "text": "639 billion dollars in assets. The largest bankruptcy in US history.",
+   "scene": {
+    "type": "stat",
+    "label": "ASSETS AT FILING",
+    "value": 639,
+    "prefix": "$",
+    "suffix": "B",
+    "sub": "LARGEST US BANKRUPTCY EVER",
+    "color": "red"
+   },
+   "big": true,
+   "big_at": 0.5,
+   "big_sfx": "crash",
+   "drop": true,
+   "say": "Six hundred and thirty-nine billion dollars in assets. The largest bankruptcy in US history."
+  },
+  {
+   "text": "The twist? Barclays buys the US business after all.",
+   "scene": {
+    "type": "text",
+    "lines": [
+     [
+      "BARCLAYS",
+      "gold"
+     ],
+     [
+      "BUYS IT ANYWAY",
+      "cream"
+     ]
+    ],
+    "size": 120,
+    "sub": "after the bankruptcy · some 10,000 jobs saved"
+   },
+   "twist": true,
+   "sfx": [
+    [
+     "slam",
+     0.2
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
