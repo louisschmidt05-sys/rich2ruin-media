@@ -85,19 +85,25 @@
    "title": "Black Monday (19 October 1987)",
    "format": "THE CRASH",
    "style": "graphic",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "12_black_monday",
+   "date": "2026-11-23"
   },
   {
    "title": "The Panama Canal scandal (France, 1889-1892)",
    "format": "THE SCAM",
    "style": "archive",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "11_panama_scandal",
+   "date": "2026-11-25"
   },
   {
    "title": "Lehman Brothers bankruptcy (2008)",
    "format": "RICH TO RUIN",
    "style": "graphic",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "13_lehman_brothers",
+   "date": "2026-11-27"
   },
   {
    "title": "Weimar hyperinflation (1923)",
@@ -143,6 +149,18 @@
   },
   {
    "title": "Florida land boom and bust (1920s)",
+   "format": "THE CRASH",
+   "style": "archive",
+   "status": "backlog"
+  },
+  {
+   "title": "Overend, Gurney & Co collapse (London, 1866)",
+   "format": "RICH TO RUIN",
+   "style": "archive",
+   "status": "backlog"
+  },
+  {
+   "title": "Panic of 1873 and the fall of Jay Cooke & Company",
    "format": "THE CRASH",
    "style": "archive",
    "status": "backlog"
