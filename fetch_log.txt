@@ -1,4 +1,4 @@
-kept 56 images
+kept 67 images
 SKIPPED Verzameling_van_een_meenigte_tulipaanen_p15.png -> licence not public domain: CC BY-SA 4.0
 SKIPPED Ca'_Rezzonico_-_Canal_Grande_da_Palazzo_Balbi_a_Rialto_C.1722_-_Canaletto.jpg -> licence not public domain: CC BY-SA 4.0
 SKIPPED York_&_North_Midland_Railway_Company_opened_the_York_to_Scarborough_line_7th_July_1845.jpg -> licence not public domain: CC BY-SA 4.0
