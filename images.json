@@ -295,6 +295,61 @@
    "reel": "10_william_duer",
    "file": "Tontine_coffee_house.jpg",
    "use": "Tontine alt"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Ferdinand_Marie,_vicomte_de_Lesseps.jpg",
+   "use": "portrait of de Lesseps"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Ferdinand_de_Lesseps_in_1893.jpg",
+   "use": "de Lesseps at trial time"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "L'inauguration_du_canal_de_Suez,_17_November_1869_Gal18_riou_001f.jpg",
+   "use": "Suez opening 1869"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Canal_Interoceanique_de_Panama_1880.jpg",
+   "use": "company 1880"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Compagnie_Universelle_du_Canal_Interocéanique_de_Panama.jpg",
+   "use": "company doc"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Shares1883cinqcentfrancs.jpg",
+   "use": "500 franc share"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "ActionPanama.JPG",
+   "use": "share alt"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "NSRW_Panama_Canal_French_Excavator.jpg",
+   "use": "French excavator"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Plan_général_du_Canal_(Juillet_1886)_-_Compagnie_Universelle_du_Canal_Interocéanique_de_Panama_-_btv1b53060301n.jpg",
+   "use": "1886 plan"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Panama_Scandal_caricature.jpg",
+   "use": "scandal caricature (check content)"
+  },
+  {
+   "reel": "11_panama_scandal",
+   "file": "Le_Petit_Journal_-_Supplément_Illustré_(26-11-1892).jpg",
+   "use": "1892 press (check content)"
   }
  ]
 }
