@@ -10,8 +10,34 @@ ALLOWED = re.compile(r"(public domain|^pd|cc0)", re.I)
 
 spec = json.load(open("media_queries.json"))
 out = {"results": []}
+def search_archive(q):
+    """Internet Archive (Prelinger and other collections): keep items whose licenseurl is public domain / CC0."""
+    query = f'({q["q"]}) AND mediatype:movies AND (licenseurl:*publicdomain* OR licenseurl:*zero*)'
+    if q.get("collection"):
+        query += f' AND collection:{q["collection"]}'
+    r = requests.get("https://archive.org/advancedsearch.php", headers=UA, timeout=60, params={
+        "q": query, "fl[]": ["identifier", "title", "year", "licenseurl", "description", "collection"],
+        "rows": q.get("max", 15), "output": "json", "sort[]": "downloads desc"})
+    r.raise_for_status()
+    rows = []
+    for d in r.json()["response"]["docs"]:
+        desc = d.get("description", "")
+        desc = " ".join(desc) if isinstance(desc, list) else desc
+        rows.append({"reel": q["reel"], "q": q["q"], "source": "archive", "file": d["identifier"],
+                     "title": d.get("title", "")[:120], "year": d.get("year"), "licence": d.get("licenseurl", ""),
+                     "ok": True, "desc": re.sub("<[^>]+>", "", desc)[:220]})
+    return rows
+
+
 for q in spec["queries"]:
     kind = q.get("type", "video")
+    if q.get("source") == "archive":
+        try:
+            out["results"] += search_archive(q)
+        except Exception as e:
+            out["results"].append({"reel": q["reel"], "q": q["q"], "error": str(e)[:200]})
+        time.sleep(1)
+        continue
     srsearch = q["q"] + (" filetype:video" if kind == "video" else " filetype:bitmap")
     try:
         r = requests.get(API, headers=UA, timeout=40, params={
