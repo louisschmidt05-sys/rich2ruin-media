@@ -137,8 +137,13 @@
     },
     {
      "type": "full",
-     "clip": "images/05_madoff/pixabay_270442.mp4",
-     "credit": "Footage: Pixabay"
+     "clip": "images/05_madoff/pixabay_50623.mp4",
+     "credit": "Footage: Pixabay",
+     "offset": 3.5,
+     "zoom": [
+      1.15,
+      1.3
+     ]
     }
    ],
    "sfx": [

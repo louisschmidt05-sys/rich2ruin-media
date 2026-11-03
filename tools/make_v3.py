@@ -62,7 +62,7 @@ sm = {"id": "05b_madoff_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.0
    full(M + "204306.mp4", PB, [S("EX-CHAIRMAN OF THE NASDAQ", "yellow", 860, 0.1, 54)])], hl=["madoff.", "nasdaq."]),
  L("On paper, his clients had almost 65 billion dollars.", [
    full(M + "50623.mp4", PB, [S("ON PAPER", "white", 740, 0.1, 56), S("$65 BILLION", "yellow", 880, 0.6, 100)]),
-   full(M + "270442.mp4", PB)], sfx=[["whoosh", 0], ["cash", 1.0]]),
+   full(M + "50623.mp4", PB, offset=3.5, zoom=[1.15, 1.3])], sfx=[["whoosh", 0], ["cash", 1.0]]),
  L("Much of it never existed.", [
    full(M + "15178.mp4", PB, [S("NEVER EXISTED", "red", 860, 0.4, 84)])], big=True, big_at=0.5, big_sfx="crash", drop=True, hl=["never", "existed."]),
  L("New investors' money paid the old ones.", [
