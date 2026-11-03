@@ -1,0 +1,353 @@
+{
+ "id": "08b_railway_mania_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Britain's railway shares doubled. Then lost two thirds.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/08_railway_mania/Rain_Steam_and_Speed_the_Great_Western_Railway.jpg",
+     "credit": "J. M. W. Turner, Rain, Steam and Speed, 1844 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "DOUBLED.",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "THEN −64%.",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_262334.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "The 1840s: Railway Mania.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_337105.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1840s",
+        "style": "yellow",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "the Railway Mania",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "A ten percent deposit buys you in.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/08_railway_mania/Derby_Station,_North_Midland_Railway.jpg",
+     "credit": "Derby Station, North Midland Railway, 1840s · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "DEPOSIT NEEDED",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "10%",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Its star: George Hudson, the Railway King.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/08_railway_mania/George_Hudson_-_Project_Gutenberg_eText_17293.jpg",
+     "credit": "George Hudson, engraved portrait · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE RAILWAY KING",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "October 1845: the peak.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_14953.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1845",
+        "style": "yellow",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "October 6 · the peak",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then the Bank of England raises rates.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/08_railway_mania/Microcosm_of_London_Plate_007_-_Bank_of_England.jpg",
+     "credit": "Bank of England, Microcosm of London, 1808 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "RATES UP.",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "MONEY OUT.",
+        "style": "white",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Yet in 1846, Parliament approves 263 new railway companies.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_3639.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "RAILWAY ACTS · 1846",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "263",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "NEW RAILWAY COMPANIES",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_142723.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "By 1850, shares are down sixty-four percent.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/08_railway_mania/pixabay_262334.mp4",
+     "points": [
+      1000,
+      2062,
+      1646,
+      741
+     ],
+     "show_from": 0,
+     "show_to": 3,
+     "red_from": 1,
+     "illustrative": false,
+     "labels": {
+      "1": "2,062",
+      "3": "741"
+     },
+     "items": [
+      {
+       "text": "RAILWAY SHARE INDEX",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 50
+      }
+     ]
+    }
+   ],
+   "big": true,
+   "big_at": 0.5,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Charlotte Brontë's shares fell from 120 pounds to 20.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/08_railway_mania/The_Brontë_Sisters_by_Patrick_Branwell_Brontë_restored.jpg",
+     "credit": "Branwell Brontë, The Brontë Sisters, c. 1834 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "£120 → £20",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_7809.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true,
+   "say": "Charlotte Brontë's shares? From a hundred and twenty pounds, to twenty."
+  },
+  {
+   "text": "1849: Hudson is exposed. Dividends paid out of capital.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/08_railway_mania/ECR(1851)_p13_-_Our_Starting_Train.jpg",
+     "credit": "Railway engraving, 1851 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1849",
+        "style": "red",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "dividends paid out of capital",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/08_railway_mania/pixabay_262334.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

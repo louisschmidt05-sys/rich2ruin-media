@@ -6,7 +6,7 @@
    "title": "Tulip mania (1637)",
    "format": "THE CRASH",
    "style": "archive",
-   "status": "scheduled",
+   "status": "published",
    "date": "2026-10-30"
   },
   {
@@ -14,95 +14,95 @@
    "title": "Charles Ponzi (1920)",
    "format": "THE SCAM",
    "style": "archive",
-   "status": "scheduled",
+   "status": "published",
    "date": "2026-11-02"
   },
   {
-   "id": "03b_crash_1929_archive",
+   "id": "03d_crash_1929_v3",
    "title": "Wall Street crash (1929)",
    "format": "THE CRASH",
-   "style": "archive",
+   "style": "v3",
    "status": "scheduled",
    "date": "2026-11-04"
   },
   {
-   "id": "05_madoff",
+   "id": "05b_madoff_v3",
    "title": "Bernie Madoff (2008)",
    "format": "THE SCAM",
-   "style": "graphic",
+   "style": "v3",
    "status": "scheduled",
    "date": "2026-11-06"
   },
   {
-   "id": "02b_south_sea_archive",
+   "id": "02c_south_sea_v3",
    "title": "South Sea Bubble (1720)",
    "format": "THE CRASH",
-   "style": "archive",
+   "style": "v3",
    "status": "scheduled",
    "date": "2026-11-09"
   },
   {
-   "id": "07_barings",
+   "id": "07b_barings_v3",
    "title": "Barings Bank (1995)",
    "format": "RICH TO RUIN",
-   "style": "graphic",
+   "style": "v3",
    "status": "scheduled",
    "date": "2026-11-11"
   },
   {
-   "id": "06b_john_law_archive",
+   "id": "06c_john_law_v3",
    "title": "John Law & the Mississippi Company (1720)",
    "format": "RICH TO RUIN",
-   "style": "archive",
+   "style": "v3",
    "status": "scheduled",
    "date": "2026-11-13"
   },
   {
    "title": "Railway Mania in Britain (1840s)",
    "format": "THE CRASH",
-   "style": "archive",
+   "style": "v3",
    "status": "scheduled",
-   "id": "08_railway_mania",
+   "id": "08b_railway_mania_v3",
    "date": "2026-11-16"
   },
   {
    "title": "Enron collapse (2001)",
    "format": "THE SCAM",
-   "style": "graphic",
+   "style": "v3",
    "status": "scheduled",
-   "id": "09_enron",
+   "id": "09b_enron_v3",
    "date": "2026-11-18"
   },
   {
    "title": "William Duer and the Panic of 1792",
    "format": "RICH TO RUIN",
-   "style": "archive",
+   "style": "v3",
    "status": "scheduled",
-   "id": "10_william_duer",
+   "id": "10b_william_duer_v3",
    "date": "2026-11-20"
   },
   {
    "title": "Black Monday (19 October 1987)",
    "format": "THE CRASH",
-   "style": "graphic",
+   "style": "v3",
    "status": "scheduled",
-   "id": "12_black_monday",
+   "id": "12b_black_monday_v3",
    "date": "2026-11-23"
   },
   {
    "title": "The Panama Canal scandal (France, 1889-1892)",
    "format": "THE SCAM",
-   "style": "archive",
+   "style": "v3",
    "status": "scheduled",
-   "id": "11_panama_scandal",
+   "id": "11b_panama_v3",
    "date": "2026-11-25"
   },
   {
    "title": "Lehman Brothers bankruptcy (2008)",
    "format": "RICH TO RUIN",
-   "style": "graphic",
+   "style": "v3",
    "status": "scheduled",
-   "id": "13_lehman_brothers",
+   "id": "13b_lehman_v3",
    "date": "2026-11-27"
   },
   {

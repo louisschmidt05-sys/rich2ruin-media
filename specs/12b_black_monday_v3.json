@@ -1,0 +1,390 @@
+{
+ "id": "12b_black_monday_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "In one day, Wall Street lost over 500 billion dollars.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "$500 BILLION",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "IN ONE DAY",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_308078.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "August 1987. The Dow hits a record: 2,722.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_5372.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AUGUST 25, 1987",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "2,722",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "DOW JONES · ALL-TIME HIGH",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_106087.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "say": "August 1987. The Dow hits a record: twenty-seven twenty-two."
+  },
+  {
+   "text": "Up as much as 43 percent that year.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_3742.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1987, AT THE PEAK",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "+43%",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "A BULL MARKET SINCE 1982",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_124287.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Then comes Monday, October 19th.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_307616.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "MONDAY",
+        "style": "red",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "October 19, 1987",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Selling triggers computer models that sell even more.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_5438.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SELL",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "SELL MORE",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "A record 604 million shares change hands.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_308078.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SHARES TRADED",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "604M",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "3× A NORMAL DAY",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "The Dow closes down 508 points: minus 22.6 percent.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_5372.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "DOW JONES · ONE DAY",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "−22.6%",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "−508 POINTS",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_106087.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "big": true,
+   "big_at": 0.6,
+   "big_sfx": "crash",
+   "drop": true,
+   "say": "The Dow closes down five hundred and eight points: minus twenty-two point six percent."
+  },
+  {
+   "text": "Next day, the Fed promises cash to keep the system running.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/12_black_monday/pixabay_3742.mp4",
+     "items": [
+      {
+       "text": "OCTOBER 20, 1987",
+       "style": "yellow",
+       "y": 640,
+       "at": 0.1,
+       "size": 46
+      },
+      {
+       "text": "FED READY TO SUPPLY",
+       "style": "white",
+       "y": 790,
+       "at": 0.35,
+       "size": 64
+      },
+      {
+       "text": "LIQUIDITY",
+       "style": "white",
+       "y": 915,
+       "at": 0.6499999999999999,
+       "size": 64
+      }
+     ]
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_124287.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "The twist? In two days, the Dow wins back 57 percent of the loss.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_307616.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "WON BACK IN 2 DAYS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "57%",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "OF THE BLACK MONDAY LOSS",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_5438.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "twist": true
+  },
+  {
+   "text": "But beating the old record takes almost two years.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1989",
+        "style": "yellow",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "August 24 · a new record, at last",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/12_black_monday/pixabay_308078.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

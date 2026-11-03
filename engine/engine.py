@@ -717,6 +717,8 @@ def sticker(img, text, x, y, style="yellow", pop=1.0, size=58):
     if pop <= 0:
         return
     d = ImageDraw.Draw(img)
+    while size > 30 and d.textlength(text, font=font(F_BLACK, size)) > W - 150:
+        size -= 3
     f = font(F_BLACK, size * (0.85 + 0.15 * pop))
     tw = d.textlength(text, font=f)
     padx, pady = 26, 16

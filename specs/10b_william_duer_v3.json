@@ -1,0 +1,380 @@
+{
+ "id": "10b_william_duer_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "America's first financial panic? Blame a former Treasury man.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/10_william_duer/Columbian_Magazine,_View_of_the_Federal_Edifice_in_New_York,_1789.jpg",
+     "credit": "Federal Hall, Wall Street, Columbian Magazine, 1789 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AMERICA'S",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "FIRST PANIC",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_325497.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "William Duer. Hamilton's first Assistant Secretary of the Treasury.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_107240.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "WILLIAM DUER",
+        "style": "white",
+        "y": 800,
+        "at": 0.2,
+        "size": 76
+       },
+       {
+        "text": "UNDER ALEXANDER HAMILTON",
+        "style": "yellow",
+        "y": 930,
+        "at": 0.6,
+        "size": 50
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_41146.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "He bets on government debt and bank stocks.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_113483.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "DEBT.",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "BANK STOCKS.",
+        "style": "white",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_12564.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "With banker Alexander Macomb, he piles up loans.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/10_william_duer/Tontine_coffee_house.jpg",
+     "credit": "Francis Guy, Wall Street & the Tontine Coffee House, c. 1797 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "+ MACOMB",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "= LOANS",
+        "style": "white",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_325497.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ]
+  },
+  {
+   "text": "March 9th, 1792: Duer stops paying.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_107240.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1792",
+        "style": "red",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "March 9 · Duer stops paying",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Securities fall over twenty percent in weeks.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_41146.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "IN A FEW WEEKS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "−20%+",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "US SECURITIES",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Hamilton buys 100,000 dollars of securities to calm the market.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/10_william_duer/Google_Arts_Project_-_Alexander_Hamilton_(1792_portrait)_by_John_Trumbull.jpg",
+     "credit": "John Trumbull, Alexander Hamilton, 1792 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "TREASURY STEPS IN",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "$100,000",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_113483.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "say": "Hamilton buys a hundred thousand dollars of securities to calm the market."
+  },
+  {
+   "text": "Estimated losses: three million dollars.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_12564.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ESTIMATED LOSSES",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "$3M",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Two months later, 24 brokers sign the Buttonwood Agreement: the birth of the New York Stock Exchange.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/10_william_duer/Tontine_Coffee_House_1792.jpg",
+     "credit": "Tontine Coffee-House subscription receipt, May 1792 · public domain",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "24 BROKERS",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "MAY 17, 1792",
+        "style": "white",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_325497.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true
+  },
+  {
+   "text": "Duer dies in debtors' prison in 1799.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/10_william_duer/pixabay_107240.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true,
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1799",
+        "style": "yellow",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "still in debtors' prison",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

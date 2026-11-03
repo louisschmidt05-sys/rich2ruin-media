@@ -1,0 +1,366 @@
+{
+ "id": "07b_barings_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "A bank that survived 233 years, destroyed by one trader.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_198477.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "233 YEARS",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "1 TRADER",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_313454.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Barings. Founded in London in 1762.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_338956.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1762",
+        "style": "yellow",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "Barings Bank · London",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "In Singapore, Nick Leeson bets the bank's money on Japanese stock futures.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NICK LEESON",
+        "style": "white",
+        "y": 800,
+        "at": 0.2,
+        "size": 76
+       },
+       {
+        "text": "NIKKEI 225 FUTURES",
+        "style": "yellow",
+        "y": 930,
+        "at": 0.6,
+        "size": 50
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_256109.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "He hides his losses in a secret account: 88888.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_287386.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ACCOUNT",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "88888",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_208082.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "say": "He hides his losses in a secret account: eight, eight, eight, eight, eight."
+  },
+  {
+   "text": "Then, an earthquake hits Kobe, and Japan's markets.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_13477.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "KOBE",
+        "style": "red",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "January 1995 · earthquake",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_164394.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "He bets on a rebound. It never comes.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/07_barings/pixabay_198477.mp4",
+     "points": [
+      62,
+      55,
+      60,
+      38,
+      22
+     ],
+     "show_from": 0,
+     "show_to": 4,
+     "red_from": 2,
+     "illustrative": true,
+     "labels": {},
+     "items": [
+      {
+       "text": "THE NIKKEI BET",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 50
+      },
+      {
+       "text": "NO REBOUND",
+       "style": "red",
+       "y": 1080,
+       "at": 1.4,
+       "size": 80
+      }
+     ]
+    },
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_313454.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "big": true,
+   "big_at": 1.0,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Total losses: 827 million pounds.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_338956.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "TOTAL LOSSES",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "£827M",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "ABOUT $1.3 BILLION",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "February 26th, 1995: Barings is declared insolvent.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/07_barings/pixabay_204306.mp4",
+     "items": [
+      {
+       "text": "FEBRUARY 26, 1995",
+       "style": "yellow",
+       "y": 640,
+       "at": 0.1,
+       "size": 46
+      },
+      {
+       "text": "BARINGS COLLAPSES",
+       "style": "white",
+       "y": 790,
+       "at": 0.35,
+       "size": 64
+      },
+      {
+       "text": "AFTER 233 YEARS",
+       "style": "white",
+       "y": 915,
+       "at": 0.6499999999999999,
+       "size": 64
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It's sold for one pound.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_256109.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SALE PRICE",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "£1",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "BOUGHT BY DUTCH BANK ING",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    }
+   ],
+   "twist": true
+  },
+  {
+   "text": "Leeson gets six and a half years in a Singapore prison.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_287386.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE SENTENCE",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "6.5 YEARS",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/07_barings/pixabay_208082.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

@@ -1,0 +1,357 @@
+{
+ "id": "09b_enron_v3",
+ "style": "v3",
+ "format": "THE SCAM",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Ninety dollars a share. Fifteen months later: sixty-one cents.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_10749.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "$90.75",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "$0.61",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_176918.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Enron. A Houston energy giant.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_214888.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ENRON",
+        "style": "yellow",
+        "y": 800,
+        "at": 0.1,
+        "size": 100
+       },
+       {
+        "text": "Houston, Texas · energy giant",
+        "style": "white",
+        "y": 940,
+        "at": 0.5,
+        "size": 50
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Fortune called it America's most innovative large company.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_45985.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AMERICA'S MOST",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "INNOVATIVE",
+        "style": "yellow",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_349087.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Its trick: book the profits of future deals, today.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_87146.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "MARK-TO-MARKET",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Losses were parked in side companies set up by its finance chief, Andrew Fastow.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_50352.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ANDREW FASTOW",
+        "style": "white",
+        "y": 800,
+        "at": 0.2,
+        "size": 76
+       },
+       {
+        "text": "LJM · RAPTORS",
+        "style": "yellow",
+        "y": 930,
+        "at": 0.6,
+        "size": 50
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_10749.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "August 2000: the stock hits ninety dollars seventy-five.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_176918.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AUGUST 2000",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "$90.75",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "ALL-TIME HIGH",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_214888.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "November 28th, 2001: sixty-one cents.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/09_enron/pixabay_45985.mp4",
+     "points": [
+      90.75,
+      83.13,
+      0.61
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 1,
+     "illustrative": false,
+     "labels": {
+      "0": "$90.75",
+      "2": "$0.61"
+     },
+     "items": [
+      {
+       "text": "ENRON SHARE PRICE",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 50
+      }
+     ]
+    }
+   ],
+   "big": true,
+   "big_at": 0.5,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "Days later, Enron files for bankruptcy. The largest in US history at the time.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/09_enron/pixabay_349087.mp4",
+     "items": [
+      {
+       "text": "DECEMBER 2, 2001",
+       "style": "yellow",
+       "y": 640,
+       "at": 0.1,
+       "size": 46
+      },
+      {
+       "text": "ENRON FILES FOR",
+       "style": "white",
+       "y": 790,
+       "at": 0.35,
+       "size": 64
+      },
+      {
+       "text": "BANKRUPTCY",
+       "style": "white",
+       "y": 915,
+       "at": 0.6499999999999999,
+       "size": 64
+      }
+     ]
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_87146.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ]
+  },
+  {
+   "text": "Its auditor, Arthur Andersen, had shredded Enron documents. The firm never recovered.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ARTHUR ANDERSEN",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70
+       },
+       {
+        "text": "SHREDDED",
+        "style": "red",
+        "y": 895,
+        "at": 0.4,
+        "size": 70
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_50352.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "twist": true
+  },
+  {
+   "text": "CEO Jeffrey Skilling: twenty-four years in prison.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/09_enron/pixabay_10749.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JEFFREY SKILLING",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50
+       },
+       {
+        "text": "24 YEARS",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 104
+       },
+       {
+        "text": "LATER CUT BY 10 YEARS",
+        "style": "white",
+        "y": 1030,
+        "at": 0.9,
+        "size": 40
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
