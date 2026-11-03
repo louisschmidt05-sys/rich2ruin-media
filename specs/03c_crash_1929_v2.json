@@ -1,0 +1,399 @@
+{
+ "id": "03c_crash_1929_v2",
+ "format": "THE CRASH",
+ "lead_in": 0.08,
+ "speed": 1.12,
+ "headline": "THE 1929 CRASH\n-89% IN 3 YEARS",
+ "lines": [
+  {
+   "text": "October 29th, 1929. The day Wall Street broke.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_721.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "text",
+      "lines": [
+       [
+        "OCT 29, 1929",
+        "gold"
+       ]
+      ],
+      "size": 130,
+      "y": 1150
+     }
+    },
+    {
+     "type": "photo",
+     "img": "images/03_crash_1929/Crowds_gathering_outside_New_York_Stock_Exchange_(3).jpg",
+     "mode": "fit",
+     "y": 760,
+     "from": [
+      0.5,
+      0.5,
+      1.0
+     ],
+     "to": [
+      0.5,
+      0.5,
+      1.12
+     ],
+     "credit": "Crowd outside the NYSE, 1929 · public domain",
+     "dim": 0.1
+    }
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ],
+    [
+     "whoosh",
+     1.6
+    ]
+   ]
+  },
+  {
+   "text": "Eight weeks earlier, the Dow had hit a record: 381.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_63.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "stat",
+      "label": "DOW JONES · SEP 3, 1929",
+      "label_y": 1090,
+      "value": 381.17,
+      "y": 1200,
+      "dec": 2,
+      "end_sfx": "cash"
+     }
+    }
+   ]
+  },
+  {
+   "text": "Then, October 24th. Black Thursday.",
+   "shots": [
+    {
+     "type": "photo",
+     "img": "images/03_crash_1929/Crowd_outside_nyse.jpg",
+     "mode": "fit",
+     "y": 760,
+     "from": [
+      0.5,
+      0.5,
+      1.0
+     ],
+     "to": [
+      0.5,
+      0.5,
+      1.12
+     ],
+     "credit": "Crowd outside the NYSE, 1929 · public domain",
+     "dim": 0.1,
+     "overlay": {
+      "type": "text",
+      "lines": [
+       [
+        "BLACK THURSDAY",
+        "red"
+       ]
+      ],
+      "size": 110,
+      "y": 1150
+     }
+    },
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_42.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Panic. 12.9 million shares change hands.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_630.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "stat",
+      "label": "SHARES TRADED · OCT 24",
+      "label_y": 1090,
+      "value": 12.9,
+      "y": 1200,
+      "dec": 1,
+      "suffix": "M",
+      "color": "cream",
+      "end_sfx": "slam"
+     }
+    },
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_672.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    }
+   ]
+  },
+  {
+   "text": "Monday: minus 12.8 percent.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_686.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "stat",
+      "label": "BLACK MONDAY · OCT 28",
+      "label_y": 1090,
+      "value": -12.82,
+      "y": 1200,
+      "dec": 2,
+      "suffix": "%",
+      "color": "red",
+      "end_sfx": "slam"
+     },
+     "bw": true
+    }
+   ]
+  },
+  {
+   "text": "Tuesday: minus 11.7. Over 16 million shares traded in a single day.",
+   "shots": [
+    {
+     "type": "photo",
+     "img": "images/03_crash_1929/19291030_Crash_of_'29_-_New_York_Times.jpg",
+     "mode": "cover",
+     "y": 760,
+     "from": [
+      0.4,
+      0.25,
+      1.6
+     ],
+     "to": [
+      0.38,
+      0.32,
+      1.9
+     ],
+     "credit": "The New York Times, October 30, 1929 · public domain",
+     "dim": 0.45,
+     "overlay": {
+      "type": "stat",
+      "label": "BLACK TUESDAY · OCT 29",
+      "label_y": 1090,
+      "value": -11.73,
+      "y": 1200,
+      "dec": 2,
+      "suffix": "%",
+      "color": "red"
+     },
+     "bw": true
+    },
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_35.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "text",
+      "lines": [
+       [
+        "16.4M SHARES",
+        "cream"
+       ]
+      ],
+      "size": 120,
+      "y": 1150
+     },
+     "bw": true,
+     "flash": 0.15
+    }
+   ],
+   "big": true,
+   "big_at": 2.6,
+   "big_sfx": "crash",
+   "drop": true
+  },
+  {
+   "text": "July 1932: the Dow sits at 41. Minus 89 percent.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/ValleyTo1940_1209.mp4",
+     "credit": "Valley Town (1940) · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "stat",
+      "label": "JULY 8, 1932",
+      "label_y": 1090,
+      "value": 41.22,
+      "y": 1200,
+      "from": 381.17,
+      "dec": 2,
+      "color": "red",
+      "end_sfx": "slam"
+     }
+    },
+    {
+     "type": "photo",
+     "img": "images/03_crash_1929/White_Angel_Breadline,_San_Francisco,_1932,_by_Dorothea_Lange,_3.jpg",
+     "mode": "cover",
+     "y": 760,
+     "from": [
+      0.5,
+      0.35,
+      1.0
+     ],
+     "to": [
+      0.5,
+      0.4,
+      1.12
+     ],
+     "credit": "Dorothea Lange, White Angel Breadline, 1932 · public domain",
+     "dim": 0.3,
+     "overlay": {
+      "type": "text",
+      "lines": [
+       [
+        "-89%",
+        "red"
+       ]
+      ],
+      "size": 240,
+      "y": 1150
+     }
+    }
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "slam",
+     2.2
+    ]
+   ]
+  },
+  {
+   "text": "The Great Depression sets in.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/ValleyTo1940_832.mp4",
+     "credit": "Valley Town (1940) · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "text",
+      "lines": [
+       [
+        "GREAT DEPRESSION",
+        "gold"
+       ]
+      ],
+      "size": 100,
+      "y": 1150
+     }
+    },
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/ValleyTo1940_1274.mp4",
+     "credit": "Valley Town (1940) · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    },
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/ValleyTo1940_1053.mp4",
+     "credit": "Valley Town (1940) · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ]
+    }
+   ]
+  },
+  {
+   "text": "It took until 1954, twenty-five years, to get back to the top.",
+   "shots": [
+    {
+     "type": "clip",
+     "clip": "images/03_crash_1929/big_board_56.mp4",
+     "credit": "The Big Board, NYSE film · Prelinger Archives, public domain",
+     "y": 760,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "overlay": {
+      "type": "text",
+      "lines": [
+       [
+        "25 YEARS",
+        "gold"
+       ]
+      ],
+      "size": 170,
+      "y": 1150
+     }
+    }
+   ],
+   "twist": true
+  },
+  {
+   "text": "Follow for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

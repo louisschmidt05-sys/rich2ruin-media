@@ -598,11 +598,103 @@ def sc_photo(img, d, lt, ld, p, ctx):
             NO_DUST[0] = False
 
 
-SCENES = {"photo": sc_photo, "year": sc_year, "text": sc_text, "stat": sc_stat, "compare": sc_compare, "icons": sc_icons,
+# ---------- archive film scene ----------
+class _ClipReader:
+    def __init__(self, path):
+        self.path = path
+        pr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                             "stream=width,height", "-of", "csv=p=0", path], capture_output=True, text=True).stdout
+        self.w, self.h = (int(x) for x in pr.strip().split(",")[:2])
+        self.proc, self.next, self.last = None, None, None
+
+    def _start(self, k):
+        if self.proc:
+            self.proc.kill()
+        self.proc = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-ss", f"{k / FPS:.3f}", "-i", self.path,
+                                      "-vf", f"fps={FPS}", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                                     stdout=subprocess.PIPE)
+        self.next = k
+
+    def get(self, k):
+        if self.last is not None and self.last[0] == k:
+            return self.last[1]
+        if self.proc is None or k < self.next or k > self.next + 90:
+            self._start(k)
+        n = self.w * self.h * 3
+        im = self.last[1] if self.last else None
+        while self.next <= k:
+            buf = self.proc.stdout.read(n)
+            if len(buf) < n:  # end of clip: hold last frame
+                self.next = k + 1
+                break
+            im = Image.frombuffer("RGB", (self.w, self.h), buf, "raw", "RGB", 0, 1)
+            self.next += 1
+        if im is None:
+            im = Image.new("RGB", (self.w, self.h), BG)
+        self.last = (k, im)
+        return im
+
+
+_readers = {}
+
+
+def sc_clip(img, d, lt, ld, p, ctx):
+    """Archive film. p: clip (path in repo), offset (s into clip), speed, zoom [from,to], y, bw, dim, credit, overlay"""
+    key = (p["clip"], ctx.get("shot_key"))
+    if key not in _readers:
+        _readers[key] = _ClipReader(os.path.join(MEDIA, p["clip"]))
+    rd = _readers[key]
+    k = int(round((p.get("offset", 0) + lt * p.get("speed", 1.0)) * FPS))
+    fr = rd.get(max(0, k))
+    z0, z1 = p.get("zoom", [1.0, 1.12])
+    z = lerp(z0, z1, clamp(lt / max(ld, 0.1)))
+    # background: same frame, cover-scaled, very blurred (cheap: down then up) and darkened
+    bg = fr.resize((27, 48), Image.BILINEAR).resize((W, H), Image.BILINEAR)
+    frame = Image.blend(bg, Image.new("RGB", (W, H), (0, 0, 0)), 0.45)
+    fw = W * p.get("width", 1.0) * z
+    fh = fw * fr.height / fr.width
+    if fh > H * 0.62:  # tall clip: limit height
+        fh = H * 0.62
+        fw = fh * fr.width / fr.height
+    fg = fr.resize((int(fw), int(fh)), Image.BILINEAR)
+    cx = p.get("cx", 0.5)
+    x = int(W / 2 - fw * cx)
+    y = int(p.get("y", 760) - fh / 2)
+    frame.paste(fg, (x, y))
+    if p.get("bw"):
+        frame = frame.convert("L").convert("RGB")
+    dim = p.get("dim", 0.1)
+    if dim:
+        frame = Image.blend(frame, Image.new("RGB", (W, H), (0, 0, 0)), dim)
+    fl = p.get("flash")
+    if fl is not None:
+        a = max(0.0, 1 - abs(lt - fl) / 0.3)
+        if a > 0:
+            frame = Image.blend(frame, Image.new("RGB", (W, H), (140, 10, 25)), a * 0.55)
+    fi = ease(prog(lt, 0, 0.12)) if p.get("fade_in", False) else 1
+    if fi < 1:
+        frame = Image.blend(Image.new("RGB", (W, H), BG), frame, fi)
+    fr2 = frame.convert("RGBA")
+    fr2.alpha_composite(SHADE)
+    img.paste(fr2.convert("RGB"))
+    d = ImageDraw.Draw(img)
+    if p.get("credit"):
+        d.text((W / 2, 1500), p["credit"], font=font(F_BOLD, 22), fill=(185, 175, 165), anchor="mm",
+               stroke_width=3, stroke_fill=(0, 0, 0))
+    ov = p.get("overlay")
+    if ov:
+        NO_DUST[0] = True
+        try:
+            SCENES[ov["type"]](img, d, lt, ld, ov, ctx)
+        finally:
+            NO_DUST[0] = False
+
+
+SCENES = {"clip": sc_clip, "photo": sc_photo, "year": sc_year, "text": sc_text, "stat": sc_stat, "compare": sc_compare, "icons": sc_icons,
           "chart": sc_chart, "myth": sc_myth, "name": sc_name, "news": sc_news, "outro": sc_outro}
 
 # default sound per scene type (played at scene start + offset)
-AUTO_SFX = {"photo": [("whoosh", 0.0)], "year": [("slam", 0.05)], "text": [("whoosh", 0.0)], "stat": [("whoosh", 0.0)],
+AUTO_SFX = {"clip": [("whoosh", 0.0)], "photo": [("whoosh", 0.0)], "year": [("slam", 0.05)], "text": [("whoosh", 0.0)], "stat": [("whoosh", 0.0)],
             "compare": [("whoosh", 0.0)], "icons": [("whoosh", 0.0)], "chart": [("whoosh", 0.0)],
             "myth": [("whoosh", 0.0), ("paper", 1.0)], "name": [("whoosh_down", 0.0), ("impact", 0.3)],
             "news": [("paper", 0.0), ("impact", 0.3)], "outro": [("whoosh", 0.0), ("ding", 0.9)]}
@@ -627,10 +719,11 @@ class Reel:
         k = Kokoro(MODEL, VOICES)
         sr_ = 24000
         gap = np.zeros(int(0.2 * sr_), np.float32)
-        out = [np.zeros(int(0.3 * sr_), np.float32)]
-        t, timing = 0.3, []
+        lead = self.spec.get("lead_in", 0.3)
+        out = [np.zeros(int(lead * sr_), np.float32)]
+        t, timing = lead, []
         for i, ln in enumerate(self.spec["lines"]):
-            a, sr = k.create(ln["say"] if "say" in ln else ln["text"], voice=VOICE, speed=SPEED, lang="en-gb")
+            a, sr = k.create(ln["say"] if "say" in ln else ln["text"], voice=VOICE, speed=self.spec.get("speed", SPEED), lang="en-gb")
             a = np.asarray(a, np.float32)
             idx = np.where(np.abs(a) > 0.01)[0]
             a = a[max(idx[0] - 600, 0): idx[-1] + 1200]
@@ -708,13 +801,46 @@ class Reel:
 
     def chrome(self, d, t):
         d.text((W / 2, 140), "RICH  2  RUIN", font=font(F_BOLD, 30), fill=mix(BG, CREAM, 0.55), anchor="mm")
-        fmt = self.spec.get("format")
+        fmt = self.spec.get("format") if not self.spec.get("headline") else None
         if fmt:
             col = FORMAT_COL.get(fmt, GOLD)
             fb = font(F_BOLD, 24)
             w = d.textlength(fmt, font=fb) + 36
             d.rounded_rectangle([W / 2 - w / 2, 172, W / 2 + w / 2, 210], radius=19, outline=mix(BG, col, 0.8), width=2)
             d.text((W / 2, 191), fmt, font=fb, fill=mix(BG, col, 0.9), anchor="mm")
+
+    def shot_at(self, i, a, b, t):
+        """Scene for line i at time t; a line may hold several 'shots' cut evenly over its window."""
+        ln = self.spec["lines"][i]
+        shots = ln.get("shots")
+        if not shots:
+            return ln["scene"], t - a, self.timing["lines"][i]["end"] - a, (i, 0)
+        n = len(shots)
+        seg = (b - a) / n
+        j = min(n - 1, int((t - a) / seg))
+        return shots[j], t - a - j * seg, seg, (i, j)
+
+    def headline(self, img, t):
+        hl = self.spec.get("headline")
+        if not hl or t >= self.windows()[-1][0]:
+            return
+        d = ImageDraw.Draw(img)
+        lines = hl.split("\n")
+        f = font(F_BLACK, 66)
+        while max(d.textlength(x, font=f) for x in lines) > W - 160 and f.size > 36:
+            f = font(F_BLACK, f.size - 4)
+        pop = ease(prog(t, 0, 0.18))
+        y0 = 245
+        for k, ln in enumerate(lines):
+            w = d.textlength(ln, font=f)
+            yy = y0 + k * (f.size + 22)
+            pad = 22
+            col = RED if k == 0 else (245, 240, 230)
+            tcol = CREAM if k == 0 else (14, 13, 16)
+            box = [W / 2 - w / 2 - pad, yy - f.size / 2 - 12, W / 2 + w / 2 + pad, yy + f.size / 2 + 14]
+            box = [box[0] + (1 - pop) * 40, box[1], box[2] + (1 - pop) * 40, box[3]]
+            d.rounded_rectangle(box, radius=14, fill=col)
+            d.text((W / 2 + (1 - pop) * 40, yy), ln, font=f, fill=tcol, anchor="mm")
 
     def frame(self, t, wins=None):
         wins = wins or self.windows()
@@ -723,15 +849,15 @@ class Reel:
         for i, (a, b) in enumerate(wins):
             if a <= t < b or (i == len(wins) - 1 and t >= a):
                 ln = self.spec["lines"][i]
-                sc = ln["scene"]
-                ld = self.timing["lines"][i]["end"] - a
-                SCENES[sc["type"]](img, d, t - a, ld, sc, {"t": t, "i": i})
+                sc, lt, ld, key = self.shot_at(i, a, b, t)
+                SCENES[sc["type"]](img, d, lt, ld, sc, {"t": t, "i": i, "shot_key": key})
                 break
         img = img.convert("RGBA")
         img.alpha_composite(VIG)
         img = img.convert("RGB")
         d = ImageDraw.Draw(img)
         self.chrome(d, t)
+        self.headline(img, t)
         self.caption(img, t)
         return img
 
@@ -753,13 +879,21 @@ class Reel:
                 fx[i:j] += s[: j - i]
 
         for i, ln in enumerate(self.spec["lines"]):
-            a, _ = wins[i]
-            sc = ln["scene"]
+            a, b_ = wins[i]
+            shots = ln.get("shots") or [ln["scene"]]
+            sc = shots[0]
             events = ln.get("sfx")
             if events is None:
                 events = AUTO_SFX.get(sc["type"], [])
+                seg = (b_ - a) / len(shots)
+                events = list(events) + [("whoosh", j * seg) for j in range(1, len(shots))]
             for name, off in events:
                 put(name, a + off)
+            # a stat counter may live in the scene itself or in its overlay
+            for cand in (sc, sc.get("overlay") or {}):
+                if cand.get("type") == "stat":
+                    sc = cand
+                    break
             if ln.get("big"):
                 at = a + ln.get("big_at", 0.0)
                 put("riser", max(0, at - 1.3))
