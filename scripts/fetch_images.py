@@ -29,7 +29,75 @@ spec = json.load(open("images.json"))
 credits = json.load(open("credits.json")) if os.path.exists("credits.json") else {}
 ok, skipped = 0, []
 
+def archive_source(identifier):
+    """Best MP4 download URL of an Internet Archive item (trusted collections only)."""
+    m = requests.get(f"https://archive.org/metadata/{identifier}", headers=UA, timeout=60).json()
+    cols = m.get("metadata", {}).get("collection", [])
+    cols = [cols] if isinstance(cols, str) else cols
+    if not set(cols) & {"prelinger", "fedflix", "usnationalarchives"}:
+        raise ValueError(f"collection not trusted: {cols}")
+    lic = m.get("metadata", {}).get("licenseurl", "")
+    files = [f for f in m.get("files", []) if f.get("name", "").lower().endswith((".mp4", ".mpeg", ".mpg", ".ogv"))]
+    if not files:
+        raise ValueError("no video file")
+    pref = sorted(files, key=lambda f: (0 if "h.264" in f.get("format", "").lower() else 1 if "mpeg4" in f.get("format", "").lower() else 2,
+                                        int(f.get("size", 1 << 40))))
+    f = pref[0]
+    title = m.get("metadata", {}).get("title", identifier)
+    year = m.get("metadata", {}).get("year") or m.get("metadata", {}).get("date", "")[:4]
+    return f"https://archive.org/download/{identifier}/{f['name']}", lic, title, year
+
+
+def download(url, path):
+    with requests.get(url, headers=UA, timeout=600, stream=True) as v:
+        v.raise_for_status()
+        with open(path, "wb") as fh:
+            for chunk in v.iter_content(1 << 20):
+                fh.write(chunk)
+
+
+def preview_sheet(src, out):
+    """Contact sheet: one thumbnail every N seconds, 6 per row, row-major, to pick clip start times."""
+    dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src],
+                               capture_output=True, text=True).stdout.strip() or 0)
+    step = max(5, int(dur / 120) + 1)
+    rows = max(1, -(-int(dur / step) // 6))
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-vf",
+                    f"fps=1/{step},scale=240:-2,tile=6x{rows}", "-frames:v", "1", "-q:v", "4", out], check=True)
+    return step, round(dur)
+
+
 for item in spec["images"]:
+  if item.get("source") == "archive":
+    try:
+        ident = item["file"]
+        url, lic, title, year = archive_source(ident)
+        tmp = "/tmp/ia_src"
+        if item.get("preview"):
+            os.makedirs("previews", exist_ok=True)
+            out = f"previews/{ident}.jpg"
+            if not os.path.exists(out):
+                download(url, tmp)
+                step, dur = preview_sheet(tmp, out)
+                open(f"previews/{ident}.txt", "w").write(f"step={step}s duration={dur}s cols=6 title={title} year={year}\n")
+        else:
+            out_dir = os.path.join("images", item["reel"])
+            os.makedirs(out_dir, exist_ok=True)
+            out = os.path.join(out_dir, f"{ident}_{int(item.get('start', 0))}.mp4")
+            if not os.path.exists(out):
+                download(url, tmp)
+                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(item.get("start", 0)), "-i", tmp,
+                                "-t", str(item.get("dur", 8)), "-an", "-vf", "scale=-2:'min(720,ih)',fps=30",
+                                "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", out], check=True)
+            credits[f'{item["reel"]}/{os.path.basename(out)}'] = {
+                "path": out, "licence": lic or "Public domain (Prelinger/US gov archive)", "author": title,
+                "year": year, "source": f"https://archive.org/details/{ident}", "use": item.get("use", "")}
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        ok += 1
+    except Exception as e:
+        skipped.append((item["file"], f"error: {type(e).__name__}: {e}"[:300]))
+    continue
   try:
     name = item["file"]
     key = f'{item["reel"]}/{name}'

@@ -13,8 +13,8 @@ out = {"results": []}
 def search_archive(q):
     """Internet Archive (Prelinger and other collections): keep items whose licenseurl is public domain / CC0."""
     query = f'({q["q"]}) AND mediatype:movies AND (licenseurl:*publicdomain* OR licenseurl:*zero*)'
-    if q.get("collection"):
-        query += f' AND collection:{q["collection"]}'
+    # only collections whose public-domain status is curated (Prelinger, US government archives)
+    query += f' AND collection:({q.get("collection", "prelinger OR fedflix OR usnationalarchives")})'
     r = requests.get("https://archive.org/advancedsearch.php", headers=UA, timeout=60, params={
         "q": query, "fl[]": ["identifier", "title", "year", "licenseurl", "description", "collection"],
         "rows": q.get("max", 15), "output": "json", "sort[]": "downloads desc"})
