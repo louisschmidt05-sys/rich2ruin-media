@@ -18,6 +18,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: pip install requests
       - run: python scripts/fetch_images.py
       - name: Commit new images
@@ -27,4 +28,5 @@ jobs:
           git add credits.json fetch_log.txt
           if [ -d images ]; then git add images; fi
           git diff --cached --quiet || git commit -m "Fetch public-domain archive images"
+          git pull --rebase
           git push

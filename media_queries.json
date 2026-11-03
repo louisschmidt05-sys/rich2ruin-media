@@ -1,0 +1,13 @@
+{
+ "queries": [
+  {"reel": "03_crash_1929", "q": "Wall Street 1929", "type": "video", "max": 20},
+  {"reel": "03_crash_1929", "q": "stock exchange crowd", "type": "video", "max": 20},
+  {"reel": "03_crash_1929", "q": "Great Depression", "type": "video", "max": 20},
+  {"reel": "03_crash_1929", "q": "New York 1920s street", "type": "video", "max": 20},
+  {"reel": "03_crash_1929", "q": "newsreel 1929", "type": "video", "max": 20},
+  {"reel": "03_crash_1929", "q": "breadline unemployed 1930", "type": "video", "max": 15},
+  {"reel": "03_crash_1929", "q": "ticker tape", "type": "video", "max": 15},
+  {"reel": "general", "q": "money printing banknotes", "type": "video", "max": 15},
+  {"reel": "general", "q": "gold coins", "type": "video", "max": 15}
+ ]
+}

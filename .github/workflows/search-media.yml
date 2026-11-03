@@ -1,0 +1,30 @@
+name: Search Commons media
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - media_queries.json
+      - scripts/search_media.py
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/search_media.py
+      - name: Commit results
+        run: |
+          git config user.name "rich2ruin-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media_search.json
+          git diff --cached --quiet || git commit -m "Commons media search results"
+          git pull --rebase
+          git push
