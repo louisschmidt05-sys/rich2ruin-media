@@ -35,7 +35,7 @@ reference TikToks (Le Média Finance, Bahouais, 1 Date 1 Histoire) set the look.
 
 ### Upgrade already-scheduled v1 reels
 At the start of each run, list Metricool posts scheduled in the next 9 days. Any whose spec has no `"style": "v3"`
-is old: rebuild it in v2 (same facts, same date), push the new mp4 and `updateScheduledPost` (keep date, captions
+is old: rebuild it in v3 (same facts, same date), push the new mp4 and `updateScheduledPost` (keep date, captions
 may be improved, keep AI labels). Upgrades count toward the 3 reels of the run; upgrades come first.
 
 ## 0. Setup (every fresh session)
