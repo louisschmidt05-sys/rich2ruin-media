@@ -3,6 +3,36 @@
 Read this file and `EDITORIAL.md` fully before doing anything. The owner asked for full autonomy:
 produce and schedule without asking for approval. Stop and report only on the blockers listed at the end.
 
+
+## FORMAT V2 (mandatory since 2026-11-03) — read before step 1
+Data from the first reel: only 39.5% of Instagram viewers passed 3 s, average watch 10 s of 45 s.
+So every reel now follows the v2 format; the reference is `specs/03c_crash_1929_v2.json`
+(generator: `tools/make_v2_1929.py`).
+- `"headline"`: 2 short lines shown on screen the whole video (line 1 = topic, line 2 = the shocking number),
+  e.g. "THE 1929 CRASH\n-89% IN 3 YEARS". Readable without sound.
+- `"lead_in": 0.08`, `"speed": 1.12`. 9–10 lines, 35–42 s. Line 1 = the most dramatic moment, not the context.
+- Use `"shots"` (list of scenes) instead of `"scene"`: a new visual every ~2 s.
+- At least 70% of shots are moving footage (`clip`) or photos (`photo`) with an overlay (`text` or `stat`);
+  at most 2 graphic-only scenes (chart/stat on black) per reel.
+- Overlays sit at y≈1150 (text) / label_y 1090 + y 1200 (stat); clips/photos at y 760. Keep overlay text ≤ 2 lines.
+
+### Finding footage (no API key needed)
+1. Add queries to `media_queries.json` (`"source": "archive"` = Internet Archive, restricted to Prelinger /
+   US-government collections; without source = Wikimedia Commons). Push; the "Search Commons media" workflow
+   writes `media_search.json`. Ignore obviously irrelevant/fiction results.
+2. For each promising film add `{"reel", "source": "archive", "file": <identifier>, "preview": true}` to
+   `images.json`; the fetch workflow writes `previews/<id>.jpg` (6 thumbnails per row, every `step` s, see `.txt`).
+   WARNING: preview timestamps are approximate. After cutting clips (`"start"`, `"dur": 6`), make a contact sheet
+   of the cut clips (1 frame each) and LOOK at it; re-assign or drop wrong clips (credits, title cards, off-topic).
+3. Footage from another year is fine as atmosphere but never say or caption that it shows the event itself.
+   Every clip/photo shot carries a credit (film title + year + "Prelinger Archives, public domain").
+4. Modern stories (after ~1970): no free footage source yet → use photos + graphics, still with headline and fast shots.
+
+### Upgrade already-scheduled v1 reels
+At the start of each run, list Metricool posts scheduled in the next 9 days. Any whose spec has no `"headline"`
+is v1: rebuild it in v2 (same facts, same date), push the new mp4 and `updateScheduledPost` (keep date, captions
+may be improved, keep AI labels). Upgrades count toward the 3 reels of the run; upgrades come first.
+
 ## 0. Setup (every fresh session)
 ```bash
 bash scripts/setup.sh          # deps + Kokoro voice model into ~/.cache/rich2ruin
