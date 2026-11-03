@@ -690,11 +690,166 @@ def sc_clip(img, d, lt, ld, p, ctx):
             NO_DUST[0] = False
 
 
-SCENES = {"clip": sc_clip, "photo": sc_photo, "year": sc_year, "text": sc_text, "stat": sc_stat, "compare": sc_compare, "icons": sc_icons,
+# ---------- v3 look (references: full-bleed archives, sticker labels, dotted-grid diagrams) ----------
+YEL = (238, 230, 76)
+BLUE = (52, 84, 230)
+_rng_grain = np.random.default_rng(5)
+_GRAIN = [Image.fromarray((_rng_grain.normal(128, 22, (H // 2, W // 2))).clip(0, 255).astype("uint8")).resize((W, H))
+          for _ in range(4)]
+
+
+def grain(frame, t, amount=0.10):
+    g = _GRAIN[int(t * 12) % len(_GRAIN)].convert("RGB")
+    return Image.blend(frame, g, amount)
+
+
+def cover(im, z=1.0, cx=0.5, cy=0.5):
+    """Crop/scale any image to fill 1080x1920 (z>=1 zooms in)."""
+    sc = max(W / im.width, H / im.height) * z
+    vw, vh = W / sc, H / sc
+    x0 = min(max(cx * im.width - vw / 2, 0), im.width - vw)
+    y0 = min(max(cy * im.height - vh / 2, 0), im.height - vh)
+    return im.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + vw, y0 + vh))
+
+
+def sticker(img, text, x, y, style="yellow", pop=1.0, size=58):
+    """Label box like the references: yellow box/black text, or white box/black text with blue offset shadow."""
+    if pop <= 0:
+        return
+    d = ImageDraw.Draw(img)
+    f = font(F_BLACK, size * (0.85 + 0.15 * pop))
+    tw = d.textlength(text, font=f)
+    padx, pady = 26, 16
+    box = [x - tw / 2 - padx, y - f.size / 2 - pady, x + tw / 2 + padx, y + f.size / 2 + pady]
+    if style == "white":
+        d.rectangle([box[0] + 12, box[1] + 12, box[2] + 12, box[3] + 12], fill=BLUE)
+        d.rectangle(box, fill=(250, 248, 242))
+        d.text((x, y), text, font=f, fill=(15, 15, 15), anchor="mm")
+        d.rectangle([box[2] - 26, box[1] + 10, box[2] - 12, box[1] + 24], fill=BLUE)
+    elif style == "red":
+        d.rounded_rectangle(box, radius=10, fill=RED)
+        d.text((x, y), text, font=f, fill=CREAM, anchor="mm")
+    else:
+        d.rounded_rectangle(box, radius=10, fill=YEL)
+        d.text((x, y), text, font=f, fill=(15, 15, 15), anchor="mm")
+
+
+def sc_stickers(img, d, lt, ld, p, ctx):
+    """Overlay: list of stickers [{text, style, x, y, at, size}] popping in at `at` seconds."""
+    for st in p["items"]:
+        pop = ease(prog(lt, st.get("at", 0.0), 0.18))
+        sticker(img, st["text"], st.get("x", W / 2), st.get("y", 1000), st.get("style", "yellow"), pop, st.get("size", 58))
+
+
+def sc_full(img, d, lt, ld, p, ctx):
+    """Full-bleed clip or photo with slow push-in, grain for archives. p: clip|img, offset, zoom, cx, cy, bw, grain,
+    dim, credit, overlay"""
+    z0, z1 = p.get("zoom", [1.0, 1.10])
+    z = lerp(z0, z1, clamp(lt / max(ld, 0.1)))
+    if p.get("clip"):
+        key = (p["clip"], ctx.get("shot_key"))
+        if key not in _readers:
+            _readers[key] = _ClipReader(os.path.join(MEDIA, p["clip"]))
+        k = int(round((p.get("offset", 0) + lt * p.get("speed", 1.0)) * FPS))
+        src = _readers[key].get(max(0, k))
+    else:
+        src, _ = load_src(p["img"], "cover")
+    frame = cover(src, z, p.get("cx", 0.5), p.get("cy", 0.5))
+    if p.get("bw"):
+        frame = frame.convert("L").convert("RGB")
+    if p.get("grain"):
+        frame = grain(frame, ctx["t"], p.get("grain_amount", 0.10))
+    dim = p.get("dim", 0.18)
+    if dim:
+        frame = Image.blend(frame, Image.new("RGB", (W, H), (0, 0, 0)), dim)
+    fl = p.get("flash")
+    if fl is not None:
+        a = max(0.0, 1 - abs(lt - fl) / 0.3)
+        if a > 0:
+            frame = Image.blend(frame, Image.new("RGB", (W, H), (150, 10, 25)), a * 0.55)
+    img.paste(frame)
+    d = ImageDraw.Draw(img)
+    if p.get("credit"):
+        d.text((40, 150), p["credit"], font=font(F_BOLD, 22), fill=(200, 192, 182), anchor="lm",
+               stroke_width=3, stroke_fill=(0, 0, 0))
+    ov = p.get("overlay")
+    if ov:
+        for o in (ov if isinstance(ov, list) else [ov]):
+            NO_DUST[0] = True
+            try:
+                SCENES[o["type"]](img, d, lt, ld, o, ctx)
+            finally:
+                NO_DUST[0] = False
+
+
+def sc_board(img, d, lt, ld, p, ctx):
+    """Diagram: blurred dark background, dotted grid, white line with ring marker, stickers.
+    p: bg (image path, optional), points [values], show_from, show_to, red_from, labels {index: text}, items (stickers)"""
+    if p.get("bg"):
+        if p["bg"].endswith(".mp4"):
+            key = (p["bg"], "board-bg")
+            if key not in _readers:
+                _readers[key] = _ClipReader(os.path.join(MEDIA, p["bg"]))
+            src = _readers[key].get(int(lt * FPS))
+        else:
+            src, _ = load_src(p["bg"], "cover")
+        bg = cover(src).resize((54, 96), Image.BILINEAR).resize((W, H), Image.BILINEAR)
+        bg = Image.blend(bg.convert("L").convert("RGB"), Image.new("RGB", (W, H), (18, 18, 20)), 0.7)
+    else:
+        bg = Image.new("RGB", (W, H), (24, 24, 26))
+    img.paste(bg)
+    d = ImageDraw.Draw(img)
+    for gx in range(30, W, 54):
+        for gy in range(30, H, 54):
+            d.rectangle([gx - 3, gy - 3, gx + 3, gy + 3], fill=(92, 92, 96))
+    pts = p.get("points")
+    if pts:
+        n = len(pts) - 1
+        x0, x1, y0, y1 = 150, 930, 1180, 560
+        vmax, vmin = max(pts) * 1.05, min(0, min(pts))
+        X = lambda i: lerp(x0, x1, i / max(1, n))
+        Y = lambda v: lerp(y0, y1, (v - vmin) / (vmax - vmin))
+        a_, b_ = p.get("show_from", 0), p.get("show_to", n)
+        rev = lerp(a_, b_, ease_io(prog(lt, 0.1, max(0.5, ld * 0.75))))
+        red_from = p.get("red_from", 99)
+        seg = []
+        steps = 16
+        for i in range(n):
+            for s_ in range(steps):
+                u = i + s_ / steps
+                if u > rev:
+                    break
+                seg.append((u, X(u), Y(lerp(pts[i], pts[i + 1], ease_io(s_ / steps)))))
+        i = min(int(rev), n - 1)
+        fr = rev - i
+        seg.append((rev, X(rev), Y(lerp(pts[i], pts[i + 1], ease_io(min(1, fr))))))
+        white = [(x, y) for u, x, y in seg if u <= red_from + 1e-6]
+        red = [(x, y) for u, x, y in seg if u >= red_from - 1e-6]
+        if len(white) > 1:
+            d.line(white, fill=(248, 248, 248), width=12, joint="curve")
+        if len(red) > 1:
+            d.line(red, fill=RED, width=12, joint="curve")
+        u, hx, hy = seg[-1]
+        ring = RED if u > red_from else YEL
+        r = 34 + 6 * math.sin(lt * 6)
+        d.ellipse([hx - r, hy - r, hx + r, hy + r], fill=mix((24, 24, 26), ring, 0.35), outline=ring, width=5)
+        d.ellipse([hx - 12, hy - 12, hx + 12, hy + 12], fill=ring)
+        for idx, lab in (p.get("labels") or {}).items():
+            idx = int(idx)
+            if idx <= rev + 0.05:
+                d.text((X(idx), Y(pts[idx]) - 70), lab, font=font(F_BLACK, 50), fill=(248, 248, 248), anchor="mm",
+                       stroke_width=5, stroke_fill=(20, 20, 22))
+    if p.get("illustrative"):
+        d.text((W - 40, 1700), "illustrative", font=font(F_BOLD, 24), fill=(140, 140, 140), anchor="rm")
+    if p.get("items"):
+        sc_stickers(img, d, lt, ld, p, ctx)
+
+
+SCENES = {"full": sc_full, "board": sc_board, "stickers": sc_stickers, "clip": sc_clip, "photo": sc_photo, "year": sc_year, "text": sc_text, "stat": sc_stat, "compare": sc_compare, "icons": sc_icons,
           "chart": sc_chart, "myth": sc_myth, "name": sc_name, "news": sc_news, "outro": sc_outro}
 
 # default sound per scene type (played at scene start + offset)
-AUTO_SFX = {"clip": [("whoosh", 0.0)], "photo": [("whoosh", 0.0)], "year": [("slam", 0.05)], "text": [("whoosh", 0.0)], "stat": [("whoosh", 0.0)],
+AUTO_SFX = {"full": [("whoosh", 0.0)], "board": [("whoosh", 0.0)], "stickers": [], "clip": [("whoosh", 0.0)], "photo": [("whoosh", 0.0)], "year": [("slam", 0.05)], "text": [("whoosh", 0.0)], "stat": [("whoosh", 0.0)],
             "compare": [("whoosh", 0.0)], "icons": [("whoosh", 0.0)], "chart": [("whoosh", 0.0)],
             "myth": [("whoosh", 0.0), ("paper", 1.0)], "name": [("whoosh_down", 0.0), ("impact", 0.3)],
             "news": [("paper", 0.0), ("impact", 0.3)], "outro": [("whoosh", 0.0), ("ding", 0.9)]}
@@ -756,6 +911,8 @@ class Reel:
         return wins
 
     def _words(self):
+        if self.spec.get("style") == "v3":
+            self.groups_v3 = self._groups_v3()
         groups = []
         for ln, tm in zip(self.spec["lines"], self.timing["lines"]):
             ws = ln["text"].split()
@@ -779,6 +936,8 @@ class Reel:
         self.words = groups
 
     def caption(self, img, t):
+        if self.spec.get("style") == "v3":
+            return self.caption_v3(img, t)
         grp = None
         for g in self.words:
             if g[0][1] - 0.05 <= t < g[-1][2] + 0.12:
@@ -799,7 +958,72 @@ class Reel:
                    anchor="lm", stroke_width=7, stroke_fill=(0, 0, 0))
             x += wd
 
+    def caption_v3(self, img, t):
+        """Sentence-case captions, 2 lines max, centred mid-low; numbers and spec 'hl' words in yellow and bigger."""
+        grp = None
+        for g in self.groups_v3:
+            if g["t0"] - 0.04 <= t < g["t1"] + 0.1:
+                grp = g
+        if not grp:
+            return
+        d = ImageDraw.Draw(img)
+        base = 84
+        pop = ease(prog(t, grp["t0"] - 0.04, 0.12))
+        lines = grp["lines"]
+        y = 1330 - (len(lines) - 1) * 52 + (1 - pop) * 14
+        for ln in lines:
+            fs = [font(F_BLACK, base * (1.12 if hl else 1.0)) for _, hl in ln]
+            widths = [d.textlength(w + " ", font=f) for (w, _), f in zip(ln, fs)]
+            x = W / 2 - (sum(widths) - d.textlength(" ", font=fs[-1])) / 2
+            for (w, hl), f, wd in zip(ln, fs, widths):
+                for dx, dy in ((0, 5), (3, 6)):
+                    d.text((x + dx, y + dy), w, font=f, fill=(0, 0, 0), anchor="lm")
+                d.text((x, y), w, font=f, fill=YEL if hl else (250, 250, 250), anchor="lm",
+                       stroke_width=2, stroke_fill=(0, 0, 0))
+                x += wd
+            y += 104
+
+    def _groups_v3(self):
+        import re as _re
+        groups = []
+        for ln, tm in zip(self.spec["lines"], self.timing["lines"]):
+            hl = [h.lower() for h in ln.get("hl", [])]
+            ws = ln["text"].split()
+            tc = sum(len(w) + 2 for w in ws)
+            t0, dur = tm["start"], tm["end"] - tm["start"]
+            # chunks of <= ~26 chars split on punctuation, then into <= 2 lines of <= 15 chars
+            chunks, cur = [], []
+            for w in ws:
+                cur.append(w)
+                if len(" ".join(cur)) >= 22 or w.endswith((".", ",", "?", ":", "!")):
+                    chunks.append(cur)
+                    cur = []
+            if cur:
+                chunks.append(cur)
+            acc = 0
+            for ch in chunks:
+                a = t0 + dur * acc / tc
+                acc += sum(len(w) + 2 for w in ch)
+                b = t0 + dur * acc / tc
+                lines, l = [], []
+                for w in ch:
+                    if l and len(" ".join(x for x, _ in l + [(w, 0)])) > 15:
+                        lines.append(l)
+                        l = []
+                    key = _re.sub(r"[^\w%$£ƒ.-]", "", w.lower())
+                    is_hl = bool(_re.search(r"\d", w)) or any(key.startswith(h) for h in hl)
+                    l.append((w, is_hl))
+                if l:
+                    lines.append(l)
+                groups.append({"t0": a, "t1": b, "lines": lines[:2] if len(lines) <= 2 else [lines[0], sum(lines[1:], [])]})
+        return groups
+
     def chrome(self, d, t):
+        if self.spec.get("style") == "v3":
+            d.text((W - 48, 150), "rich2ruin", font=font(F_BLACK, 34), fill=(250, 250, 250), anchor="rm",
+                   stroke_width=3, stroke_fill=(0, 0, 0))
+            d.text((W - 48, 150), ".", font=font(F_BLACK, 34), fill=YEL, anchor="lm")
+            return
         d.text((W / 2, 140), "RICH  2  RUIN", font=font(F_BOLD, 30), fill=mix(BG, CREAM, 0.55), anchor="mm")
         fmt = self.spec.get("format") if not self.spec.get("headline") else None
         if fmt:

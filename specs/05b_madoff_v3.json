@@ -1,0 +1,396 @@
+{
+ "id": "05b_madoff_v3",
+ "style": "v3",
+ "format": "THE SCAM",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "December 2008. A Wall Street legend tells his sons his fund is one big lie.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_1044.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "DECEMBER 2008",
+        "style": "yellow",
+        "y": 820,
+        "at": 0.1,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_6782.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "“ONE BIG LIE”",
+        "style": "red",
+        "y": 860,
+        "at": 0.5,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "lie."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ],
+    [
+     "whoosh",
+     2.2
+    ]
+   ]
+  },
+  {
+   "text": "His name: Bernie Madoff. Former chairman of the Nasdaq.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_42489.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BERNIE MADOFF",
+        "style": "white",
+        "y": 860,
+        "at": 0.3,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "EX-CHAIRMAN OF THE NASDAQ",
+        "style": "yellow",
+        "y": 860,
+        "at": 0.1,
+        "size": 54,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "madoff.",
+    "nasdaq."
+   ]
+  },
+  {
+   "text": "On paper, his clients had almost 65 billion dollars.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_50623.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ON PAPER",
+        "style": "white",
+        "y": 740,
+        "at": 0.1,
+        "size": 56,
+        "x": 540
+       },
+       {
+        "text": "$65 BILLION",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.6,
+        "size": 100,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_270442.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "cash",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Much of it never existed.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_15178.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NEVER EXISTED",
+        "style": "red",
+        "y": 860,
+        "at": 0.4,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "big": true,
+   "big_at": 0.5,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "never",
+    "existed."
+   ]
+  },
+  {
+   "text": "New investors' money paid the old ones.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/05_madoff/pixabay_50630.mp4",
+     "items": [
+      {
+       "text": "NEW INVESTORS",
+       "style": "white",
+       "y": 720,
+       "at": 0.1,
+       "size": 64,
+       "x": 540
+      },
+      {
+       "text": "↓  pay  ↓",
+       "style": "yellow",
+       "y": 880,
+       "at": 0.6,
+       "size": 58,
+       "x": 540
+      },
+      {
+       "text": "OLD INVESTORS",
+       "style": "white",
+       "y": 1040,
+       "at": 1.0,
+       "size": 64,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "new",
+    "old"
+   ]
+  },
+  {
+   "text": "Direct losses: around 18 billion.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "≈ $18 BILLION LOST",
+        "style": "red",
+        "y": 860,
+        "at": 0.3,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "losses:"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "slam",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "He's arrested on December 11th.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_231168.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ARRESTED",
+        "style": "red",
+        "y": 780,
+        "at": 0.3,
+        "size": 84,
+        "x": 540
+       },
+       {
+        "text": "DEC 11, 2008",
+        "style": "white",
+        "y": 920,
+        "at": 0.6,
+        "size": 56,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "arrested"
+   ]
+  },
+  {
+   "text": "The sentence: 150 years in prison.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_162047.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "150 YEARS",
+        "style": "yellow",
+        "y": 860,
+        "at": 0.5,
+        "size": 120,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "slam",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "He died in federal custody in 2021.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_36713.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "2021",
+        "style": "white",
+        "y": 860,
+        "at": 0.3,
+        "size": 90,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.3
+    }
+   ]
+  },
+  {
+   "text": "Victims have recovered over 14 billion dollars.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/05_madoff/pixabay_50630.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "$14B+ RECOVERED",
+        "style": "yellow",
+        "y": 860,
+        "at": 0.4,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "recovered"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "cash",
+     0.6
+    ]
+   ]
+  },
+  {
+   "text": "Follow for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
