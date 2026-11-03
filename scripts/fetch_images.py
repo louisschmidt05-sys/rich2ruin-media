@@ -72,7 +72,7 @@ for item in spec["images"]:
     try:
         ident = item["file"]
         url, lic, title, year = archive_source(ident)
-        tmp = "/tmp/ia_src"
+        tmp = f"/tmp/ia_{ident}"
         if item.get("preview"):
             os.makedirs("previews", exist_ok=True)
             out = f"previews/{ident}.jpg"
@@ -85,14 +85,15 @@ for item in spec["images"]:
             os.makedirs(out_dir, exist_ok=True)
             out = os.path.join(out_dir, f"{ident}_{int(item.get('start', 0))}.mp4")
             if not os.path.exists(out):
-                download(url, tmp)
+                if not os.path.exists(tmp):
+                    download(url, tmp)
                 subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(item.get("start", 0)), "-i", tmp,
                                 "-t", str(item.get("dur", 8)), "-an", "-vf", "scale=-2:'min(720,ih)',fps=30",
                                 "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", out], check=True)
             credits[f'{item["reel"]}/{os.path.basename(out)}'] = {
                 "path": out, "licence": lic or "Public domain (Prelinger/US gov archive)", "author": title,
                 "year": year, "source": f"https://archive.org/details/{ident}", "use": item.get("use", "")}
-        if os.path.exists(tmp):
+        if item.get("preview") and os.path.exists(tmp):
             os.remove(tmp)
         ok += 1
     except Exception as e:
