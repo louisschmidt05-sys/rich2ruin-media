@@ -1,10 +1,13 @@
 {
  "queries": [
-  {"reel": "03_crash_1929", "source": "archive", "q": "Wall Street", "max": 25},
-  {"reel": "03_crash_1929", "source": "archive", "q": "stock market crash", "max": 25},
-  {"reel": "03_crash_1929", "source": "archive", "q": "depression 1930s unemployed", "max": 25},
-  {"reel": "03_crash_1929", "source": "archive", "q": "New York 1920s", "max": 25},
-  {"reel": "03_crash_1929", "source": "archive", "q": "stock exchange", "max": 25},
-  {"reel": "general", "source": "archive", "q": "money banking", "collection": "prelinger", "max": 25}
+  {"reel": "05_madoff", "source": "pixabay", "q": "wall street new york", "max": 10},
+  {"reel": "05_madoff", "source": "pixabay", "q": "stock market screen", "max": 10},
+  {"reel": "05_madoff", "source": "pixabay", "q": "counting money dollars", "max": 10},
+  {"reel": "05_madoff", "source": "pixabay", "q": "prison bars", "max": 8},
+  {"reel": "05_madoff", "source": "pixabay", "q": "handcuffs", "max": 8},
+  {"reel": "05_madoff", "source": "pixabay", "q": "new york skyline night", "max": 8},
+  {"reel": "05_madoff", "source": "pixabay", "q": "money burning", "max": 8},
+  {"reel": "05_madoff", "source": "pixabay", "q": "documents papers office", "max": 8},
+  {"reel": "05_madoff", "source": "pixabay", "q": "courthouse", "max": 6}
  ]
 }

@@ -68,6 +68,29 @@ def preview_sheet(src, out):
 
 
 for item in spec["images"]:
+  if item.get("source") == "pixabay":
+    try:
+        vid = str(item["file"])
+        out_dir = os.path.join("images", item["reel"])
+        os.makedirs(out_dir, exist_ok=True)
+        out = os.path.join(out_dir, f"pixabay_{vid}.mp4")
+        if not os.path.exists(out):
+            r = requests.get("https://pixabay.com/api/videos/", headers=UA, timeout=40,
+                             params={"key": os.environ["PIXABAY_API_KEY"], "id": vid})
+            r.raise_for_status()
+            h = r.json()["hits"][0]
+            src = h["videos"]["medium"]["url"] or h["videos"]["small"]["url"]
+            download(src, "/tmp/pb_src")
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(item.get("start", 0)), "-i", "/tmp/pb_src",
+                            "-t", str(item.get("dur", 8)), "-an", "-vf", "scale=-2:'min(1080,ih)',fps=30",
+                            "-c:v", "libx264", "-preset", "veryfast", "-crf", "22", "-pix_fmt", "yuv420p", out], check=True)
+            os.remove("/tmp/pb_src")
+            credits[f'{item["reel"]}/pixabay_{vid}.mp4'] = {"path": out, "licence": "Pixabay Content License",
+                "author": h.get("user", ""), "source": h.get("pageURL", ""), "use": item.get("use", "")}
+        ok += 1
+    except Exception as e:
+        skipped.append((item["file"], f"error: {type(e).__name__}: {e}"[:300]))
+    continue
   if item.get("source") == "archive":
     try:
         ident = item["file"]
