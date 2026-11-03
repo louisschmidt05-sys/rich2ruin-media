@@ -1,0 +1,1 @@
+step=6s duration=632s cols=6 title=Capitalism year=1948

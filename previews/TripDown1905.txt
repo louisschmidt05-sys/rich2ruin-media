@@ -1,0 +1,1 @@
+step=7s duration=833s cols=6 title=[Trip Down Market Street Before the Fire, A] year=1906

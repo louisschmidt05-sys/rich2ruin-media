@@ -1,0 +1,1 @@
+step=13s duration=1472s cols=6 title=Valley Town year=1940

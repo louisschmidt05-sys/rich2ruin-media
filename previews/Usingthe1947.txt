@@ -1,0 +1,1 @@
+step=6s duration=624s cols=6 title=Using the Bank year=1947

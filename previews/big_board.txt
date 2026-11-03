@@ -1,0 +1,1 @@
+step=7s duration=774s cols=6 title=Big Board, The year=
