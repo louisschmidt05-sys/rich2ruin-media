@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "He killed a man in a duel, fled London, and ended up running the finances of France.",
+   "text": "He killed a man in a duel. Then he ran France's money.",
    "shots": [
     {
      "type": "full",
@@ -48,6 +48,9 @@
      "bw": true,
      "grain": true
     }
+   ],
+   "hl": [
+    "killed"
    ]
   },
   {

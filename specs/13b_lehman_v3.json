@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "158 years old. Gone in one weekend.",
+   "text": "The biggest bankruptcy in US history, decided in one weekend.",
    "shots": [
     {
      "type": "full",
@@ -16,7 +16,7 @@
       "type": "stickers",
       "items": [
        {
-        "text": "158 YEARS",
+        "text": "$639 BILLION",
         "style": "yellow",
         "y": 760,
         "at": 0.1,
@@ -32,6 +32,9 @@
       ]
      }
     }
+   ],
+   "hl": [
+    "one weekend"
    ]
   },
   {

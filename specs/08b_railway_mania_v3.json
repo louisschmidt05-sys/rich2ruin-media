@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "Britain's railway shares doubled. Then lost two thirds.",
+   "text": "This bubble even burned Charlotte Brontë.",
    "shots": [
     {
      "type": "full",
@@ -18,7 +18,7 @@
       "type": "stickers",
       "items": [
        {
-        "text": "DOUBLED.",
+        "text": "CHARLOTTE BRONTË",
         "style": "yellow",
         "y": 760,
         "at": 0.1,
@@ -41,6 +41,9 @@
      "bw": true,
      "grain": true
     }
+   ],
+   "hl": [
+    "Brontë"
    ]
   },
   {

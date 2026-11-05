@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "He built the Suez Canal. Then Panama ruined him.",
+   "text": "The hero of the Suez Canal was sentenced to five years in prison.",
    "shots": [
     {
      "type": "full",
@@ -25,7 +25,7 @@
         "size": 70
        },
        {
-        "text": "PANAMA: RUIN",
+        "text": "5 YEARS: PRISON",
         "style": "red",
         "y": 895,
         "at": 0.4,
@@ -41,6 +41,9 @@
      "bw": true,
      "grain": true
     }
+   ],
+   "hl": [
+    "prison"
    ]
   },
   {

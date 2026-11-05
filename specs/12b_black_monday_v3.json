@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "In one day, Wall Street lost over 500 billion dollars.",
+   "text": "Wall Street's worst day ever: minus 22.6 percent in a single day.",
    "shots": [
     {
      "type": "full",
@@ -16,7 +16,7 @@
       "type": "stickers",
       "items": [
        {
-        "text": "$500 BILLION",
+        "text": "−22.6%",
         "style": "yellow",
         "y": 760,
         "at": 0.1,
@@ -37,6 +37,9 @@
      "clip": "images/12_black_monday/pixabay_308078.mp4",
      "credit": "Footage: Pixabay"
     }
+   ],
+   "hl": [
+    "worst"
    ]
   },
   {

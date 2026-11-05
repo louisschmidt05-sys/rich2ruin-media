@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "America's first financial panic? Blame a former Treasury man.",
+   "text": "Before the New York Stock Exchange existed, one man crashed the market.",
    "shots": [
     {
      "type": "full",
@@ -18,14 +18,14 @@
       "type": "stickers",
       "items": [
        {
-        "text": "AMERICA'S",
+        "text": "1792",
         "style": "white",
         "y": 760,
         "at": 0.1,
         "size": 70
        },
        {
-        "text": "FIRST PANIC",
+        "text": "BEFORE THE NYSE",
         "style": "red",
         "y": 895,
         "at": 0.4,
@@ -41,6 +41,9 @@
      "bw": true,
      "grain": true
     }
+   ],
+   "hl": [
+    "crashed"
    ]
   },
   {

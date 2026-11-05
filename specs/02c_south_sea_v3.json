@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "London, 1720.",
+   "text": "Isaac Newton bought into this bubble.",
    "shots": [
     {
      "type": "full",
@@ -25,7 +25,7 @@
         "size": 100
        },
        {
-        "text": "London",
+        "text": "ISAAC NEWTON",
         "style": "white",
         "y": 940,
         "at": 0.5,
@@ -34,6 +34,9 @@
       ]
      }
     }
+   ],
+   "hl": [
+    "Newton"
    ]
   },
   {
@@ -280,7 +283,10 @@
      "grain": true,
      "cx": 0.28,
      "cy": 0.72,
-     "zoom": [1.0, 1.1]
+     "zoom": [
+      1.0,
+      1.1
+     ]
     }
    ],
    "twist": true

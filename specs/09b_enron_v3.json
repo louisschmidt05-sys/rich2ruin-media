@@ -6,7 +6,7 @@
  "speed": 1.12,
  "lines": [
   {
-   "text": "Ninety dollars a share. Fifteen months later: sixty-one cents.",
+   "text": "Fortune called it America's most innovative company. It was hiding its losses.",
    "shots": [
     {
      "type": "full",
@@ -16,14 +16,14 @@
       "type": "stickers",
       "items": [
        {
-        "text": "$90.75",
+        "text": "MOST INNOVATIVE",
         "style": "yellow",
         "y": 760,
         "at": 0.1,
         "size": 70
        },
        {
-        "text": "$0.61",
+        "text": "HIDING LOSSES",
         "style": "red",
         "y": 895,
         "at": 0.4,
@@ -37,6 +37,9 @@
      "clip": "images/09_enron/pixabay_176918.mp4",
      "credit": "Footage: Pixabay"
     }
+   ],
+   "hl": [
+    "hiding"
    ]
   },
   {
@@ -69,7 +72,7 @@
    ]
   },
   {
-   "text": "Fortune called it America's most innovative large company.",
+   "text": "Six years in a row, says Fortune magazine.",
    "shots": [
     {
      "type": "full",
