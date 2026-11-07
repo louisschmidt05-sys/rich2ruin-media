@@ -1,6 +1,7 @@
-kept 170 images
+kept 208 images
 SKIPPED Verzameling_van_een_meenigte_tulipaanen_p15.png -> licence not public domain: CC BY-SA 4.0
 SKIPPED Ca'_Rezzonico_-_Canal_Grande_da_Palazzo_Balbi_a_Rialto_C.1722_-_Canaletto.jpg -> licence not public domain: CC BY-SA 4.0
 SKIPPED York_&_North_Midland_Railway_Company_opened_the_York_to_Scarborough_line_7th_July_1845.jpg -> licence not public domain: CC BY-SA 4.0
 SKIPPED WhatIsMoney -> error: ValueError: collection not trusted: ['avgeeks', 'ephemera']
 SKIPPED what_makes_us_tick -> error: ValueError: collection not trusted: ['more_animation', 'animationandcartoons']
+SKIPPED 344897 -> error: HTTPError: 404 Client Error: Not Found for url: https://pixabay.com/api/videos/?key=58385940-f8bec4bdafaedb3ce60101b18&id=344897
