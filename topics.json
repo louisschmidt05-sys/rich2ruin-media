@@ -108,20 +108,25 @@
   {
    "title": "Weimar hyperinflation (1923)",
    "format": "THE CRASH",
-   "style": "archive",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "14_weimar_v3",
+   "date": "2026-11-30"
   },
   {
    "title": "FTX collapse and the Bankman-Fried conviction (2022-2024)",
    "format": "THE SCAM",
    "style": "graphic",
-   "status": "backlog"
+   "status": "backlog",
+   "notes": "2026-11-07: not produced, key facts (bankruptcy date, $8B shortfall, full repayment) could not be verified (web fetch blocked in unattended run). Verified so far: convicted Nov 2023 on 7 counts, 25 years (Mar 2024), $11B forfeiture, conviction affirmed by 2nd Circuit (Jun 2026). Retry next run."
   },
   {
    "title": "Long-Term Capital Management (1998)",
    "format": "RICH TO RUIN",
-   "style": "graphic",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "15_ltcm_v3",
+   "date": "2026-12-02"
   },
   {
    "title": "The Panic of 1907",
