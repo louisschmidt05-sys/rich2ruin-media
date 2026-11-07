@@ -1,268 +1,136 @@
 {
  "queries": [
   {
-   "reel": "02_south_sea_bubble",
+   "reel": "14_weimar",
+   "q": "inflation 1923 Germany banknotes",
+   "type": "image",
+   "max": 15
+  },
+  {
+   "reel": "14_weimar",
+   "q": "Hyperinflation Weimar",
+   "type": "image",
+   "max": 15
+  },
+  {
+   "reel": "14_weimar",
+   "q": "Reichsbanknote 1923",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "14_weimar",
+   "q": "Ruhrbesetzung 1923",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "14_weimar",
+   "q": "Berlin 1923",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "14_weimar",
+   "q": "Rentenmark",
+   "type": "image",
+   "max": 10
+  },
+  {
+   "reel": "14_weimar",
+   "source": "archive",
+   "q": "Germany inflation",
+   "max": 10
+  },
+  {
+   "reel": "14_weimar",
+   "source": "archive",
+   "q": "Germany 1920s Berlin",
+   "max": 10
+  },
+  {
+   "reel": "14_weimar",
+   "source": "archive",
+   "q": "money printing press",
+   "max": 10
+  },
+  {
+   "reel": "14_weimar",
    "source": "pixabay",
-   "q": "sailing ship ocean",
+   "q": "printing press",
+   "max": 10
+  },
+  {
+   "reel": "14_weimar",
+   "source": "pixabay",
+   "q": "old paper money",
+   "max": 10
+  },
+  {
+   "reel": "14_weimar",
+   "source": "pixabay",
+   "q": "bread bakery",
    "max": 8
   },
   {
-   "reel": "02_south_sea_bubble",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "old map",
+   "q": "stock market screen",
+   "max": 10
+  },
+  {
+   "reel": "15_ltcm",
+   "source": "pixabay",
+   "q": "trading monitors",
+   "max": 10
+  },
+  {
+   "reel": "15_ltcm",
+   "source": "pixabay",
+   "q": "mathematics formula",
+   "max": 10
+  },
+  {
+   "reel": "15_ltcm",
+   "source": "pixabay",
+   "q": "chess",
    "max": 8
   },
   {
-   "reel": "02_south_sea_bubble",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "gold coins falling",
+   "q": "moscow kremlin",
    "max": 8
   },
   {
-   "reel": "02_south_sea_bubble",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "old paper document",
+   "q": "new york skyline night",
    "max": 8
   },
   {
-   "reel": "02_south_sea_bubble",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "candle dark",
+   "q": "office meeting night",
    "max": 8
   },
   {
-   "reel": "06_john_law",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "playing cards",
+   "q": "house of cards",
    "max": 8
   },
   {
-   "reel": "06_john_law",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "dice gambling",
+   "q": "graph falling red",
    "max": 8
   },
   {
-   "reel": "06_john_law",
+   "reel": "15_ltcm",
    "source": "pixabay",
-   "q": "gold coins",
-   "max": 8
-  },
-  {
-   "reel": "06_john_law",
-   "source": "pixabay",
-   "q": "venice canal",
-   "max": 8
-  },
-  {
-   "reel": "06_john_law",
-   "source": "pixabay",
-   "q": "old banknotes",
-   "max": 8
-  },
-  {
-   "reel": "08_railway_mania",
-   "source": "pixabay",
-   "q": "steam locomotive",
-   "max": 8
-  },
-  {
-   "reel": "08_railway_mania",
-   "source": "pixabay",
-   "q": "old train",
-   "max": 8
-  },
-  {
-   "reel": "08_railway_mania",
-   "source": "pixabay",
-   "q": "railway tracks",
-   "max": 8
-  },
-  {
-   "reel": "08_railway_mania",
-   "source": "pixabay",
-   "q": "steam engine smoke",
-   "max": 8
-  },
-  {
-   "reel": "10_william_duer",
-   "source": "pixabay",
-   "q": "quill pen writing",
-   "max": 8
-  },
-  {
-   "reel": "10_william_duer",
-   "source": "pixabay",
-   "q": "old documents",
-   "max": 8
-  },
-  {
-   "reel": "10_william_duer",
-   "source": "pixabay",
-   "q": "coins",
-   "max": 8
-  },
-  {
-   "reel": "10_william_duer",
-   "source": "pixabay",
-   "q": "candle light",
-   "max": 8
-  },
-  {
-   "reel": "10_william_duer",
-   "source": "pixabay",
-   "q": "new york harbor",
-   "max": 8
-  },
-  {
-   "reel": "11_panama_scandal",
-   "source": "pixabay",
-   "q": "panama canal",
-   "max": 8
-  },
-  {
-   "reel": "11_panama_scandal",
-   "source": "pixabay",
-   "q": "tropical jungle",
-   "max": 8
-  },
-  {
-   "reel": "11_panama_scandal",
-   "source": "pixabay",
-   "q": "ship lock canal",
-   "max": 8
-  },
-  {
-   "reel": "11_panama_scandal",
-   "source": "pixabay",
-   "q": "excavator digging",
-   "max": 8
-  },
-  {
-   "reel": "11_panama_scandal",
-   "source": "pixabay",
-   "q": "paris",
-   "max": 8
-  },
-  {
-   "reel": "07_barings",
-   "source": "pixabay",
-   "q": "singapore skyline night",
-   "max": 8
-  },
-  {
-   "reel": "07_barings",
-   "source": "pixabay",
-   "q": "trading screens",
-   "max": 8
-  },
-  {
-   "reel": "07_barings",
-   "source": "pixabay",
-   "q": "tokyo city",
-   "max": 8
-  },
-  {
-   "reel": "07_barings",
-   "source": "pixabay",
-   "q": "bank vault",
-   "max": 8
-  },
-  {
-   "reel": "07_barings",
-   "source": "pixabay",
-   "q": "london city",
-   "max": 8
-  },
-  {
-   "reel": "09_enron",
-   "source": "pixabay",
-   "q": "houston skyline",
-   "max": 8
-  },
-  {
-   "reel": "09_enron",
-   "source": "pixabay",
-   "q": "shredding documents",
-   "max": 8
-  },
-  {
-   "reel": "09_enron",
-   "source": "pixabay",
-   "q": "power lines electricity",
-   "max": 8
-  },
-  {
-   "reel": "09_enron",
-   "source": "pixabay",
-   "q": "office skyscraper",
-   "max": 8
-  },
-  {
-   "reel": "09_enron",
-   "source": "pixabay",
-   "q": "stock chart falling",
-   "max": 8
-  },
-  {
-   "reel": "12_black_monday",
-   "source": "pixabay",
-   "q": "stock market crash",
-   "max": 8
-  },
-  {
-   "reel": "12_black_monday",
-   "source": "pixabay",
-   "q": "trading floor",
-   "max": 8
-  },
-  {
-   "reel": "12_black_monday",
-   "source": "pixabay",
-   "q": "stock ticker",
-   "max": 8
-  },
-  {
-   "reel": "12_black_monday",
-   "source": "pixabay",
-   "q": "red chart down",
-   "max": 8
-  },
-  {
-   "reel": "12_black_monday",
-   "source": "pixabay",
-   "q": "wall street",
-   "max": 8
-  },
-  {
-   "reel": "13_lehman_brothers",
-   "source": "pixabay",
-   "q": "skyscraper night",
-   "max": 8
-  },
-  {
-   "reel": "13_lehman_brothers",
-   "source": "pixabay",
-   "q": "office boxes",
-   "max": 8
-  },
-  {
-   "reel": "13_lehman_brothers",
-   "source": "pixabay",
-   "q": "bank building",
-   "max": 8
-  },
-  {
-   "reel": "13_lehman_brothers",
-   "source": "pixabay",
-   "q": "money",
-   "max": 8
-  },
-  {
-   "reel": "13_lehman_brothers",
-   "source": "pixabay",
-   "q": "stock market crash",
-   "max": 8
+   "q": "connecticut",
+   "max": 6
   }
  ]
 }
