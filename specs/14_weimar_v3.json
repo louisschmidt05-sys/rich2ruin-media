@@ -1,0 +1,639 @@
+{
+ "id": "14_weimar_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "A loaf of bread for 200 billion marks. Berlin, 1923.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/14_weimar/pixabay_63066.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1 LOAF OF BREAD",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "200,000,000,000 MARKS",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_100_trillion.jpg",
+     "credit": "100 trillion mark note, 1924 · Reichsbank note · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BERLIN · 1923",
+        "style": "red",
+        "y": 1000,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "zoom": [
+      1.0,
+      1.06
+     ],
+     "dim": 0.0
+    }
+   ],
+   "hl": [
+    "200 billion"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ],
+    [
+     "whoosh",
+     2.0
+    ]
+   ],
+   "say": "A loaf of bread for two hundred billion marks. Berlin, 1923."
+  },
+  {
+   "text": "A year earlier: about 160.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/14_weimar/pixabay_14239.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "END OF 1922",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "≈ 160 MARKS",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.5,
+        "size": 90,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "160."
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "cash",
+     1.0
+    ]
+   ]
+  },
+  {
+   "text": "Before the war, one dollar bought 4.2 marks.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_100000.jpg",
+     "credit": "100,000 mark note, 1923 · Reichsbank note · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1914",
+        "style": "white",
+        "y": 960,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "$1 = 4.2 MARKS",
+        "style": "yellow",
+        "y": 1090,
+        "at": 0.4,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.0,
+     "zoom": [
+      1.0,
+      1.05
+     ]
+    }
+   ],
+   "hl": [
+    "4.2"
+   ]
+  },
+  {
+   "text": "Then France and Belgium occupy the Ruhr.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/French enter Essen.jpg",
+     "credit": "French troops enter Essen, 1923 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JANUARY 1923",
+        "style": "yellow",
+        "y": 780,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "THE RUHR IS OCCUPIED",
+        "style": "red",
+        "y": 910,
+        "at": 0.5,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/14_weimar/Ruhr01181923.png",
+     "credit": "Map of the occupied Ruhr, 1923 · public domain",
+     "cx": 0.5,
+     "dim": 0.45,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "ruhr."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ]
+  },
+  {
+   "text": "Workers strike. The state pays them with printed money.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/Protest meeting Berlin 1923.jpg",
+     "credit": "Protest meeting, Berlin, 1923 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "PASSIVE RESISTANCE",
+        "style": "white",
+        "y": 860,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "board",
+     "bg": "images/14_weimar/pixabay_152728.mp4",
+     "items": [
+      {
+       "text": "RUHR WORKERS STRIKE",
+       "style": "white",
+       "y": 640,
+       "at": 0.05,
+       "size": 56,
+       "x": 540
+      },
+      {
+       "text": "↓",
+       "style": "yellow",
+       "y": 760,
+       "at": 0.3,
+       "size": 64,
+       "x": 540
+      },
+      {
+       "text": "STATE PAYS THEM",
+       "style": "white",
+       "y": 880,
+       "at": 0.45,
+       "size": 56,
+       "x": 540
+      },
+      {
+       "text": "↓",
+       "style": "yellow",
+       "y": 1000,
+       "at": 0.65,
+       "size": 64,
+       "x": 540
+      },
+      {
+       "text": "PRINT MORE MARKS",
+       "style": "red",
+       "y": 1120,
+       "at": 0.8,
+       "size": 60,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "printed"
+   ]
+  },
+  {
+   "text": "Millions. Then billions. Then trillions.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_10_million.jpg",
+     "credit": "10 million mark note, 1923 · Reichsbank note · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "10 MILLION",
+        "style": "white",
+        "y": 980,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.0,
+     "zoom": [
+      1.0,
+      1.06
+     ]
+    },
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_500_billion.jpg",
+     "credit": "500 billion mark note, 1923 · Reichsbank note · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "500 BILLION",
+        "style": "yellow",
+        "y": 980,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.0,
+     "zoom": [
+      1.0,
+      1.06
+     ]
+    },
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_100_trillion.jpg",
+     "credit": "100 trillion mark note, 1924 · Reichsbank note · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "100 TRILLION",
+        "style": "red",
+        "y": 980,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.0,
+     "zoom": [
+      1.05,
+      1.12
+     ]
+    }
+   ],
+   "hl": [
+    "millions.",
+    "billions.",
+    "trillions."
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "whoosh",
+     0.9
+    ],
+    [
+     "slam",
+     1.8
+    ]
+   ]
+  },
+  {
+   "text": "November 1923: one dollar, 4.2 trillion marks.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/In a Berlin Bank LCCN2014716642.jpg",
+     "credit": "“In a Berlin Bank” · Library of Congress, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "$1 = 4,200,000,000,000 MARKS",
+        "style": "red",
+        "y": 880,
+        "at": 0.4,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     },
+     "cx": 0.55,
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "flash": 0.5,
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "board",
+     "bg": "images/14_weimar/In a Berlin Bank LCCN2014716642.jpg",
+     "points": [
+      4.2,
+      7.9,
+      4200000000000.0
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 1,
+     "labels": {
+      "0": "4.2",
+      "2": "4.2 TRILLION"
+     },
+     "items": [
+      {
+       "text": "MARKS PER DOLLAR",
+       "style": "white",
+       "y": 380,
+       "at": 0.0,
+       "size": 50,
+       "x": 540
+      },
+      {
+       "text": "1914 · 1918 · NOV 1923",
+       "style": "yellow",
+       "y": 470,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "big": true,
+   "big_at": 2.2,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "4.2 trillion"
+   ],
+   "say": "November 1923: one dollar, four point two trillion marks."
+  },
+  {
+   "text": "Savings became almost worthless. The middle class, impoverished.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/14_weimar/pixabay_207982.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SAVINGS",
+        "style": "white",
+        "y": 780,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "≈ WORTHLESS",
+        "style": "red",
+        "y": 910,
+        "at": 0.45,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/14_weimar/Notgeld fritz quant 10 millionen mark.jpg",
+     "credit": "Emergency money, Trier, 1923 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE MIDDLE CLASS",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.2,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.25,
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "worthless.",
+    "impoverished."
+   ]
+  },
+  {
+   "text": "The fix? A new currency: the Rentenmark.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_1_rentenmark.jpg",
+     "credit": "1 Rentenmark, 1923 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOVEMBER 1923",
+        "style": "white",
+        "y": 960,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "THE RENTENMARK",
+        "style": "yellow",
+        "y": 1090,
+        "at": 0.4,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.0,
+     "zoom": [
+      1.0,
+      1.06
+     ]
+    }
+   ],
+   "hl": [
+    "rentenmark."
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ],
+    [
+     "cash",
+     1.2
+    ]
+   ]
+  },
+  {
+   "text": "One Rentenmark for one trillion old marks. Twelve zeros, gone.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/14_weimar/note_1_rentenmark.jpg",
+     "credit": "1 Rentenmark, 1923 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1 RENTENMARK",
+        "style": "yellow",
+        "y": 960,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "= 1,000,000,000,000 MARKS",
+        "style": "white",
+        "y": 1090,
+        "at": 0.5,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.0,
+     "zoom": [
+      1.08,
+      1.16
+     ]
+    },
+    {
+     "type": "full",
+     "clip": "images/14_weimar/pixabay_34594.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "12 ZEROS",
+        "style": "red",
+        "y": 880,
+        "at": 0.2,
+        "size": 110,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "trillion",
+    "twelve"
+   ],
+   "sfx": [
+    [
+     "slam",
+     2.0
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

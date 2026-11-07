@@ -1,0 +1,507 @@
+{
+ "id": "15_ltcm_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Two Nobel winners. One hedge fund. A 3.6 billion dollar rescue.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_278200.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "2 NOBEL PRIZE WINNERS",
+        "style": "yellow",
+        "y": 860,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_338956.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ONE HEDGE FUND",
+        "style": "white",
+        "y": 760,
+        "at": 0.0,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "$3.6B RESCUE",
+        "style": "red",
+        "y": 900,
+        "at": 0.4,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "nobel",
+    "rescue."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ],
+    [
+     "whoosh",
+     1.9
+    ]
+   ],
+   "say": "Two Nobel winners. One hedge fund. A three point six billion dollar rescue."
+  },
+  {
+   "text": "Its name: Long-Term Capital Management.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_42489.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "FOUNDED 1994",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "BY JOHN MERIWETHER",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.4,
+        "size": 56,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_3132.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "LONG-TERM CAPITAL MANAGEMENT",
+        "style": "yellow",
+        "y": 820,
+        "at": 0.0,
+        "size": 50,
+        "x": 540
+       },
+       {
+        "text": "LTCM · 1994",
+        "style": "white",
+        "y": 940,
+        "at": 0.3,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "long-term"
+   ]
+  },
+  {
+   "text": "Partners Myron Scholes and Robert Merton win the 1997 Nobel.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_5373.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "MYRON SCHOLES",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "ROBERT MERTON",
+        "style": "white",
+        "y": 890,
+        "at": 0.4,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_19459.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOBEL PRIZE · 1997",
+        "style": "yellow",
+        "y": 860,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true
+    }
+   ],
+   "hl": [
+    "nobel."
+   ]
+  },
+  {
+   "text": "1995: plus 43 percent. 1996: plus 41.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_88697.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1995: +43%",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.2,
+        "size": 80,
+        "x": 540
+       },
+       {
+        "text": "1996: +41%",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.6,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "43",
+    "41."
+   ],
+   "sfx": [
+    [
+     "cash",
+     0.6
+    ],
+    [
+     "cash",
+     1.8
+    ]
+   ],
+   "say": "Nineteen ninety-five: plus forty-three percent. Ninety-six: plus forty-one."
+  },
+  {
+   "text": "The secret? Over 25 borrowed dollars for every dollar of capital.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/15_ltcm/pixabay_204306.mp4",
+     "items": [
+      {
+       "text": "CAPITAL",
+       "style": "white",
+       "y": 620,
+       "at": 0.05,
+       "size": 54,
+       "x": 540
+      },
+      {
+       "text": "$4.7 BILLION",
+       "style": "yellow",
+       "y": 740,
+       "at": 0.25,
+       "size": 70,
+       "x": 540
+      },
+      {
+       "text": "BORROWED",
+       "style": "white",
+       "y": 900,
+       "at": 0.5,
+       "size": 54,
+       "x": 540
+      },
+      {
+       "text": "$124.5 BILLION",
+       "style": "red",
+       "y": 1020,
+       "at": 0.7,
+       "size": 70,
+       "x": 540
+      },
+      {
+       "text": "OVER 25 TO 1",
+       "style": "white",
+       "y": 1180,
+       "at": 0.9,
+       "size": 54,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "borrowed"
+   ],
+   "sfx": [
+    [
+     "whoosh",
+     0
+    ]
+   ]
+  },
+  {
+   "text": "August 1998: Russia defaults.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_291425.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AUG 17, 1998",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "RUSSIA DEFAULTS",
+        "style": "red",
+        "y": 890,
+        "at": 0.4,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_41884.mp4",
+     "credit": "Footage: Pixabay",
+     "bw": true,
+     "dim": 0.4
+    }
+   ],
+   "hl": [
+    "defaults"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.5
+    ]
+   ]
+  },
+  {
+   "text": "LTCM loses 4.6 billion in under four months.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_338955.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "-$4.6 BILLION",
+        "style": "red",
+        "y": 880,
+        "at": 0.3,
+        "size": 96,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.4
+    },
+    {
+     "type": "board",
+     "bg": "images/15_ltcm/pixabay_166289.mp4",
+     "points": [
+      4.7,
+      2.3,
+      0.4
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 0,
+     "labels": {
+      "0": "$4.7B",
+      "2": "$0.4B"
+     },
+     "items": [
+      {
+       "text": "LTCM CAPITAL · 1998",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 50,
+       "x": 540
+      },
+      {
+       "text": "JAN · SEPT 1 · SEPT 25",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "big": true,
+   "big_at": 0.6,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "4.6 billion"
+   ],
+   "say": "LTCM loses four point six billion in under four months."
+  },
+  {
+   "text": "The New York Fed gets 14 banks to rescue it.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_231168.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NEW YORK FED",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "14 BANKS · $3.625B",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.4,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_8252.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NO PUBLIC MONEY",
+        "style": "white",
+        "y": 880,
+        "at": 0.2,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true
+    }
+   ],
+   "hl": [
+    "14 banks"
+   ]
+  },
+  {
+   "text": "The twist? A fund called Long-Term, liquidated by 2000.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/15_ltcm/pixabay_32384.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "“LONG-TERM”",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       },
+       {
+        "text": "LIQUIDATED · 2000",
+        "style": "red",
+        "y": 900,
+        "at": 0.5,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.3
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "long-term"
+   ],
+   "sfx": [
+    [
+     "slam",
+     2.0
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
