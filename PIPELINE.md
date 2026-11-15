@@ -48,7 +48,7 @@ reference TikToks (Le Média Finance, Bahouais, 1 Date 1 Histoire) set the look.
 ### Upgrade already-scheduled v1 reels
 At the start of each run, list Metricool posts scheduled in the next 9 days. Any whose spec has no `"style": "v3"`
 is old: rebuild it in v3 (same facts, same date), push the new mp4 and `updateScheduledPost` (keep date, captions
-may be improved, keep AI labels). Upgrades count toward the 3 reels of the run; upgrades come first.
+may be improved, keep AI labels). Upgrades count toward the 5 reels of the run; upgrades come first.
 
 ## 0. Setup (every fresh session)
 ```bash
@@ -56,11 +56,11 @@ bash scripts/setup.sh          # deps + Kokoro voice model into ~/.cache/rich2ru
 ```
 ffmpeg must exist. Fonts are in `engine/fonts`.
 
-## 1. Pick this week's 3 topics
-- Open `topics.json`. Take the first 3 entries with `"status": "backlog"`, keeping the format mix
-  (never 3 of the same format in one week if avoidable).
+## 1. Pick this week's 5 topics
+- Open `topics.json`. Take the first 5 entries with `"status": "backlog"`, keeping the format mix
+  (never more than 2 of the same format in one week if avoidable).
 - Skip any topic that breaks the rules in `EDITORIAL.md` (mark it `"status": "rejected"` with a reason).
-- If fewer than 6 backlog topics remain, add new ones (verified real events) to keep the queue ≥ 10.
+- If fewer than 10 backlog topics remain, add new ones (verified real events) to keep the queue ≥ 15.
 
 ## 2. Research and write each script
 - Verify every number, date and name on at least one solid source (Wikipedia article + its citations is the minimum).
@@ -94,7 +94,7 @@ Check: duration 30–55 s, `ffprobe` shows h264 1080x1920 + aac. Pull 3 frames a
 - `git add reels/<id>.mp4 specs/<id>.json`, commit, push. Public URL:
   `https://raw.githubusercontent.com/louisschmidt05-sys/rich2ruin-media/main/reels/<id>.mp4`
 - Metricool brand id `7707098` (rich.2ruin), timezone Europe/Paris. Schedule with `createScheduledPost`:
-  the next 3 FREE Mon / Wed / Fri slots (check `getScheduledPosts` over the next 3 weeks) at 17:43, providers instagram + tiktok + youtube,
+  the next 3 FREE Mon–Fri slots (5 per week since 2026-11-15; check `getScheduledPosts` over the next 3 weeks) at 17:43, providers instagram + tiktok + youtube,
   `instagramData.type=REEL`, `isAiGenerated=true`; `tiktokData.isAigc=true` + title;
   `youtubeData` type `short`, title ending `#shorts`, `madeForKids=false`, `isAiGeneratedContent=true`,
   category `EDUCATION`; `videoCoverMilliseconds: 1500`.
