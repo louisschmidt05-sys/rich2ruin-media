@@ -1,0 +1,337 @@
+{
+ "id": "19_hunt_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Silver: from under 10 dollars to over 50. Two brothers bought it.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_12751.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SILVER: UNDER $10",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "→ OVER $50",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_3134.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE HUNT BROTHERS",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "10",
+    "50."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "Silver: from under ten dollars to over fifty. Two brothers bought it."
+  },
+  {
+   "text": "The Hunts and partners control 195 million ounces.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_200104.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BUNKER & HERBERT HUNT",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "≈ 195 MILLION OZ",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "195 million"
+   ],
+   "say": "The Hunts and partners control a hundred and ninety-five million ounces."
+  },
+  {
+   "text": "On paper: 1.1 billion becomes 6.8.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/19_hunt/pixabay_307616.mp4",
+     "points": [
+      1.1,
+      6.8
+     ],
+     "show_from": 0,
+     "show_to": 1,
+     "labels": {
+      "0": "$1.1B",
+      "1": "$6.8B"
+     },
+     "items": [
+      {
+       "text": "VALUE OF THE HUNT POSITION",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 46,
+       "x": 540
+      },
+      {
+       "text": "1979 → JAN 1980",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "6.8."
+   ],
+   "say": "On paper: one point one billion becomes six point eight."
+  },
+  {
+   "text": "January 1980: new rule. Sell orders only.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_308080.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JANUARY 21, 1980",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "COMEX: SELL ORDERS ONLY",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 60,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    }
+   ],
+   "hl": [
+    "sell"
+   ],
+   "say": "January nineteen-eighty: new rule. Sell orders only."
+  },
+  {
+   "text": "March 27: Silver Thursday. 10.80 an ounce.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SILVER THURSDAY",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "$10.80",
+        "style": "red",
+        "y": 900,
+        "at": 0.3,
+        "size": 110,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "board",
+     "bg": "images/19_hunt/pixabay_20857.mp4",
+     "points": [
+      50,
+      29.75,
+      10.8
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 0,
+     "labels": {
+      "0": "$50+",
+      "1": "$29.75",
+      "2": "$10.80"
+     },
+     "items": [
+      {
+       "text": "SILVER, $ PER OUNCE",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 46,
+       "x": 540
+      },
+      {
+       "text": "JAN · MAR 10 · MAR 27, 1980",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 42,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "10.80"
+   ],
+   "say": "March twenty-seventh: Silver Thursday. Ten eighty an ounce."
+  },
+  {
+   "text": "13 banks lend a Hunt company 1.1 billion.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_6714.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "13 BANKS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "$1.1 BILLION LOAN",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    }
+   ],
+   "hl": [
+    "1.1 billion."
+   ],
+   "say": "Thirteen banks lend a Hunt company one point one billion."
+  },
+  {
+   "text": "The twist? 1988: liable for conspiracy, and bankrupt.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/19_hunt/pixabay_3612.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1988: LIABLE FOR CONSPIRACY",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 54,
+        "x": 540
+       },
+       {
+        "text": "CHAPTER 11",
+        "style": "red",
+        "y": 890,
+        "at": 0.4,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "conspiracy,",
+    "bankrupt."
+   ],
+   "say": "The twist? Nineteen eighty-eight: liable for conspiracy, and bankrupt."
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

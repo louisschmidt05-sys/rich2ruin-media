@@ -149,14 +149,18 @@
   {
    "title": "The Hunt brothers and the silver crash (1980)",
    "format": "RICH TO RUIN",
-   "style": "graphic",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "19_hunt_v3",
+   "date": "2026-11-17"
   },
   {
    "title": "Dot-com bubble (2000)",
    "format": "THE CRASH",
-   "style": "graphic",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "20_dotcom_v3",
+   "date": "2026-11-19"
   },
   {
    "title": "Florida land boom and bust (1920s)",
@@ -233,6 +237,18 @@
   {
    "title": "Theranos and the conviction of Elizabeth Holmes (2022)",
    "format": "THE SCAM",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Kreditanstalt collapse (Vienna, 1931)",
+   "format": "THE CRASH",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Bernard Cornfeld and Investors Overseas Services (1970)",
+   "format": "RICH TO RUIN",
    "style": "v3",
    "status": "backlog"
   }

@@ -1,0 +1,330 @@
+{
+ "id": "20_dotcom_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "March 2000: the Nasdaq hits 5,048. Then 5 trillion vanish.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_338956.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NASDAQ: 5,048",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 80,
+        "x": 540
+       },
+       {
+        "text": "MARCH 10, 2000",
+        "style": "white",
+        "y": 890,
+        "at": 0.35,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "-$5 TRILLION",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 96,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "5,048.",
+    "5 trillion"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "March two thousand: the Nasdaq hits five thousand and forty-eight. Then five trillion vanish."
+  },
+  {
+   "text": "1999 alone: Nasdaq up 85.6 percent.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_314558.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1999",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "NASDAQ +85.6%",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.35,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "85.6"
+   ],
+   "say": "Nineteen ninety-nine alone: Nasdaq up eighty-five point six percent."
+  },
+  {
+   "text": "Pets.com buys a 1.2 million Super Bowl ad.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_156318.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "PETS.COM",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       },
+       {
+        "text": "SUPER BOWL AD: $1.2M",
+        "style": "white",
+        "y": 890,
+        "at": 0.35,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "1.2 million"
+   ],
+   "say": "Pets dot com buys a one point two million Super Bowl ad."
+  },
+  {
+   "text": "Its IPO raises 82.5 million.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_5631.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "IPO · FEB 2000",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "$82.5 MILLION",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "82.5 million."
+   ],
+   "say": "Its I P O raises eighty-two point five million."
+  },
+  {
+   "text": "Nine months later: out of business.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_37417.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOVEMBER 2000",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "OUT OF BUSINESS",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true
+    }
+   ],
+   "hl": [
+    "nine months"
+   ]
+  },
+  {
+   "text": "October 2002: Nasdaq-100, down 78 percent.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "OCT 9, 2002",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "NASDAQ-100: -78%",
+        "style": "red",
+        "y": 900,
+        "at": 0.3,
+        "size": 90,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "board",
+     "bg": "images/20_dotcom/pixabay_14900.mp4",
+     "points": [
+      100,
+      22
+     ],
+     "show_from": 0,
+     "show_to": 1,
+     "red_from": 0,
+     "labels": {
+      "0": "PEAK",
+      "1": "-78%"
+     },
+     "items": [
+      {
+       "text": "NASDAQ-100",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 50,
+       "x": 540
+      },
+      {
+       "text": "MARCH 2000 → OCT 2002",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "78 percent."
+   ],
+   "say": "October two thousand two: Nasdaq one hundred, down seventy-eight percent."
+  },
+  {
+   "text": "The twist? Amazon crashed too, and survived.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/20_dotcom/pixabay_726.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AMAZON CRASHED TOO",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "…AND SURVIVED",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.45,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "survived."
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.2
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
