@@ -116,9 +116,11 @@
   {
    "title": "FTX collapse and the Bankman-Fried conviction (2022-2024)",
    "format": "THE SCAM",
-   "style": "graphic",
-   "status": "backlog",
-   "notes": "2026-11-07: not produced, key facts (bankruptcy date, $8B shortfall, full repayment) could not be verified (web fetch blocked in unattended run). Verified so far: convicted Nov 2023 on 7 counts, 25 years (Mar 2024), $11B forfeiture, conviction affirmed by 2nd Circuit (Jun 2026). Retry next run."
+   "style": "v3",
+   "status": "scheduled",
+   "notes": "2026-11-07: not produced, key facts (bankruptcy date, $8B shortfall, full repayment) could not be verified (web fetch blocked in unattended run). Verified so far: convicted Nov 2023 on 7 counts, 25 years (Mar 2024), $11B forfeiture, conviction affirmed by 2nd Circuit (Jun 2026). Retry next run.",
+   "id": "17_ftx_v3",
+   "date": "2026-12-07"
   },
   {
    "title": "Long-Term Capital Management (1998)",
@@ -131,14 +133,18 @@
   {
    "title": "The Panic of 1907",
    "format": "THE CRASH",
-   "style": "archive",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "16_panic1907_v3",
+   "date": "2026-12-04"
   },
   {
    "title": "Crédit Mobilier scandal (1872)",
    "format": "THE SCAM",
-   "style": "archive",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "18_creditmobilier_v3",
+   "date": "2026-12-09"
   },
   {
    "title": "The Hunt brothers and the silver crash (1980)",
@@ -168,6 +174,36 @@
    "title": "Panic of 1873 and the fall of Jay Cooke & Company",
    "format": "THE CRASH",
    "style": "archive",
+   "status": "backlog"
+  },
+  {
+   "title": "The Darien scheme: Scotland's lost fortune (1698-1700)",
+   "format": "RICH TO RUIN",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Wirecard collapse (2020)",
+   "format": "THE SCAM",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Japan's asset bubble burst (1990)",
+   "format": "THE CRASH",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Great Salad Oil Swindle (1963)",
+   "format": "THE SCAM",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Société Générale rogue trader Jérôme Kerviel (2008)",
+   "format": "RICH TO RUIN",
+   "style": "v3",
    "status": "backlog"
   }
  ]

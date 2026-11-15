@@ -1,0 +1,398 @@
+{
+ "id": "17_ftx_v3",
+ "style": "v3",
+ "format": "THE SCAM",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Worth 16 billion. Nine days later: bankrupt.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_50352.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "$16 BILLION",
+        "style": "yellow",
+        "y": 860,
+        "at": 0.1,
+        "size": 96,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "9 DAYS LATER: BANKRUPT",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "16 billion",
+    "bankrupt."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "Worth sixteen billion. Nine days later: bankrupt."
+  },
+  {
+   "text": "In 2019, Sam Bankman-Fried founds FTX.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_134428.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SAM BANKMAN-FRIED",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "FTX · 2019",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_380334.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "41st RICHEST AMERICAN",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "ftx"
+   ],
+   "say": "In twenty nineteen, Sam Bankman-Fried founds F T X."
+  },
+  {
+   "text": "November 2022: a leak. His trading firm runs on FTX's own token.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_3176.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOV 2, 2022",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "COINDESK REPORT",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "board",
+     "bg": "images/17_ftx/pixabay_20833.mp4",
+     "items": [
+      {
+       "text": "ALAMEDA RESEARCH",
+       "style": "white",
+       "y": 620,
+       "at": 0.05,
+       "size": 56,
+       "x": 540
+      },
+      {
+       "text": "$14.6B IN ASSETS",
+       "style": "yellow",
+       "y": 740,
+       "at": 0.25,
+       "size": 66,
+       "x": 540
+      },
+      {
+       "text": "40% =",
+       "style": "white",
+       "y": 880,
+       "at": 0.5,
+       "size": 60,
+       "x": 540
+      },
+      {
+       "text": "FTT, FTX'S OWN TOKEN",
+       "style": "red",
+       "y": 1000,
+       "at": 0.65,
+       "size": 58,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "own token."
+   ],
+   "say": "November twenty twenty-two: a leak. His trading firm runs on F T X's own token."
+  },
+  {
+   "text": "Binance says it will sell. Customers pull 6 billion dollars.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_3180.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOV 7",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "BINANCE: SELLING ITS FTT",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_142641.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "-$6 BILLION WITHDRAWN",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "6 billion"
+   ],
+   "say": "Binance says it will sell. Customers pull six billion dollars."
+  },
+  {
+   "text": "November 11: bankruptcy. An 8 billion dollar hole.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_377885.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOV 11, 2022",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "BANKRUPTCY",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_13305.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "$8 BILLION HOLE",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "8 billion"
+   ],
+   "say": "November eleventh: bankruptcy. An eight billion dollar hole."
+  },
+  {
+   "text": "Guilty on seven counts. 25 years in prison.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_254922.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "GUILTY · 7 COUNTS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "NOV 2, 2023",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 56,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_72883.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "25 YEARS",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 96,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "guilty",
+    "25 years"
+   ],
+   "say": "Guilty on seven counts. Twenty-five years in prison."
+  },
+  {
+   "text": "The twist? Customers should get back over 100 percent.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/17_ftx/pixabay_23066.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ESTIMATED RECOVERY",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "118% TO 142%",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.35,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "100 percent"
+   ],
+   "say": "The twist? Customers should get back over a hundred percent."
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

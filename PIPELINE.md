@@ -16,6 +16,18 @@ reference TikToks (Le Média Finance, Bahouais, 1 Date 1 Histoire) set the look.
 - At least 1 `board` per reel to explain the mechanism (chart of the real numbers, or a "who pays whom" diagram).
 - No persistent headline; small "rich2ruin." logo top right; footage credit top left on each shot.
 
+
+## FORMAT V3.1 (since 2026-11-15) — owner feedback + competitor study
+- Length 28–33 s: 7 narration lines + outro, each line ≤ 10 words. Line 1 = number + famous name / outcome first,
+  with its sticker on screen from 0.1 s (readable on mute).
+- Audio: music and SFX are BACKGROUND only (owner: "les bruitages sont toujours trop forts"). Engine mix since
+  2026-11-15: music volume 0.05 and SFX 0.10, both side-chain ducked under the voice (≈16 dB below the voice);
+  no automatic whoosh on shot changes. Use explicit `sfx` sparingly (1 slam on line 1, the crash on the `big` line).
+  `python3 engine/engine.py specs/<id>.json remix` re-mixes an already rendered reel without re-rendering video.
+- Never show a random person while naming a real one (stock actor = misrepresentation); use objects/places instead.
+- Caption: add one real question after line 1 (e.g. "Would you have sold at £1,000?") — DM sends and comments
+  matter more than hashtags; no "comment WORD" CTAs.
+
 ### Finding footage (no API key needed)
 1. Add queries to `media_queries.json` (`"source": "archive"` = Internet Archive, restricted to Prelinger /
    US-government collections; without source = Wikimedia Commons). Push; the "Search Commons media" workflow

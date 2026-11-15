@@ -1,0 +1,391 @@
+{
+ "id": "18_creditmobilier_v3",
+ "style": "v3",
+ "format": "THE SCAM",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "The railroad cost 50 million. The bill: 94 million.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/18_creditmobilier/pixabay_57046.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "COST: $50 MILLION",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "BILLED: $94 MILLION",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "50 million",
+    "94 million."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "The railroad cost fifty million. The bill: ninety-four million."
+  },
+  {
+   "text": "Union Pacific's bosses create their own builder.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/18_creditmobilier/Dale Creek Bridge Union Pacific Railroad Company by Andrew J Russell.jpg",
+     "credit": "Dale Creek Bridge, Union Pacific, A. J. Russell · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1864",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     },
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/18_creditmobilier/Work on the last mile of the Pacific Railroad-Mingling of European with Asiatic .jpg",
+     "credit": "Work on the last mile of the Pacific Railroad, A. R. Waud · Library of Congress, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "CRÉDIT MOBILIER OF AMERICA",
+        "style": "white",
+        "y": 880,
+        "at": 0.1,
+        "size": 50,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "their own"
+   ]
+  },
+  {
+   "text": "They overcharge, and pocket the difference.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/18_creditmobilier/pixabay_41146.mp4",
+     "items": [
+      {
+       "text": "CONGRESS FUNDS",
+       "style": "white",
+       "y": 560,
+       "at": 0.05,
+       "size": 54,
+       "x": 540
+      },
+      {
+       "text": "↓",
+       "style": "yellow",
+       "y": 660,
+       "at": 0.2,
+       "size": 60,
+       "x": 540
+      },
+      {
+       "text": "UNION PACIFIC",
+       "style": "white",
+       "y": 760,
+       "at": 0.3,
+       "size": 58,
+       "x": 540
+      },
+      {
+       "text": "↓  PAYS INFLATED BILLS",
+       "style": "yellow",
+       "y": 870,
+       "at": 0.45,
+       "size": 50,
+       "x": 540
+      },
+      {
+       "text": "CRÉDIT MOBILIER",
+       "style": "white",
+       "y": 980,
+       "at": 0.6,
+       "size": 58,
+       "x": 540
+      },
+      {
+       "text": "= THE SAME MEN",
+       "style": "red",
+       "y": 1100,
+       "at": 0.8,
+       "size": 64,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "overcharge,"
+   ]
+  },
+  {
+   "text": "Congressman Oakes Ames sells shares to colleagues, cheap.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/18_creditmobilier/Oakes Ames - Brady-Handy (cropped).jpg",
+     "credit": "Oakes Ames, Brady-Handy · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "OAKES AMES",
+        "style": "white",
+        "y": 1000,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "CONGRESSMAN",
+        "style": "yellow",
+        "y": 1120,
+        "at": 0.3,
+        "size": 54,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.3,
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SHARES BELOW MARKET PRICE",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 54,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true,
+     "clip": "images/18_creditmobilier/pixabay_41146.mp4"
+    }
+   ],
+   "hl": [
+    "cheap."
+   ]
+  },
+  {
+   "text": "1872: The Sun exposes it. Union Pacific, nearly bankrupt.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/18_creditmobilier/pixabay_113483.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SEPT 4, 1872",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "“THE KING OF FRAUDS”",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3,
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/18_creditmobilier/East and West Shaking hands at the laying of last rail Union Pacific Railroad - .jpg",
+     "credit": "Promontory Summit, 1869, A. J. Russell · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "UNION PACIFIC: NEARLY BANKRUPT",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 52,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "nearly bankrupt."
+   ],
+   "say": "Eighteen seventy-two: The Sun exposes it. Union Pacific, nearly bankrupt."
+  },
+  {
+   "text": "Over 30 politicians got shares. Even the Vice President.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/18_creditmobilier/Keppler Credit Mobilier Hari-Kari.png",
+     "credit": "Credit Mobilier cartoon, J. Keppler · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "30+ POLITICIANS",
+        "style": "yellow",
+        "y": 1050,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "mode": "fit",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/18_creditmobilier/Schuyler Colfax portrait (cropped).jpg",
+     "credit": "Schuyler Colfax · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "VICE PRESIDENT COLFAX",
+        "style": "white",
+        "y": 1000,
+        "at": 0.1,
+        "size": 54,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.3,
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "30",
+    "vice president."
+   ],
+   "say": "Over thirty politicians got shares. Even the Vice President."
+  },
+  {
+   "text": "The twist? No one was ever charged.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/18_creditmobilier/pixabay_142723.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "CHARGES FILED: 0",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "AMES CENSURED · 1873",
+        "style": "white",
+        "y": 890,
+        "at": 0.4,
+        "size": 56,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "charged."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.8
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

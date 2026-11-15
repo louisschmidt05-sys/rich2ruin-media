@@ -1,0 +1,438 @@
+{
+ "id": "16_panic1907_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "1907. Wall Street crashes. One man locks about 120 bankers in his library.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/16_panic1907/1907 Panic.png",
+     "credit": "Wall Street crowd, 1907 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1907",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "WALL STREET COLLAPSES",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/16_panic1907/J.P. Morgan.jpg",
+     "credit": "J. P. Morgan · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "120 BANKERS LOCKED IN",
+        "style": "yellow",
+        "y": 900,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.3,
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "120 bankers"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "Nineteen-oh-seven. Wall Street crashes. One man locks about a hundred and twenty bankers in his library."
+  },
+  {
+   "text": "A failed bet on United Copper: 60 dollars to 10.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/16_panic1907/Brokers signalling, curb market, New York City LCCN93508733.jpg",
+     "credit": "Curb market brokers, New York · Library of Congress, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "OCTOBER 1907",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "UNITED COPPER",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.3,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "board",
+     "bg": "images/16_panic1907/pixabay_151868.mp4",
+     "points": [
+      39,
+      60,
+      10
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 1,
+     "labels": {
+      "0": "$39",
+      "1": "$60",
+      "2": "$10"
+     },
+     "items": [
+      {
+       "text": "UNITED COPPER · OCT 14–16, 1907",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 46,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "60",
+    "10."
+   ],
+   "say": "A failed bet on United Copper: sixty dollars to ten."
+  },
+  {
+   "text": "The Knickerbocker Trust loses 8 million in under three hours.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/16_panic1907/Knickerbocker Trust Co., exterior view, New York LCCN2014680464.jpg",
+     "credit": "Knickerbocker Trust Co., New York · Library of Congress, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "KNICKERBOCKER TRUST",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "-$8M IN < 3 HOURS",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "clip": "images/16_panic1907/pixabay_1694.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "OCTOBER 22",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "8 million"
+   ],
+   "say": "The Knickerbocker Trust loses eight million in under three hours."
+  },
+  {
+   "text": "Stocks fall almost 50 percent.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/16_panic1907/Stockexchange.jpg",
+     "credit": "New York Stock Exchange floor, 1908 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NYSE",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "≈ -50%",
+        "style": "red",
+        "y": 900,
+        "at": 0.4,
+        "size": 110,
+        "x": 540
+       }
+      ]
+     },
+     "zoom": [
+      1.0,
+      1.12
+     ],
+     "flash": 0.4,
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "big": true,
+   "big_at": 0.4,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "50 percent"
+   ],
+   "say": "Stocks fall almost fifty percent."
+  },
+  {
+   "text": "Morgan raises 23.6 million in minutes.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/16_panic1907/Edward Steichen - Photographic portrait of Pierpont Morgan (1837-1913).jpg",
+     "credit": "J. P. Morgan by Edward Steichen, 1903 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "J. P. MORGAN",
+        "style": "white",
+        "y": 1000,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.35,
+     "zoom": [
+      1.0,
+      1.08
+     ],
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "board",
+     "bg": "images/16_panic1907/pixabay_164603.mp4",
+     "items": [
+      {
+       "text": "OCTOBER 24",
+       "style": "white",
+       "y": 640,
+       "at": 0.05,
+       "size": 54,
+       "x": 540
+      },
+      {
+       "text": "14 BANK PRESIDENTS",
+       "style": "yellow",
+       "y": 760,
+       "at": 0.25,
+       "size": 62,
+       "x": 540
+      },
+      {
+       "text": "↓",
+       "style": "white",
+       "y": 870,
+       "at": 0.45,
+       "size": 60,
+       "x": 540
+      },
+      {
+       "text": "$23.6 MILLION",
+       "style": "red",
+       "y": 980,
+       "at": 0.6,
+       "size": 76,
+       "x": 540
+      },
+      {
+       "text": "TO SAVE THE EXCHANGE",
+       "style": "white",
+       "y": 1100,
+       "at": 0.8,
+       "size": 50,
+       "x": 540
+      }
+     ]
+    }
+   ],
+   "hl": [
+    "23.6 million"
+   ],
+   "say": "Morgan raises twenty-three point six million in minutes."
+  },
+  {
+   "text": "Then he locks the bankers in until they pledge 25 million.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/16_panic1907/pixabay_107189.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOVEMBER 2, 1907",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "DOOR LOCKED",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    },
+    {
+     "type": "full",
+     "clip": "images/16_panic1907/pixabay_151868.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "3 A.M. · $25 MILLION",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "locks",
+    "25 million."
+   ],
+   "say": "Then he locks the bankers in until they pledge twenty-five million."
+  },
+  {
+   "text": "The twist? This panic led to the Federal Reserve.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/16_panic1907/FederalReserveMap1914TheSun.png",
+     "credit": "Federal Reserve districts, The Sun, 1914 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1913",
+        "style": "yellow",
+        "y": 1000,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       },
+       {
+        "text": "THE FEDERAL RESERVE",
+        "style": "white",
+        "y": 1120,
+        "at": 0.35,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     },
+     "cx": 0.5,
+     "zoom": [
+      1.0,
+      1.1
+     ],
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "federal reserve."
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
