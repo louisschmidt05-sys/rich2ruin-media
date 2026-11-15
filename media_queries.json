@@ -1,250 +1,100 @@
 {
  "queries": [
   {
-   "reel": "16_panic1907",
-   "q": "Panic of 1907",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "silver bars",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "Knickerbocker Trust Company",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "silver coins",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "J. Pierpont Morgan",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "texas oil field",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "Wall Street 1907",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "dallas skyline",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "Morgan Library New York",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "stock exchange trading",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "New York Stock Exchange 1900s",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "race horse",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "Nelson Aldrich",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "bank vault door",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "Federal Reserve Act 1913",
-   "max": 12,
-   "type": "image"
+   "reel": "19_hunt",
+   "q": "melting metal",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "George B. Cortelyou",
-   "max": 12,
-   "type": "image"
+   "reel": "20_dotcom",
+   "q": "old computer 1990s",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "Wall Street",
-   "max": 10,
-   "source": "archive"
+   "reel": "20_dotcom",
+   "q": "dial up modem",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "New York 1900s",
-   "max": 10,
-   "source": "archive"
+   "reel": "20_dotcom",
+   "q": "dog sock puppet",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "bank run",
-   "max": 10,
-   "source": "archive"
+   "reel": "20_dotcom",
+   "q": "office cubicles empty",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "old library",
-   "max": 8,
-   "source": "pixabay"
+   "reel": "20_dotcom",
+   "q": "stock market screen",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "bank vault",
-   "max": 8,
-   "source": "pixabay"
+   "reel": "20_dotcom",
+   "q": "server rack",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "old pocket watch",
-   "max": 8,
-   "source": "pixabay"
+   "reel": "20_dotcom",
+   "q": "keyboard typing",
+   "source": "pixabay",
+   "max": 8
   },
   {
-   "reel": "16_panic1907",
-   "q": "crowd street",
-   "max": 8,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "cryptocurrency exchange",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "bahamas beach",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "courtroom",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "trading app smartphone",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "server room",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "stock chart crash",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "money burning",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "handcuffs",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "prison bars",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "office night",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "17_ftx",
-   "q": "miami arena",
-   "max": 10,
-   "source": "pixabay"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "Credit Mobilier",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "Oakes Ames",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "Union Pacific Railroad 1869",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "Golden spike Promontory 1869",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "Schuyler Colfax",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "United States Capitol 1870s",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "Thomas Nast Credit Mobilier",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "transcontinental railroad construction",
-   "max": 12,
-   "type": "image"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "railroad",
-   "max": 10,
-   "source": "archive"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "steam locomotive",
-   "max": 10,
-   "source": "archive"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "steam train",
-   "max": 8,
-   "source": "pixabay"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "railway tracks",
-   "max": 8,
-   "source": "pixabay"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "old documents",
-   "max": 8,
-   "source": "pixabay"
-  },
-  {
-   "reel": "18_creditmobilier",
-   "q": "stack of coins",
-   "max": 8,
-   "source": "pixabay"
+   "reel": "20_dotcom",
+   "q": "champagne party",
+   "source": "pixabay",
+   "max": 8
   }
  ]
 }
