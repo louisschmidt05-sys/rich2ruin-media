@@ -1,136 +1,250 @@
 {
  "queries": [
   {
-   "reel": "14_weimar",
-   "q": "inflation 1923 Germany banknotes",
-   "type": "image",
-   "max": 15
+   "reel": "16_panic1907",
+   "q": "Panic of 1907",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "q": "Hyperinflation Weimar",
-   "type": "image",
-   "max": 15
+   "reel": "16_panic1907",
+   "q": "Knickerbocker Trust Company",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "q": "Reichsbanknote 1923",
-   "type": "image",
-   "max": 12
+   "reel": "16_panic1907",
+   "q": "J. Pierpont Morgan",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "q": "Ruhrbesetzung 1923",
-   "type": "image",
-   "max": 12
+   "reel": "16_panic1907",
+   "q": "Wall Street 1907",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "q": "Berlin 1923",
-   "type": "image",
-   "max": 12
+   "reel": "16_panic1907",
+   "q": "Morgan Library New York",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "q": "Rentenmark",
-   "type": "image",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "New York Stock Exchange 1900s",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "source": "archive",
-   "q": "Germany inflation",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "Nelson Aldrich",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "source": "archive",
-   "q": "Germany 1920s Berlin",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "Federal Reserve Act 1913",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "source": "archive",
-   "q": "money printing press",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "George B. Cortelyou",
+   "max": 12,
+   "type": "image"
   },
   {
-   "reel": "14_weimar",
-   "source": "pixabay",
-   "q": "printing press",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "Wall Street",
+   "max": 10,
+   "source": "archive"
   },
   {
-   "reel": "14_weimar",
-   "source": "pixabay",
-   "q": "old paper money",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "New York 1900s",
+   "max": 10,
+   "source": "archive"
   },
   {
-   "reel": "14_weimar",
-   "source": "pixabay",
-   "q": "bread bakery",
-   "max": 8
+   "reel": "16_panic1907",
+   "q": "bank run",
+   "max": 10,
+   "source": "archive"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "stock market screen",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "old library",
+   "max": 8,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "trading monitors",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "bank vault",
+   "max": 8,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "mathematics formula",
-   "max": 10
+   "reel": "16_panic1907",
+   "q": "old pocket watch",
+   "max": 8,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "chess",
-   "max": 8
+   "reel": "16_panic1907",
+   "q": "crowd street",
+   "max": 8,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "moscow kremlin",
-   "max": 8
+   "reel": "17_ftx",
+   "q": "cryptocurrency exchange",
+   "max": 10,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "new york skyline night",
-   "max": 8
+   "reel": "17_ftx",
+   "q": "bahamas beach",
+   "max": 10,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "office meeting night",
-   "max": 8
+   "reel": "17_ftx",
+   "q": "courtroom",
+   "max": 10,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "house of cards",
-   "max": 8
+   "reel": "17_ftx",
+   "q": "trading app smartphone",
+   "max": 10,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "graph falling red",
-   "max": 8
+   "reel": "17_ftx",
+   "q": "server room",
+   "max": 10,
+   "source": "pixabay"
   },
   {
-   "reel": "15_ltcm",
-   "source": "pixabay",
-   "q": "connecticut",
-   "max": 6
+   "reel": "17_ftx",
+   "q": "stock chart crash",
+   "max": 10,
+   "source": "pixabay"
+  },
+  {
+   "reel": "17_ftx",
+   "q": "money burning",
+   "max": 10,
+   "source": "pixabay"
+  },
+  {
+   "reel": "17_ftx",
+   "q": "handcuffs",
+   "max": 10,
+   "source": "pixabay"
+  },
+  {
+   "reel": "17_ftx",
+   "q": "prison bars",
+   "max": 10,
+   "source": "pixabay"
+  },
+  {
+   "reel": "17_ftx",
+   "q": "office night",
+   "max": 10,
+   "source": "pixabay"
+  },
+  {
+   "reel": "17_ftx",
+   "q": "miami arena",
+   "max": 10,
+   "source": "pixabay"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "Credit Mobilier",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "Oakes Ames",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "Union Pacific Railroad 1869",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "Golden spike Promontory 1869",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "Schuyler Colfax",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "United States Capitol 1870s",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "Thomas Nast Credit Mobilier",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "transcontinental railroad construction",
+   "max": 12,
+   "type": "image"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "railroad",
+   "max": 10,
+   "source": "archive"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "steam locomotive",
+   "max": 10,
+   "source": "archive"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "steam train",
+   "max": 8,
+   "source": "pixabay"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "railway tracks",
+   "max": 8,
+   "source": "pixabay"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "old documents",
+   "max": 8,
+   "source": "pixabay"
+  },
+  {
+   "reel": "18_creditmobilier",
+   "q": "stack of coins",
+   "max": 8,
+   "source": "pixabay"
   }
  ]
 }
