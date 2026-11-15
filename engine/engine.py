@@ -1112,7 +1112,7 @@ class Reel:
             if events is None:
                 events = AUTO_SFX.get(sc["type"], [])
                 seg = (b_ - a) / len(shots)
-                events = list(events) + [("whoosh", j * seg) for j in range(1, len(shots))]
+                # 2026-11-15: no extra whoosh on every shot change (owner: SFX must stay in the background)
             for name, off in events:
                 put(name, a + off)
             # a stat counter may live in the scene itself or in its overlay
@@ -1144,9 +1144,10 @@ class Reel:
         D = self.dir
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{D}/voice.wav", "-i", f"{D}/music.wav", "-i", f"{D}/fx.wav",
                         "-filter_complex",
-                        "[0:a]aresample=44100,aformat=channel_layouts=stereo,asplit=2[v1][v2];"
-                        "[1:a]volume=0.30[m];[m][v2]sidechaincompress=threshold=0.05:ratio=4:attack=20:release=300[md];"
-                        "[2:a]volume=0.65[f];"
+                        "[0:a]aresample=44100,aformat=channel_layouts=stereo,asplit=3[v1][v2][v3];"
+                        # 2026-11-15 owner feedback: music and SFX must sit in the background, ducked under the voice
+                        "[1:a]volume=0.05[m];[m][v2]sidechaincompress=threshold=0.03:ratio=6:attack=15:release=350[md];"
+                        "[2:a]volume=0.10[f0];[f0][v3]sidechaincompress=threshold=0.03:ratio=5:attack=5:release=250[f];"
                         "[v1][md][f]amix=inputs=3:duration=longest:normalize=0,alimiter=limit=0.95,loudnorm=I=-14:TP=-1.5:LRA=11[a]",
                         "-map", "[a]", "-ar", "44100", f"{D}/mix.wav"], check=True)
 
@@ -1197,7 +1198,7 @@ class Reel:
 if __name__ == "__main__":
     r = Reel(sys.argv[1])
     cmd = sys.argv[2] if len(sys.argv) > 2 else "all"
-    if cmd in ("voice", "all"):
+    if cmd in ("voice", "all") or (cmd == "remix" and not os.path.exists(os.path.join(r.dir, "voice.wav"))):
         r.voice()
         print(r.id, "voice", round(r.timing["total"], 1), "s", flush=True)
     else:
@@ -1205,6 +1206,15 @@ if __name__ == "__main__":
     if cmd in ("render", "all"):
         r.audio()
         print(r.id, "->", r.render(), flush=True)
+    if cmd == "remix":
+        # new audio mix on an already rendered reel: keep its video stream, replace the soundtrack
+        r.audio()
+        final = os.path.join(BASE, "reels", f"{r.id}.mp4")
+        tmp = final.replace(".mp4", ".remix.tmp.mp4")
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", final, "-i", os.path.join(r.dir, "mix.wav"),
+                        "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", tmp], check=True)
+        os.replace(tmp, final)
+        print(r.id, "remixed ->", final, flush=True)
     if cmd == "stills":
         # one still per line, 70% into it
         wins = r.windows()
