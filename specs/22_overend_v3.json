@@ -1,0 +1,357 @@
+{
+ "id": "22_overend_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "London, 1866: the 'bankers' bank' collapses. Black Friday.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/22_overend/Political cartoon from Fun magazine about Overend Gurney.jpg",
+     "credit": "\"A bank stock(ing)\", Fun magazine, 1866 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "OVEREND, GURNEY & CO",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "BLACK FRIDAY",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 92,
+        "x": 540
+       }
+      ]
+     },
+     "grain": true
+    },
+    {
+     "type": "full",
+     "clip": "images/22_overend/pixabay_43562.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE BANKERS' BANK",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "Black Friday."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "London, eighteen sixty-six: the bankers' bank collapses. Black Friday."
+  },
+  {
+   "text": "Overend Gurney was bigger than its next three rivals combined.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/22_overend/Aerial cutaway view of Soane's Bank of England by JM Gandy 1830.jpg",
+     "credit": "Bank of England, J. M. Gandy, 1830 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "LARGEST DISCOUNT HOUSE IN LONDON",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50,
+        "x": 540
+       },
+       {
+        "text": "> NEXT 3 RIVALS COMBINED",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 56,
+        "x": 540
+       }
+      ]
+     },
+     "grain": true
+    }
+   ],
+   "hl": [
+    "three rivals"
+   ]
+  },
+  {
+   "text": "1865: it sells shares to the public at £15 paid.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/22_overend/pixabay_107240.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JULY 1865: GOES PUBLIC",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "£15 PAID PER SHARE",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/22_overend/pixabay_325497.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BY OCTOBER: OVER £25",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "£15"
+   ],
+   "say": "Eighteen sixty-five: it sells shares to the public at fifteen pounds paid."
+  },
+  {
+   "text": "By May 1866, they're down to £12.25.",
+   "shots": [
+    {
+     "type": "board",
+     "bg": "images/22_overend/pixabay_111281.mp4",
+     "items": [
+      {
+       "text": "OVEREND GURNEY SHARE",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 48,
+       "x": 540
+      },
+      {
+       "text": "JULY 1865 → MAY 1866",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ],
+     "points": [
+      15,
+      25,
+      12.25
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 1,
+     "labels": {
+      "0": "£15",
+      "1": "£25+",
+      "2": "£12.25"
+     }
+    }
+   ],
+   "hl": [
+    "£12.25."
+   ],
+   "say": "By May eighteen sixty-six, they're down to twelve pounds twenty-five."
+  },
+  {
+   "text": "It begs the Bank of England for help. Refused.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/22_overend/19th century Bank of England parlor.jpg",
+     "credit": "Bank of England parlour, 19th century · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "MAY 9, 1866",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "HELP REFUSED",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "Refused."
+   ]
+  },
+  {
+   "text": "May 10, 3:30 pm: a note on the door. Suspended.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/22_overend/pixabay_130878.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "10 MAY 1866 · 15:30",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "PAYMENTS SUSPENDED",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3,
+     "dim": 0.2
+    },
+    {
+     "type": "full",
+     "clip": "images/22_overend/pixabay_1694.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "LOMBARD STREET BESIEGED",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 54,
+        "x": 540
+       },
+       {
+        "text": "BANK RATE → 10%",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "Suspended."
+   ],
+   "say": "May tenth, three thirty p.m.: a note on the door. Suspended."
+  },
+  {
+   "text": "The twist? It taught the Bank to rescue banks in a panic.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/22_overend/Walter Bagehot NPG.jpg",
+     "credit": "Walter Bagehot · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BAGEHOT, LOMBARD STREET, 1873",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50,
+        "x": 540
+       },
+       {
+        "text": "\"LEND FREELY, BOLDLY\"",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.4,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "rescue"
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.3
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

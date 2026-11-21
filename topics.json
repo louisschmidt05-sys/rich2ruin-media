@@ -165,32 +165,41 @@
   {
    "title": "Florida land boom and bust (1920s)",
    "format": "THE CRASH",
-   "style": "archive",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "21_florida_v3",
+   "date": "2026-11-24"
   },
   {
    "title": "Overend, Gurney & Co collapse (London, 1866)",
    "format": "RICH TO RUIN",
-   "style": "archive",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "22_overend_v3",
+   "date": "2026-11-26"
   },
   {
    "title": "Panic of 1873 and the fall of Jay Cooke & Company",
    "format": "THE CRASH",
-   "style": "archive",
-   "status": "backlog"
+   "style": "v3",
+   "status": "scheduled",
+   "id": "23_panic1873_v3",
+   "date": "2026-12-01"
   },
   {
    "title": "The Darien scheme: Scotland's lost fortune (1698-1700)",
    "format": "RICH TO RUIN",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "24_darien_v3",
+   "date": "2026-12-03"
   },
   {
    "title": "Wirecard collapse (2020)",
    "format": "THE SCAM",
    "style": "v3",
-   "status": "backlog"
+   "status": "rejected",
+   "reason": "2026-11-21: Markus Braun's criminal trial in Munich had no verdict on the sources found; THE SCAM requires a court conviction. Re-add after a verdict."
   },
   {
    "title": "Japan's asset bubble burst (1990)",
@@ -202,7 +211,9 @@
    "title": "The Great Salad Oil Swindle (1963)",
    "format": "THE SCAM",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "25_saladoil_v3",
+   "date": "2026-12-08"
   },
   {
    "title": "Société Générale rogue trader Jérôme Kerviel (2008)",
@@ -248,6 +259,48 @@
   },
   {
    "title": "Bernard Cornfeld and Investors Overseas Services (1970)",
+   "format": "RICH TO RUIN",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Penn Central bankruptcy (1970)",
+   "format": "RICH TO RUIN",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Asian financial crisis: Thailand's baht (1997)",
+   "format": "THE CRASH",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Barlow Clowes investment fraud (UK, 1988)",
+   "format": "THE SCAM",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Poseidon nickel bubble (Australia, 1969-1970)",
+   "format": "THE CRASH",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "ZZZZ Best and the conviction of Barry Minkow (1987-1988)",
+   "format": "THE SCAM",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Continental Illinois: the bank 'too big to fail' (1984)",
+   "format": "RICH TO RUIN",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The crash of the Union Générale (Paris, 1882)",
    "format": "RICH TO RUIN",
    "style": "v3",
    "status": "backlog"

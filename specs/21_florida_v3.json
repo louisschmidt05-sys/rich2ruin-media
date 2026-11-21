@@ -1,0 +1,389 @@
+{
+ "id": "21_florida_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "Miami, 1925: some lots reportedly sold ten times a day.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/21_florida/Miami Beach - Beach scene (1925).jpg",
+     "credit": "Miami Beach postcard, 1925 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "MIAMI, 1925",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       },
+       {
+        "text": "SOLD 10× A DAY",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "clip": "images/21_florida/pixabay_154197.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE FLORIDA LAND BOOM",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "ten times"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "Miami, nineteen twenty-five: some lots reportedly sold ten times a day."
+  },
+  {
+   "text": "Many buyers only paid a binder: a non-refundable deposit.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/21_florida/pixabay_41146.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE BINDER",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       },
+       {
+        "text": "NON-REFUNDABLE DEPOSIT",
+        "style": "white",
+        "y": 890,
+        "at": 0.35,
+        "size": 56,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "binder:"
+   ]
+  },
+  {
+   "text": "The rest was due in 30 days. So they flipped it.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/21_florida/Aladdin City Florida Land Boom Map 1927.jpg",
+     "credit": "Aladdin City lot plan, 1920s · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BALANCE DUE: 30 DAYS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "FLIP IT FIRST",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "grain": true
+    },
+    {
+     "type": "full",
+     "img": "images/21_florida/Dammers, Gillette, and Burnes company bus- Coral Gables, Florida (8947514049).jpg",
+     "credit": "Real estate bus, Coral Gables, 1922 · State Archives of Florida, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "CORAL GABLES",
+        "style": "white",
+        "y": 880,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "30 days."
+   ],
+   "say": "The rest was due in thirty days. So they flipped it."
+  },
+  {
+   "text": "January 1926: a sunken ship blocks Miami's harbour.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/21_florida/pixabay_200244.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JANUARY 10, 1926",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "PRINZ VALDEMAR SINKS",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    },
+    {
+     "type": "full",
+     "clip": "images/21_florida/pixabay_173725.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "HARBOUR BLOCKED",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "sunken ship"
+   ],
+   "say": "January nineteen twenty-six: a sunken ship blocks Miami's harbour."
+  },
+  {
+   "text": "September 1926: a hurricane hits Miami. Nearly 400 dead.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/21_florida/Miami hurricane weather map 9-18-1926 (3254801).jpg",
+     "credit": "Weather map, 18 Sept 1926 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SEPTEMBER 18, 1926",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true,
+     "flash": 0.3
+    },
+    {
+     "type": "full",
+     "img": "images/21_florida/Home damaged by the 1926 hurricane- Miami Beach, Florida (8948510740).jpg",
+     "credit": "Miami Beach, Sept 1926 · State Archives of Florida, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NEARLY 400 DEAD",
+        "style": "red",
+        "y": 890,
+        "at": 0.1,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "Nearly 400"
+   ],
+   "say": "September nineteen twenty-six: a hurricane hits Miami. Nearly four hundred dead."
+  },
+  {
+   "text": "In 1926 alone, 40 Florida banks fail.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/21_florida/Hollywood Beach Hotel after the 1926 hurricane (8901431154).jpg",
+     "credit": "Hollywood Beach Hotel, Oct 1926 · State Archives of Florida, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1926",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "40 BANKS FAIL",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "board",
+     "bg": "images/21_florida/pixabay_81359.mp4",
+     "items": [
+      {
+       "text": "WEST PALM BEACH REAL ESTATE",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 44,
+       "x": 540
+      },
+      {
+       "text": "1929 → 1930 → 1935",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ],
+     "points": [
+      88.5,
+      41.6,
+      18.2
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 0,
+     "labels": {
+      "0": "1929",
+      "1": "$41.6M",
+      "2": "$18.2M"
+     }
+    }
+   ],
+   "hl": [
+    "40"
+   ],
+   "say": "In nineteen twenty-six alone, forty Florida banks fail."
+  },
+  {
+   "text": "The twist? This crash came three years before Wall Street's.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/21_florida/pixabay_59535.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "FLORIDA: 1926",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "WALL STREET: 1929",
+        "style": "white",
+        "y": 890,
+        "at": 0.4,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "dim": 0.25
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "three years"
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.3
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

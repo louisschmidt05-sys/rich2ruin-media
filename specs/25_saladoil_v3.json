@@ -1,0 +1,354 @@
+{
+ "id": "25_saladoil_v3",
+ "style": "v3",
+ "format": "THE SCAM",
+ "lead_in": 0.06,
+ "speed": 1.12,
+ "lines": [
+  {
+   "text": "1.8 billion pounds of salad oil. Barely 100 million existed.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_342185.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1.8 BILLION LB CLAIMED",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "≈100 MILLION FOUND",
+        "style": "red",
+        "y": 890,
+        "at": 0.35,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "img": "images/25_saladoil/Constable Hook tanks jeh.jpg",
+     "credit": "Oil tanks, Constable Hook, Bayonne (today) · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BAYONNE, NEW JERSEY",
+        "style": "white",
+        "y": 880,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.2
+    }
+   ],
+   "hl": [
+    "1.8 billion",
+    "100 million"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "One point eight billion pounds of salad oil. Barely a hundred million existed."
+  },
+  {
+   "text": "Tino De Angelis runs a vegetable oil refinery in Bayonne.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/25_saladoil/Anthony \"Tino\" De Angelis.png",
+     "credit": "Tino De Angelis · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "TINO DE ANGELIS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "ALLIED CRUDE VEGETABLE OIL",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 54,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true,
+     "cy": 0.35
+    }
+   ],
+   "hl": [
+    "Bayonne."
+   ]
+  },
+  {
+   "text": "His tanks hold mostly water, with oil floating on top.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_190323.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "MOSTLY WATER",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       },
+       {
+        "text": "A SLICK OF OIL ON TOP",
+        "style": "white",
+        "y": 890,
+        "at": 0.35,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.15
+    }
+   ],
+   "hl": [
+    "water,"
+   ]
+  },
+  {
+   "text": "Pipes move the same oil from tank to tank.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_43629.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "TANKS LINKED BY PIPES",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "SAME OIL, COUNTED TWICE",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "same oil"
+   ]
+  },
+  {
+   "text": "An American Express subsidiary vouches for it. Loans follow.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_13047.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AMERICAN EXPRESS WAREHOUSING",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 50,
+        "x": 540
+       },
+       {
+        "text": "WAREHOUSE RECEIPTS",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.35,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "img": "images/25_saladoil/NY stock exchange traders floor LC-U9-10548-6.jpg",
+     "credit": "NYSE floor, 1960s · Library of Congress, public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BROKERS LEND ON THE OIL",
+        "style": "white",
+        "y": 880,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     },
+     "bw": true,
+     "grain": true
+    }
+   ],
+   "hl": [
+    "vouches"
+   ]
+  },
+  {
+   "text": "November 1963: soybean oil cracks. His company goes bankrupt.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_33805.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NOVEMBER 19, 1963",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "BANKRUPT",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 96,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "board",
+     "bg": "images/25_saladoil/pixabay_274449.mp4",
+     "items": [
+      {
+       "text": "SOYBEAN OIL PRICE",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 48,
+       "x": 540
+      },
+      {
+       "text": "NOV 15 → NOV 19, 1963",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ],
+     "points": [
+      9.875,
+      9,
+      7.75
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 0,
+     "labels": {
+      "0": "9.875",
+      "1": "9",
+      "2": "7.75"
+     }
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "bankrupt."
+   ],
+   "say": "November nineteen sixty-three: soybean oil cracks. His company goes bankrupt."
+  },
+  {
+   "text": "The twist? AmEx stock plunges, and Warren Buffett buys 5 percent.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "AMEX: $65 → $37",
+        "style": "red",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "BUFFETT BUYS 5%",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.4,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.15
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "5 percent."
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.3
+    ]
+   ],
+   "say": "The twist? Amex stock plunges, and Warren Buffett buys five percent."
+  },
+  {
+   "text": "Follow Rich to Ruin for the next scam.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

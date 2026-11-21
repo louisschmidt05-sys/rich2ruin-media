@@ -707,8 +707,8 @@ def cover(im, z=1.0, cx=0.5, cy=0.5):
     """Crop/scale any image to fill 1080x1920 (z>=1 zooms in)."""
     sc = max(W / im.width, H / im.height) * z
     vw, vh = W / sc, H / sc
-    x0 = min(max(cx * im.width - vw / 2, 0), im.width - vw)
-    y0 = min(max(cy * im.height - vh / 2, 0), im.height - vh)
+    x0 = max(0.0, min(max(cx * im.width - vw / 2, 0), im.width - vw))  # float rounding can go below 0
+    y0 = max(0.0, min(max(cy * im.height - vh / 2, 0), im.height - vh))
     return im.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + vw, y0 + vh))
 
 
