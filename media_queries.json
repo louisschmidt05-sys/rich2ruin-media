@@ -1,98 +1,344 @@
 {
  "queries": [
   {
-   "reel": "19_hunt",
-   "q": "silver bars",
+   "reel": "21_florida",
+   "q": "Miami 1925",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "21_florida",
+   "q": "Florida land boom 1920s",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "21_florida",
+   "q": "1926 Miami hurricane",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "21_florida",
+   "q": "Prinz Valdemar Miami",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "21_florida",
+   "q": "Coral Gables 1920s",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "21_florida",
+   "q": "Miami Beach 1920s",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "21_florida",
+   "q": "palm trees beach",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "silver coins",
+   "reel": "21_florida",
+   "q": "miami",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "texas oil field",
+   "reel": "21_florida",
+   "q": "hurricane storm",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "dallas skyline",
+   "reel": "21_florida",
+   "q": "sold sign real estate",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "stock exchange trading",
+   "reel": "21_florida",
+   "q": "swamp everglades",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "race horse",
+   "reel": "21_florida",
+   "q": "old documents",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "bank vault door",
+   "reel": "22_overend",
+   "q": "Overend Gurney",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "22_overend",
+   "q": "Lombard Street 1866",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "22_overend",
+   "q": "Bank of England 19th century",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "22_overend",
+   "q": "Walter Bagehot",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "22_overend",
+   "q": "London City 1860s engraving",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "22_overend",
+   "q": "london city street",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "19_hunt",
-   "q": "melting metal",
+   "reel": "22_overend",
+   "q": "bank of england",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "old computer 1990s",
+   "reel": "22_overend",
+   "q": "old coins pound",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "dial up modem",
+   "reel": "22_overend",
+   "q": "quill pen ink writing",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "dog sock puppet",
+   "reel": "22_overend",
+   "q": "candle dark",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "office cubicles empty",
+   "reel": "22_overend",
+   "q": "crowd walking",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "stock market screen",
+   "reel": "23_panic1873",
+   "q": "Panic of 1873",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "23_panic1873",
+   "q": "Jay Cooke",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "23_panic1873",
+   "q": "Northern Pacific Railway 1870s",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "23_panic1873",
+   "q": "New York Stock Exchange 1873",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "23_panic1873",
+   "q": "Jay Cooke and Company",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "23_panic1873",
+   "q": "steam locomotive",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "server rack",
+   "reel": "23_panic1873",
+   "q": "railroad tracks",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "keyboard typing",
+   "reel": "23_panic1873",
+   "q": "old train station",
    "source": "pixabay",
    "max": 8
   },
   {
-   "reel": "20_dotcom",
-   "q": "champagne party",
+   "reel": "23_panic1873",
+   "q": "closed door lock",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "23_panic1873",
+   "q": "silver mine",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "24_darien",
+   "q": "Darien scheme",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "24_darien",
+   "q": "Company of Scotland",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "24_darien",
+   "q": "Darien chest",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "24_darien",
+   "q": "New Edinburgh Darien map",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "24_darien",
+   "q": "William Paterson banker",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "24_darien",
+   "q": "Edinburgh 17th century",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "24_darien",
+   "q": "tall ship sailing",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "24_darien",
+   "q": "jungle rain",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "24_darien",
+   "q": "stormy sea",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "24_darien",
+   "q": "edinburgh",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "24_darien",
+   "q": "old map",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "24_darien",
+   "q": "treasure chest",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "Tino De Angelis",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "American Express 1960s",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "Bayonne New Jersey oil tanks",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "New York Stock Exchange 1963",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "Warren Buffett 1960s",
+   "type": "image",
+   "max": 12
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "oil storage tanks",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "pouring oil",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "soybeans",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "water tank",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "stock market",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "industrial port",
+   "source": "pixabay",
+   "max": 8
+  },
+  {
+   "reel": "25_saladoil",
+   "q": "pipes valves industrial",
    "source": "pixabay",
    "max": 8
   }
