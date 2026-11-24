@@ -1,0 +1,20 @@
+{
+ "jobs": [
+  {
+   "id": "21_florida_v3",
+   "voice": "cb_default",
+   "lines": [
+    "Miami, nineteen twenty-five: some lots reportedly sold ten times a day.",
+    "Many buyers only paid a binder: a non-refundable deposit.",
+    "The rest was due in thirty days. So they flipped it.",
+    "January nineteen twenty-six: a sunken ship blocks Miami's harbour.",
+    "September nineteen twenty-six: a hurricane hits Miami. Nearly four hundred dead.",
+    "In nineteen twenty-six alone, forty Florida banks fail.",
+    "The twist? This crash came three years before Wall Street's.",
+    "Follow Rich to Ruin for the next crash."
+   ],
+   "exaggeration": 0.5,
+   "cfg": 0.5
+  }
+ ]
+}

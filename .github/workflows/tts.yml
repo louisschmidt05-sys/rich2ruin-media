@@ -1,0 +1,32 @@
+name: Natural TTS (Chatterbox)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - voice_jobs.json
+      - scripts/tts_chatterbox.py
+
+permissions:
+  contents: write
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --extra-index-url https://download.pytorch.org/whl/cpu torch==2.6.0 torchaudio==2.6.0
+      - run: pip install chatterbox-tts soundfile
+      - run: python scripts/tts_chatterbox.py
+      - name: Commit voices
+        run: |
+          git config user.name "rich2ruin-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add voices
+          git diff --cached --quiet || git commit -m "Chatterbox voice lines"
+          git pull --rebase
+          git push
