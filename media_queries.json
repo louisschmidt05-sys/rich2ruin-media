@@ -1,346 +1,652 @@
 {
  "queries": [
   {
-   "reel": "21_florida",
-   "q": "Miami 1925",
-   "type": "image",
-   "max": 12
+   "q": "palm trees wind storm",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "21_florida"
   },
   {
-   "reel": "21_florida",
-   "q": "Florida land boom 1920s",
-   "type": "image",
-   "max": 12
+   "q": "vintage car",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "21_florida"
   },
   {
-   "reel": "21_florida",
-   "q": "1926 Miami hurricane",
-   "type": "image",
-   "max": 12
+   "q": "signing contract",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "21_florida"
   },
   {
-   "reel": "21_florida",
-   "q": "Prinz Valdemar Miami",
-   "type": "image",
-   "max": 12
+   "q": "tropical beach aerial",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "21_florida"
   },
   {
-   "reel": "21_florida",
+   "q": "harbor boats",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "21_florida"
+  },
+  {
+   "q": "counting money cash",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "21_florida"
+  },
+  {
+   "q": "Miami 1920s",
+   "type": "image",
+   "max": 15,
+   "reel": "21_florida"
+  },
+  {
    "q": "Coral Gables 1920s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "21_florida"
   },
   {
-   "reel": "21_florida",
-   "q": "Miami Beach 1920s",
+   "q": "1926 Miami hurricane",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "21_florida"
   },
   {
-   "reel": "21_florida",
-   "q": "palm trees beach",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "21_florida",
-   "q": "miami",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "21_florida",
-   "q": "hurricane storm",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "21_florida",
-   "q": "sold sign real estate",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "21_florida",
-   "q": "swamp everglades",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "21_florida",
-   "q": "old documents",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "22_overend",
-   "q": "Overend Gurney",
+   "q": "Florida land boom advertisement",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "21_florida"
   },
   {
-   "reel": "22_overend",
-   "q": "Lombard Street 1866",
+   "q": "old london",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "22_overend"
+  },
+  {
+   "q": "victorian",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "22_overend"
+  },
+  {
+   "q": "gold coins",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "22_overend"
+  },
+  {
+   "q": "old ledger book",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "22_overend"
+  },
+  {
+   "q": "bank vault",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "22_overend"
+  },
+  {
+   "q": "closed door",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "22_overend"
+  },
+  {
+   "q": "Lombard Street London 19th century",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "22_overend"
   },
   {
-   "reel": "22_overend",
-   "q": "Bank of England 19th century",
+   "q": "Illustrated London News 1866",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "22_overend"
   },
   {
-   "reel": "22_overend",
-   "q": "Walter Bagehot",
+   "q": "City of London 1860s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "22_overend"
   },
   {
-   "reel": "22_overend",
-   "q": "London City 1860s engraving",
+   "q": "Royal Exchange London 19th century",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "22_overend"
   },
   {
-   "reel": "22_overend",
-   "q": "london city street",
+   "q": "vintage train",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "22_overend",
-   "q": "bank of england",
+   "q": "old west railroad",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "22_overend",
-   "q": "old coins pound",
+   "q": "crowd panic",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "22_overend",
-   "q": "quill pen ink writing",
+   "q": "bank vault door",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "22_overend",
-   "q": "candle dark",
+   "q": "unemployed",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "22_overend",
-   "q": "crowd walking",
+   "q": "money falling",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "23_panic1873",
-   "q": "Panic of 1873",
+   "q": "Northern Pacific Railroad 1870s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "23_panic1873",
-   "q": "Jay Cooke",
+   "q": "Wall Street 1870s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "23_panic1873",
-   "q": "Northern Pacific Railway 1870s",
+   "q": "Long Depression 1870s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "23_panic1873",
-   "q": "New York Stock Exchange 1873",
+   "q": "Harper's Weekly 1873 panic",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "23_panic1873"
   },
   {
-   "reel": "23_panic1873",
-   "q": "Jay Cooke and Company",
+   "q": "sailing ship ocean",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "24_darien"
+  },
+  {
+   "q": "tropical jungle",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "24_darien"
+  },
+  {
+   "q": "scotland highlands",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "24_darien"
+  },
+  {
+   "q": "old ship wood",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "24_darien"
+  },
+  {
+   "q": "mosquito",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "24_darien"
+  },
+  {
+   "q": "fort ruins",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "24_darien"
+  },
+  {
+   "q": "Darien Panama map 17th century",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "24_darien"
   },
   {
-   "reel": "23_panic1873",
-   "q": "steam locomotive",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "23_panic1873",
-   "q": "railroad tracks",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "23_panic1873",
-   "q": "old train station",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "23_panic1873",
-   "q": "closed door lock",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "23_panic1873",
-   "q": "silver mine",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "24_darien",
-   "q": "Darien scheme",
+   "q": "Edinburgh 1690s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "24_darien"
   },
   {
-   "reel": "24_darien",
-   "q": "Company of Scotland",
+   "q": "William III of England portrait",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "24_darien"
   },
   {
-   "reel": "24_darien",
-   "q": "Darien chest",
+   "q": "Isthmus of Panama old map",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "24_darien"
   },
   {
-   "reel": "24_darien",
-   "q": "New Edinburgh Darien map",
+   "q": "oil tank",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "25_saladoil"
+  },
+  {
+   "q": "cooking oil",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "25_saladoil"
+  },
+  {
+   "q": "industrial tanks",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "25_saladoil"
+  },
+  {
+   "q": "warehouse",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "25_saladoil"
+  },
+  {
+   "q": "stock exchange",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "25_saladoil"
+  },
+  {
+   "q": "water pouring",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "25_saladoil"
+  },
+  {
+   "q": "Bayonne New Jersey 1960s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "25_saladoil"
   },
   {
-   "reel": "24_darien",
-   "q": "William Paterson banker",
+   "q": "New York Stock Exchange 1960s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "25_saladoil"
   },
   {
-   "reel": "24_darien",
-   "q": "Edinburgh 17th century",
-   "type": "image",
-   "max": 12
-  },
-  {
-   "reel": "24_darien",
-   "q": "tall ship sailing",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "24_darien",
-   "q": "jungle rain",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "24_darien",
-   "q": "stormy sea",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "24_darien",
-   "q": "edinburgh",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "24_darien",
-   "q": "old map",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "24_darien",
-   "q": "treasure chest",
-   "source": "pixabay",
-   "max": 8
-  },
-  {
-   "reel": "25_saladoil",
-   "q": "Tino De Angelis",
-   "type": "image",
-   "max": 12
-  },
-  {
-   "reel": "25_saladoil",
    "q": "American Express 1960s",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "25_saladoil"
   },
   {
-   "reel": "25_saladoil",
-   "q": "Bayonne New Jersey oil tanks",
+   "q": "soybean oil",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "25_saladoil"
   },
   {
-   "reel": "25_saladoil",
-   "q": "New York Stock Exchange 1963",
+   "q": "panama canal",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "11b_panama"
+  },
+  {
+   "q": "excavator digging",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "11b_panama"
+  },
+  {
+   "q": "jungle river",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "11b_panama"
+  },
+  {
+   "q": "ship canal",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "11b_panama"
+  },
+  {
+   "q": "paris old",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "11b_panama"
+  },
+  {
+   "q": "courtroom",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "11b_panama"
+  },
+  {
+   "q": "Panama Canal French construction",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "11b_panama"
   },
   {
-   "reel": "25_saladoil",
-   "q": "Warren Buffett 1960s",
+   "q": "Ferdinand de Lesseps",
    "type": "image",
-   "max": 12
+   "max": 15,
+   "reel": "11b_panama"
   },
   {
-   "reel": "25_saladoil",
-   "q": "oil storage tanks",
-   "source": "pixabay",
-   "max": 8
+   "q": "Panama scandal 1892",
+   "type": "image",
+   "max": 15,
+   "reel": "11b_panama"
   },
   {
-   "reel": "25_saladoil",
-   "q": "pouring oil",
-   "source": "pixabay",
-   "max": 8
+   "q": "Culebra Cut 1880s",
+   "type": "image",
+   "max": 15,
+   "reel": "11b_panama"
   },
   {
-   "reel": "25_saladoil",
-   "q": "soybeans",
+   "q": "wall street new york",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "13b_lehman"
   },
   {
-   "reel": "25_saladoil",
-   "q": "water tank",
+   "q": "office building night",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "13b_lehman"
   },
   {
-   "reel": "25_saladoil",
-   "q": "stock market",
+   "q": "houses suburb",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "13b_lehman"
   },
   {
-   "reel": "25_saladoil",
-   "q": "industrial port",
+   "q": "stock market crash",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "13b_lehman"
   },
   {
-   "reel": "25_saladoil",
-   "q": "pipes valves industrial",
+   "q": "empty office",
    "source": "pixabay",
-   "max": 8
+   "max": 10,
+   "reel": "13b_lehman"
+  },
+  {
+   "q": "newspaper",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "13b_lehman"
+  },
+  {
+   "q": "cardboard box office",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "13b_lehman"
+  },
+  {
+   "q": "skyscraper",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "13b_lehman"
+  },
+  {
+   "q": "banknotes",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "printing press",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "bread",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "old money",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "inflation",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "Weimar hyperinflation 1923",
+   "type": "image",
+   "max": 15,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "Berlin 1923",
+   "type": "image",
+   "max": 15,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "German inflation banknotes 1923",
+   "type": "image",
+   "max": 15,
+   "reel": "14_weimar"
+  },
+  {
+   "q": "trading screen",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "computer code",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "greenwich connecticut",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "federal reserve",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "moscow russia",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "chess",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "mathematics equations",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "15_ltcm"
+  },
+  {
+   "q": "old new york",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "vintage library",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "gold bars",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "crowd street",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "locked door",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "Panic of 1907",
+   "type": "image",
+   "max": 15,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "Morgan Library 1907",
+   "type": "image",
+   "max": 15,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "Wall Street 1907",
+   "type": "image",
+   "max": 15,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "Knickerbocker Trust 1907",
+   "type": "image",
+   "max": 15,
+   "reel": "16_panic1907"
+  },
+  {
+   "q": "cryptocurrency",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "bahamas",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "courthouse",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "laptop dark",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "trading app phone",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "handcuffs",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "server room",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "17_ftx"
+  },
+  {
+   "q": "steam train",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "railroad construction",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "capitol washington",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "old documents",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "prairie",
+   "source": "pixabay",
+   "max": 10,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "Union Pacific Railroad 1869",
+   "type": "image",
+   "max": 15,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "Credit Mobilier scandal",
+   "type": "image",
+   "max": 15,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "transcontinental railroad 1869",
+   "type": "image",
+   "max": 15,
+   "reel": "18_creditmobilier"
+  },
+  {
+   "q": "Puck magazine 1872 cartoon",
+   "type": "image",
+   "max": 15,
+   "reel": "18_creditmobilier"
   }
  ]
 }
