@@ -55,6 +55,13 @@
       ]
      },
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Scenes in Wall Street during the panic. Run on the Union… · public domain",
+     "img": "images/23_panic1873/Scenes in Wall Street during the panic. Run on the Union Trust Company LCCN90707.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -117,6 +124,11 @@
       ]
      },
      "bw": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/23_panic1873/pixabay_364319.mp4"
     }
    ],
    "hl": [
@@ -172,6 +184,18 @@
      },
      "bw": true,
      "dim": 0.2
+    },
+    {
+     "type": "full",
+     "credit": "Panic, as a health officer, sweeping the garbage out of… · public domain",
+     "img": "images/23_panic1873/Panic, as a health officer, sweeping the garbage out of Wall Street LCCN20136500.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/23_panic1873/pixabay_337625.mp4"
     }
    ],
    "hl": [
@@ -268,6 +292,11 @@
       ]
      },
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/23_panic1873/pixabay_20263.mp4"
     }
    ],
    "hl": [
@@ -327,6 +356,11 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/23_panic1873/pixabay_257346.mp4"
     }
    ],
    "hl": [
@@ -362,6 +396,16 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/23_panic1873/pixabay_337105.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/23_panic1873/pixabay_11186.mp4"
     }
    ],
    "twist": true,

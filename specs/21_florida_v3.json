@@ -53,6 +53,20 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Miami Beach - Miami Beach Casino · public domain",
+     "img": "images/21_florida/Miami Beach - Miami Beach Casino.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Miami - Miami Daily News Tower · public domain",
+     "img": "images/21_florida/Miami - Miami Daily News Tower.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -94,6 +108,20 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Coral Gables (1925) - Interior of Coral Gables Office,… · public domain",
+     "img": "images/21_florida/Coral Gables (1925) - Interior of Coral Gables Office, Merrick Building, Miami.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Billboard for the Sale of Subdivision Real Estate Lots… · public domain",
+     "img": "images/21_florida/Billboard for the Sale of Subdivision Real Estate Lots WDL4030.png",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -203,6 +231,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/21_florida/pixabay_6412.mp4"
     }
    ],
    "hl": [
@@ -253,6 +286,18 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Miami Beach storm surge flooding from 1926 hurricane · public domain",
+     "img": "images/21_florida/Miami Beach storm surge flooding from 1926 hurricane.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/21_florida/pixabay_94416.mp4"
     }
    ],
    "big": true,
@@ -329,6 +374,13 @@
       "1": "$41.6M",
       "2": "$18.2M"
      }
+    },
+    {
+     "type": "full",
+     "credit": "Coral Gables - Antilla Hotel · public domain",
+     "img": "images/21_florida/Coral Gables - Antilla Hotel.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -366,6 +418,16 @@
      },
      "bw": true,
      "dim": 0.25
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/21_florida/pixabay_6399.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/21_florida/pixabay_42894.mp4"
     }
    ],
    "twist": true,

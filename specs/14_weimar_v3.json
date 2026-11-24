@@ -58,6 +58,18 @@
       1.06
      ],
      "dim": 0.0
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/14_weimar/pixabay_207992.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Gutschein - Dietfurt-… · public domain",
+     "img": "images/14_weimar/Gutschein - Dietfurt- Laberkraftwerk-Bau-Aktiengesellschaft - 1 Billion Mark - 1.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -105,6 +117,11 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/14_weimar/pixabay_42040.mp4"
     }
    ],
    "hl": [
@@ -154,6 +171,11 @@
       1.0,
       1.05
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/14_weimar/pixabay_207994.mp4"
     }
    ],
    "hl": [
@@ -340,8 +362,10 @@
     },
     {
      "type": "full",
-     "img": "images/14_weimar/note_100_trillion.jpg",
-     "credit": "100 trillion mark note, 1924 · Reichsbank note · public domain",
+     "credit": "GER-110-Reichsbanknote-500 Million Mark (1923) · public domain",
+     "img": "images/14_weimar/GER-110-Reichsbanknote-500 Million Mark (1923).jpg",
+     "bw": true,
+     "grain": true,
      "overlay": {
       "type": "stickers",
       "items": [
@@ -355,11 +379,7 @@
        }
       ]
      },
-     "dim": 0.0,
-     "zoom": [
-      1.05,
-      1.12
-     ]
+     "dim": 0.0
     }
    ],
    "hl": [
@@ -444,6 +464,27 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "German Railways Banknote 5 Billionen Mark 1923… · public domain",
+     "img": "images/14_weimar/German Railways Banknote 5 Billionen Mark 1923 Hyperinflation Notgeld Stuttgart,.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Tilsit-1923-inflatietijd · public domain",
+     "img": "images/14_weimar/Tilsit-1923-inflatietijd.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Notgeld der Stadt Bochum 1923 - 500 000 DM - Vorderseite · public domain",
+     "img": "images/14_weimar/Notgeld der Stadt Bochum 1923 - 500 000 DM - Vorderseite.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "big": true,
@@ -506,6 +547,20 @@
      "cy": 0.25,
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Hauser und Menschen im alten Berlin 1923 · public domain",
+     "img": "images/14_weimar/Hauser und Menschen im alten Berlin 1923 (149789105).jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Lovis Corinth Viktualien bei Hiller in Berlin 1923 · public domain",
+     "img": "images/14_weimar/Lovis Corinth Viktualien bei Hiller in Berlin 1923.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -546,6 +601,13 @@
       1.0,
       1.06
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Berlin advertisements 1923 Frank G Carpenter · public domain",
+     "img": "images/14_weimar/Berlin advertisements 1923 Frank G Carpenter.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -567,8 +629,10 @@
    "shots": [
     {
      "type": "full",
-     "img": "images/14_weimar/note_1_rentenmark.jpg",
-     "credit": "1 Rentenmark, 1923 · public domain",
+     "credit": "10 Rentenmark 1923-11-1 xx · public domain",
+     "img": "images/14_weimar/10 Rentenmark 1923-11-1 xx.jpg",
+     "bw": true,
+     "grain": true,
      "overlay": {
       "type": "stickers",
       "items": [
@@ -590,11 +654,7 @@
        }
       ]
      },
-     "dim": 0.0,
-     "zoom": [
-      1.08,
-      1.16
-     ]
+     "dim": 0.0
     },
     {
      "type": "full",
@@ -613,6 +673,13 @@
        }
       ]
      },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "1000 Rentenmark 1923-11-1 xx · public domain",
+     "img": "images/14_weimar/1000 Rentenmark 1923-11-1 xx.jpg",
      "bw": true,
      "grain": true
     }

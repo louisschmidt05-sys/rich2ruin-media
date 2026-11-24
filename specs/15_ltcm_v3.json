@@ -51,6 +51,16 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_31577.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_22098.mp4"
     }
    ],
    "hl": [
@@ -177,6 +187,16 @@
       ]
      },
      "bw": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_159050.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_5088.mp4"
     }
    ],
    "hl": [
@@ -211,6 +231,16 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_1625.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_4733.mp4"
     }
    ],
    "hl": [
@@ -277,6 +307,16 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_202987.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_32386.mp4"
     }
    ],
    "hl": [
@@ -324,6 +364,11 @@
      "credit": "Footage: Pixabay",
      "bw": true,
      "dim": 0.4
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_43252.mp4"
     }
    ],
    "hl": [
@@ -391,6 +436,11 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_89985.mp4"
     }
    ],
    "big": true,
@@ -484,6 +534,16 @@
       ]
      },
      "dim": 0.3
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_4848.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/15_ltcm/pixabay_74666.mp4"
     }
    ],
    "twist": true,

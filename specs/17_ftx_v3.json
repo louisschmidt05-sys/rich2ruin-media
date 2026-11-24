@@ -43,6 +43,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_21609.mp4"
     }
    ],
    "hl": [
@@ -89,8 +94,8 @@
     },
     {
      "type": "full",
-     "clip": "images/17_ftx/pixabay_380334.mp4",
      "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_23011.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -177,6 +182,16 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_200636.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_380334.mp4"
     }
    ],
    "hl": [
@@ -230,6 +245,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_90.mp4"
     }
    ],
    "hl": [
@@ -284,6 +304,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_377880.mp4"
     }
    ],
    "big": true,
@@ -343,6 +368,11 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_162047.mp4"
     }
    ],
    "hl": [
@@ -380,6 +410,16 @@
       ]
      },
      "dim": 0.2
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_23081.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/17_ftx/pixabay_96725.mp4"
     }
    ],
    "twist": true,

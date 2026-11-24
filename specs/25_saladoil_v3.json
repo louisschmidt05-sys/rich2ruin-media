@@ -52,6 +52,16 @@
       ]
      },
      "dim": 0.2
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_59785.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_72930.mp4"
     }
    ],
    "hl": [
@@ -97,6 +107,16 @@
      "bw": true,
      "grain": true,
      "cy": 0.35
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_114696.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_26142.mp4"
     }
    ],
    "hl": [
@@ -132,6 +152,16 @@
       ]
      },
      "dim": 0.15
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_95.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_157216.mp4"
     }
    ],
    "hl": [
@@ -166,6 +196,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_343067.mp4"
     }
    ],
    "hl": [
@@ -220,6 +255,11 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_197209.mp4"
     }
    ],
    "hl": [
@@ -290,6 +330,16 @@
       "1": "9",
       "2": "7.75"
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_32151.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_59268.mp4"
     }
    ],
    "big": true,
@@ -330,6 +380,16 @@
       ]
      },
      "dim": 0.15
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_204291.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/25_saladoil/pixabay_48345.mp4"
     }
    ],
    "twist": true,

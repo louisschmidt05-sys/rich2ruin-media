@@ -10,8 +10,8 @@
    "shots": [
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_6775.mp4",
      "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_134112.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -31,6 +31,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_313454.mp4"
     }
    ],
    "hl": [
@@ -104,6 +109,16 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_272514.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_1044.mp4"
     }
    ]
   },
@@ -133,6 +148,21 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_282084.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_327922.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_3156.mp4"
     }
    ]
   },
@@ -174,6 +204,11 @@
      "type": "full",
      "clip": "images/13_lehman_brothers/pixabay_3188.mp4",
      "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_50355.mp4"
     }
    ],
    "say": "September tenth, 2008: a three point nine billion dollar loss."
@@ -183,8 +218,8 @@
    "shots": [
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_6775.mp4",
      "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_50353.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -204,6 +239,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_214888.mp4"
     }
    ]
   },
@@ -212,8 +252,8 @@
    "shots": [
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_6776.mp4",
      "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_42489.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -236,8 +276,13 @@
     },
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_5627.mp4",
-     "credit": "Footage: Pixabay"
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_10836.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_129.mp4"
     }
    ]
   },
@@ -270,6 +315,21 @@
        "size": 64
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_373945.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_50352.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_6782.mp4"
     }
    ]
   },
@@ -278,8 +338,8 @@
    "shots": [
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_110334.mp4",
      "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_99856.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -309,8 +369,18 @@
     },
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_179649.mp4",
-     "credit": "Footage: Pixabay"
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_2241.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_358493.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_21132.mp4"
     }
    ],
    "big": true,
@@ -324,8 +394,8 @@
    "shots": [
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_173613.mp4",
      "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_214695.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -348,8 +418,13 @@
     },
     {
      "type": "full",
-     "clip": "images/13_lehman_brothers/pixabay_3188.mp4",
-     "credit": "Footage: Pixabay"
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_18241.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/13b_lehman/pixabay_231405.mp4"
     }
    ],
    "twist": true

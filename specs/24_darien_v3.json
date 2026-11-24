@@ -53,6 +53,18 @@
       ]
      },
      "bw": true
+    },
+    {
+     "type": "full",
+     "credit": "The SCOTS settlement in AMERICA calle'd NEW CALEDONIA -… · public domain",
+     "img": "images/24_darien/The SCOTS settlement in AMERICA calle'd NEW CALEDONIA - Herman Moll, 1732-1736 -.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_32232.mp4"
     }
    ],
    "hl": [
@@ -95,6 +107,20 @@
        }
       ]
      },
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "1690 Coronelli Map of Southern Scotland (Edinburg and… · public domain",
+     "img": "images/24_darien/1690 Coronelli Map of Southern Scotland (Edinburg and Glasgow) - Geographicus - .jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Slezer's Prospect of Stirling Castle · public domain",
+     "img": "images/24_darien/Slezer's Prospect of Stirling Castle.jpg",
+     "bw": true,
      "grain": true
     }
    ],
@@ -149,6 +175,13 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Map of the Isthmus of Darien and Panama · public domain",
+     "img": "images/24_darien/Map of the Isthmus of Darien and Panama.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -196,6 +229,16 @@
       ]
      },
      "dim": 0.2
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_274935.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_94468.mp4"
     }
    ],
    "hl": [
@@ -232,6 +275,13 @@
      },
      "bw": true,
      "dim": 0.2
+    },
+    {
+     "type": "full",
+     "credit": "King William III of England (1650-1702) by Kneller · public domain",
+     "img": "images/24_darien/King William III of England (1650-1702) by Kneller.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -293,6 +343,16 @@
       "0": "1,200",
       "1": "300"
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_123217.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_119324.mp4"
     }
    ],
    "big": true,
@@ -334,6 +394,16 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_121949.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/24_darien/pixabay_315815.mp4"
     }
    ],
    "twist": true,

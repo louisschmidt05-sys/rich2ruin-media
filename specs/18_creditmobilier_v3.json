@@ -35,6 +35,18 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Construction train Bear River Union Pacific Railroad by… · public domain",
+     "img": "images/18_creditmobilier/Construction train Bear River Union Pacific Railroad by Andrew J Russell.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/18_creditmobilier/pixabay_63892.mp4"
     }
    ],
    "hl": [
@@ -157,6 +169,11 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/18_creditmobilier/pixabay_349087.mp4"
     }
    ],
    "hl": [
@@ -202,6 +219,7 @@
     {
      "type": "full",
      "credit": "Footage: Pixabay",
+     "clip": "images/18_creditmobilier/pixabay_41121.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -214,10 +232,7 @@
         "x": 540
        }
       ]
-     },
-     "bw": true,
-     "grain": true,
-     "clip": "images/18_creditmobilier/pixabay_41146.mp4"
+     }
     }
    ],
    "hl": [
@@ -275,6 +290,18 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Pony engine Union Pacific Railroad by Andrew J Russell · public domain",
+     "img": "images/18_creditmobilier/Pony engine Union Pacific Railroad by Andrew J Russell.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/18_creditmobilier/pixabay_184632.mp4"
     }
    ],
    "big": true,
@@ -330,6 +357,11 @@
      "cy": 0.3,
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/18_creditmobilier/pixabay_239278.mp4"
     }
    ],
    "hl": [
@@ -366,6 +398,13 @@
        }
       ]
      },
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Scenery of the Union Pacific Railroad, by Jackson,… · public domain",
+     "img": "images/18_creditmobilier/Scenery of the Union Pacific Railroad, by Jackson, William Henry, 1843-1942.jpg",
      "bw": true,
      "grain": true
     }

@@ -64,6 +64,27 @@
      ],
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Bears on wall street 1907 · public domain",
+     "img": "images/16_panic1907/Bears on wall street 1907.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "17 William England - Wall Street, New York · public domain",
+     "img": "images/16_panic1907/17 William England - Wall Street, New York.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "\"The Panic\" · public domain",
+     "img": "images/16_panic1907/\"The Panic\" LCCN2002719231.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -134,6 +155,13 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Elisha Roosevelt sicketh the bears upon the bad boys of… · public domain",
+     "img": "images/16_panic1907/Elisha Roosevelt sicketh the bears upon the bad boys of Wall Street.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -196,6 +224,11 @@
      },
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/16_panic1907/pixabay_1044.mp4"
     }
    ],
    "hl": [
@@ -236,6 +269,13 @@
       1.12
      ],
      "flash": 0.4,
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Merchants' Exchange, Wall Street, New York City - jpg · public domain",
+     "img": "images/16_panic1907/Merchants' Exchange, Wall Street, New York City - jpg.jpg",
      "bw": true,
      "grain": true
     }
@@ -322,6 +362,11 @@
        "x": 540
       }
      ]
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/16_panic1907/pixabay_165407.mp4"
     }
    ],
    "hl": [
@@ -361,8 +406,10 @@
     },
     {
      "type": "full",
-     "clip": "images/16_panic1907/pixabay_151868.mp4",
-     "credit": "Footage: Pixabay",
+     "credit": "Detail of Rotunda ceiling, Morgan Library & Museum, New… · public domain",
+     "img": "images/16_panic1907/Detail of Rotunda ceiling, Morgan Library & Museum, New York City.jpg",
+     "bw": true,
+     "grain": true,
      "overlay": {
       "type": "stickers",
       "items": [
@@ -375,9 +422,12 @@
         "x": 540
        }
       ]
-     },
-     "bw": true,
-     "grain": true
+     }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/16_panic1907/pixabay_28237.mp4"
     }
    ],
    "hl": [
@@ -421,6 +471,11 @@
      ],
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/16_panic1907/pixabay_42489.mp4"
     }
    ],
    "twist": true,

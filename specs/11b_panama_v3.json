@@ -40,6 +40,13 @@
      "credit": "Footage: Pixabay",
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Retrato de Ferdinand de Lesseps, por Felix Nadar · public domain",
+     "img": "images/11b_panama/Retrato de Ferdinand de Lesseps, por Felix Nadar.jpg",
+     "bw": true,
+     "grain": true
     }
    ],
    "hl": [
@@ -53,6 +60,13 @@
      "type": "full",
      "img": "images/11_panama_scandal/Ferdinand_Marie,_vicomte_de_Lesseps.jpg",
      "credit": "Ferdinand de Lesseps, 19th-c. photograph · public domain",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Ferdinand de Lesseps-BNF · public domain",
+     "img": "images/11b_panama/Ferdinand de Lesseps-BNF.jpg",
      "bw": true,
      "grain": true
     }
@@ -93,6 +107,18 @@
      "credit": "Footage: Pixabay",
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Aktie Canal de Panama 1880 · public domain",
+     "img": "images/11b_panama/Aktie Canal de Panama 1880.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_90029.mp4"
     }
    ],
    "say": "1879: at seventy-four, he promises Panama in twelve years."
@@ -130,6 +156,20 @@
      "type": "full",
      "clip": "images/11_panama_scandal/pixabay_79303.mp4",
      "credit": "Footage: Pixabay",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Digging Work in Progress on the French Construction of… · public domain",
+     "img": "images/11b_panama/Digging Work in Progress on the French Construction of the Panama Canal (Aug. 18.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Workers on the Interior of the Cut for the French… · public domain",
+     "img": "images/11b_panama/Workers on the Interior of the Cut for the French Construction of the Panama Can.jpg",
      "bw": true,
      "grain": true
     }
@@ -170,6 +210,11 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_48685.mp4"
     }
    ]
   },
@@ -201,6 +246,18 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "1888 canal panama · public domain",
+     "img": "images/11b_panama/1888 canal panama.jpg",
+     "bw": true,
+     "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_149809.mp4"
     }
    ],
    "big": true,
@@ -236,6 +293,16 @@
        }
       ]
      }
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_43562.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_34309.mp4"
     }
    ]
   },
@@ -274,6 +341,16 @@
      "credit": "Footage: Pixabay",
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_254922.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_72883.mp4"
     }
    ],
    "say": "1893: Lesseps, eighty-eight, and his son get five years."
@@ -283,10 +360,8 @@
    "shots": [
     {
      "type": "full",
-     "clip": "images/11_panama_scandal/pixabay_109786.mp4",
      "credit": "Footage: Pixabay",
-     "bw": true,
-     "grain": true,
+     "clip": "images/11b_panama/pixabay_11186.mp4",
      "overlay": {
       "type": "stickers",
       "items": [
@@ -309,10 +384,15 @@
     },
     {
      "type": "full",
-     "clip": "images/11_panama_scandal/pixabay_3741.mp4",
-     "credit": "Footage: Pixabay",
+     "credit": "Cottu, Henri · public domain",
+     "img": "images/11b_panama/Cottu, Henri.jpg",
      "bw": true,
      "grain": true
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_132204.mp4"
     }
    ],
    "twist": true
@@ -348,10 +428,13 @@
     },
     {
      "type": "full",
-     "clip": "images/11_panama_scandal/pixabay_149810.mp4",
      "credit": "Footage: Pixabay",
-     "bw": true,
-     "grain": true
+     "clip": "images/11b_panama/pixabay_74705.mp4"
+    },
+    {
+     "type": "full",
+     "credit": "Footage: Pixabay",
+     "clip": "images/11b_panama/pixabay_260330.mp4"
     }
    ]
   },
