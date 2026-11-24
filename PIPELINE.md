@@ -4,6 +4,18 @@ Read this file and `EDITORIAL.md` fully before doing anything. The owner asked f
 produce and schedule without asking for approval. Stop and report only on the blockers listed at the end.
 
 
+
+## OWNER RULES 2026-11-24 (override anything older below)
+- VOICE: Kokoro `af_heart` (natural US female voice), `"speed": 1.05`, `"pause": 0.25`, clean chain (no echo).
+  Engine default is now af_heart; every new spec sets `"voice": "af_heart"`. Owner: the old bm_george voice was a "red flag".
+  (Chatterbox, more natural, can be rendered by the `tts.yml` workflow into voices/<id>/cb_default/ and used with
+  `"voice": "cb_default"`; tested but the owner chose af_heart.)
+- SHOTS: a new visual every ~1.3-1.6 s and NEVER the same clip/photo twice in one reel (owner: "trop de fois les mêmes
+  plans"). Plan ~20-30 distinct assets per 30-40 s reel: search 6-10 queries per reel, pick 15+ clips/photos.
+  After `voice`, run `python3 tools/shot_audit.py <id>`: every sec_per_shot value ≤ 1.6 and repeats = 0, else add shots
+  (`tools/add_shots.py plan.json`, plan = {spec id: {line: [asset paths]}}). Check each new clip's first 2 s
+  (a "water pouring" Pixabay clip turned out to show a bird).
+
 ## FORMAT V3 (mandatory since 2026-11-03) — read before step 1
 Data from the first reel: only 39.5% of Instagram viewers passed 3 s, average watch 10 s of 45 s. The owner's
 reference TikToks (Le Média Finance, Bahouais, 1 Date 1 Histoire) set the look. Reference specs:
@@ -83,7 +95,7 @@ ffmpeg must exist. Fonts are in `engine/fonts`.
 
 ## 4. Render
 ```bash
-python3 engine/engine.py specs/<id>.json voice      # TTS (bm_george, speed 1.06)
+python3 engine/engine.py specs/<id>.json voice      # TTS (af_heart, speed 1.05)
 python3 engine/engine.py specs/<id>.json stills     # contact sheet -> build/<id>/sheet.png
 # LOOK at the sheet (Read the png): text overlaps, unreadable overlays, wrong images -> fix spec
 python3 engine/engine.py specs/<id>.json render     # -> reels/<id>.mp4

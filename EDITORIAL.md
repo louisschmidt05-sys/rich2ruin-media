@@ -4,10 +4,10 @@
   - **THE CRASH** — bubbles and market crashes
   - **THE SCAM** — financial frauds (only people convicted in court, or long-dead historical figures)
   - **RICH TO RUIN** — fortunes, banks or financiers that rose and collapsed
-- **Language:** English. **Voice:** Kokoro `bm_george`, speed 1.06, AI-labelled on every platform.
+- **Language:** English. **Voice:** Kokoro `af_heart` (since 2026-11-24, owner request), speed 1.05, AI-labelled on every platform.
 - **Tone:** rhythmic and punchy. Hook in the first 2 seconds, one big "crash" moment, a twist near the end.
 - **Look:** dark background, gold / red / cream, Inter Display + Lora italic, word-by-word captions.
-  Alternate archive style (old stories, public-domain images) and graphic style (modern stories).
+  Alternate archive style (old stories, public-domain images) and graphic style (modern stories). A new shot every ~1.5 s, never the same shot twice in a reel.
 - **Sound:** generated music (no third-party rights), generated SFX at moderate level.
 
 ## Hard rules
