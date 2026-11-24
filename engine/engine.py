@@ -33,7 +33,7 @@ def font(p, s):
     return _fc[(p, s)]
 
 
-VOICE, SPEED, LEAD = "bm_george", 1.06, 0.12
+VOICE, SPEED, LEAD = "af_heart", 1.05, 0.12  # owner 2026-11-24: natural voice (was bm_george)
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root
 CACHE = os.environ.get("R2R_CACHE", os.path.expanduser("~/.cache/rich2ruin"))
 MODEL = os.path.join(CACHE, "kokoro-v1.0.onnx")
@@ -872,21 +872,44 @@ class Reel:
 
     # 1. voice
     def voice(self):
-        from kokoro_onnx import Kokoro
-        k = Kokoro(MODEL, VOICES)
+        """Narration. spec "voice": "cb_*" -> pre-rendered Chatterbox lines in voices/<id>/<voice>/line_NN.wav
+        (GitHub workflow tts.yml); otherwise a Kokoro voice id (default VOICE)."""
+        vname = self.spec.get("voice", VOICE)
         sr_ = 24000
-        gap = np.zeros(int(0.2 * sr_), np.float32)
         lead = self.spec.get("lead_in", 0.3)
         out = [np.zeros(int(lead * sr_), np.float32)]
         t, timing = lead, []
+        if vname.startswith("cb_"):
+            vdir = os.path.join(BASE, "voices", self.spec["id"], vname)
+            def synth(i, text):
+                a, sr = sf.read(os.path.join(vdir, f"line_{i:02d}.wav"), dtype="float32")
+                if a.ndim > 1:
+                    a = a.mean(axis=1)
+                if sr != sr_:
+                    a = np.interp(np.linspace(0, len(a), int(len(a) * sr_ / sr), endpoint=False), np.arange(len(a)), a).astype(np.float32)
+                tempo = self.spec.get("tempo", 1.0)
+                if abs(tempo - 1.0) > 0.01:
+                    import tempfile
+                    with tempfile.TemporaryDirectory() as td:
+                        sf.write(os.path.join(td, "a.wav"), a, sr_)
+                        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", os.path.join(td, "a.wav"), "-af",
+                                        f"atempo={tempo}", os.path.join(td, "b.wav")], check=True)
+                        a, _ = sf.read(os.path.join(td, "b.wav"), dtype="float32")
+                return a
+        else:
+            from kokoro_onnx import Kokoro
+            k = Kokoro(MODEL, VOICES)
+            lang = "en-gb" if vname.startswith("b") else "en-us"
+            def synth(i, text):
+                a, _ = k.create(text, voice=vname, speed=self.spec.get("speed", SPEED), lang=lang)
+                return np.asarray(a, np.float32)
         for i, ln in enumerate(self.spec["lines"]):
-            a, sr = k.create(ln["say"] if "say" in ln else ln["text"], voice=VOICE, speed=self.spec.get("speed", SPEED), lang="en-gb")
-            a = np.asarray(a, np.float32)
+            a = synth(i, ln["say"] if "say" in ln else ln["text"])
             idx = np.where(np.abs(a) > 0.01)[0]
-            a = a[max(idx[0] - 600, 0): idx[-1] + 1200]
+            a = a[max(idx[0] - 600, 0): idx[-1] + 2400]
             dur = len(a) / sr_
             timing.append({"i": i, "start": t, "end": t + dur})
-            pause = ln.get("pause", 0.2)
+            pause = ln.get("pause", self.spec.get("pause", 0.2))
             out += [a, np.zeros(int(pause * sr_), np.float32)]
             t += dur + pause
         out.append(np.zeros(int(1.4 * sr_), np.float32))
@@ -895,7 +918,7 @@ class Reel:
         raw = os.path.join(self.dir, "voice_raw.wav")
         sf.write(raw, full, sr_)
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-af",
-                        "bass=g=3:f=140,treble=g=-2:f=6500,aecho=0.8:0.6:35:0.12,acompressor=threshold=0.1:ratio=3:attack=10:release=150",
+                        ("highpass=f=70,bass=g=2:f=150,acompressor=threshold=0.12:ratio=2.5:attack=8:release=200,loudnorm=I=-16:TP=-1.5:LRA=7" if self.spec.get("clean_voice", True) else "bass=g=3:f=140,treble=g=-2:f=6500,aecho=0.8:0.6:35:0.12,acompressor=threshold=0.1:ratio=3:attack=10:release=150"),
                         "-ar", "44100", "-ac", "1", os.path.join(self.dir, "voice.wav")], check=True)
         self.timing = {"lines": timing, "total": len(full) / sr_}
         json.dump(self.timing, open(os.path.join(self.dir, "timing.json"), "w"), indent=1)

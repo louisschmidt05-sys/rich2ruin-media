@@ -16,7 +16,7 @@ VT = "Valley Town (1940) · Prelinger Archives, public domain"
 PD = " · public domain"
 arch = dict(bw=True, grain=True)
 DOW = [381.17, 260.64, 230.07, 41.22]
-s1929 = {"id": "03d_crash_1929_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.12, "lines": [
+s1929 = {"id": "03d_crash_1929_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("October 29th, 1929. The day Wall Street broke.", [
    full(I + "big_board_721.mp4", BB, [S("OCT 29, 1929", "yellow", 820, 0.1, 76)], **arch),
    full(I + "Crowds_gathering_outside_New_York_Stock_Exchange_(3).jpg", "Crowd outside the NYSE, 1929" + PD, **arch)],
@@ -53,7 +53,7 @@ s1929 = {"id": "03d_crash_1929_v3", "style": "v3", "format": "THE CRASH", "lead_
 # ---------------- Madoff ----------------
 M = "images/05_madoff/pixabay_"
 PB = "Footage: Pixabay"
-sm = {"id": "05b_madoff_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.12, "lines": [
+sm = {"id": "05b_madoff_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("December 2008. A Wall Street legend tells his sons his fund is one big lie.", [
    full(M + "1044.mp4", PB, [S("DECEMBER 2008", "yellow", 820, 0.1, 72)], bw=True, grain=True),
    full(M + "6782.mp4", PB, [S("“ONE BIG LIE”", "red", 860, 0.5, 80)])], hl=["lie."], sfx=[["slam", 0.05], ["whoosh", 2.2]]),

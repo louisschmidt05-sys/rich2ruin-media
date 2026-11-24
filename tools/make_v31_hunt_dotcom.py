@@ -13,7 +13,7 @@ def L(text, shots, **kw): return {"text": text, "shots": shots, **kw}
 OUT = {"text": "Follow Rich to Ruin for the next fall.", "scene": {"type": "outro"}}
 
 H = "images/19_hunt/pixabay_"
-hunt = {"id": "19_hunt_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.12, "lines": [
+hunt = {"id": "19_hunt_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("Silver goes from under 10 dollars to over 50. Two brothers are buying it all.", [
    full(H + "12751.mp4", items=[S("SILVER: UNDER $10", "white", 760, 0.1, 64), S("→ OVER $50", "yellow", 890, 0.35, 84)]),
    full(H + "3134.mp4", items=[S("THE HUNT BROTHERS", "red", 880, 0.1, 66)])],
@@ -44,7 +44,7 @@ hunt = {"id": "19_hunt_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 
  OUT]}
 
 D = "images/20_dotcom/pixabay_"
-dot = {"id": "20_dotcom_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.12, "lines": [
+dot = {"id": "20_dotcom_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("March 10, 2000: the Nasdaq hits 5,048. Then 5 trillion dollars vanish.", [
    full(D + "338956.mp4", items=[S("NASDAQ: 5,048", "yellow", 760, 0.1, 80), S("MARCH 10, 2000", "white", 890, 0.35, 58)]),
    full(D + "166289.mp4", items=[S("-$5 TRILLION", "red", 880, 0.1, 96)])],

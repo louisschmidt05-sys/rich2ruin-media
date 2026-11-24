@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "RICH TO RUIN",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "Scotland bets £400,000 on a colony in Panama. 300 survive.",
@@ -354,5 +354,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

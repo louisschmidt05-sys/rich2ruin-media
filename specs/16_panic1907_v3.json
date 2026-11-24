@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "THE CRASH",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "1907. Wall Street crashes. One man locks about 120 bankers in his library.",
@@ -434,5 +434,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

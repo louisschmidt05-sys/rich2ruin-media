@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "THE SCAM",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "The railroad cost 50 million. The bill: 94 million.",
@@ -387,5 +387,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

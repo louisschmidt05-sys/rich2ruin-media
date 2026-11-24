@@ -21,7 +21,7 @@ def stat(label, value, **kw):
     d.update(kw); return d
 DOW = [["SEP 1929", 381.17], ["OCT 28", 260.64], ["OCT 29", 230.07], ["JUL 1932", 41.22]]
 L = lambda text, shots, **kw: {"text": text, "shots": shots, **kw}
-spec = {"id": "03c_crash_1929_v2", "format": "THE CRASH", "lead_in": 0.08, "speed": 1.12,
+spec = {"id": "03c_crash_1929_v2", "format": "THE CRASH", "lead_in": 0.08, "speed": 1.05, "voice": "af_heart", "pause": 0.25,
  "headline": "THE 1929 CRASH\n-89% IN 3 YEARS",
  "lines": [
   L("October 29th, 1929. The day Wall Street broke.", [

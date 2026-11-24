@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "RICH TO RUIN",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "The biggest bankruptcy in US history, decided in one weekend.",
@@ -360,5 +360,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

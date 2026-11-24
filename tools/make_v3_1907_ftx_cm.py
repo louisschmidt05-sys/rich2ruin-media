@@ -22,7 +22,7 @@ LOC = "Library of Congress, public domain"
 # ---------------- Panic of 1907 ----------------
 I = "images/16_panic1907/"
 P = I + "pixabay_"
-s1907 = {"id": "16_panic1907_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.12, "lines": [
+s1907 = {"id": "16_panic1907_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("1907. Wall Street is collapsing. One man locks about 120 bankers in his library.", [
    full(I + "1907 Panic.png", "Wall Street crowd, 1907 · public domain", [S("1907", "white", 760, 0.1, 70), S("WALL STREET COLLAPSES", "red", 890, 0.3, 62)], zoom=[1.0, 1.1], **arch),
    full(I + "J.P. Morgan.jpg", "J. P. Morgan · public domain", [S("120 BANKERS LOCKED IN", "yellow", 900, 0.1, 64)], cy=0.3, zoom=[1.0, 1.08], **arch)],
@@ -59,7 +59,7 @@ s1907 = {"id": "16_panic1907_v3", "style": "v3", "format": "THE CRASH", "lead_in
 
 # ---------------- FTX 2022 ----------------
 F = "images/17_ftx/pixabay_"
-sftx = {"id": "17_ftx_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.12, "lines": [
+sftx = {"id": "17_ftx_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("He was worth 16 billion dollars. Nine days later, his empire was bankrupt.", [
    full(F + "50352.mp4", PB, [S("$16 BILLION", "yellow", 860, 0.1, 96)]),
    full(F + "166289.mp4", PB, [S("9 DAYS LATER: BANKRUPT", "red", 880, 0.1, 62)])],
@@ -97,7 +97,7 @@ sftx = {"id": "17_ftx_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06,
 # ---------------- Credit Mobilier 1872 ----------------
 C = "images/18_creditmobilier/"
 Q = C + "pixabay_"
-scm = {"id": "18_creditmobilier_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.12, "lines": [
+scm = {"id": "18_creditmobilier_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("The railroad cost 50 million dollars to build. The bill: 94 million.", [
    full(Q + "57046.mp4", PB, [S("COST: $50 MILLION", "white", 760, 0.1, 64), S("BILLED: $94 MILLION", "red", 890, 0.35, 70)], **arch)],
    hl=["50 million", "94 million."], sfx=[["slam", 0.05]],

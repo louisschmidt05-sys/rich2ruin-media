@@ -38,7 +38,7 @@ LOC = " · Library of Congress, public domain"
 
 # ---------------------------------------------------------------- 21 Florida land boom
 F = "images/21_florida/"; FP = F + "pixabay_"
-florida = {"id": "21_florida_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.12, "lines": [
+florida = {"id": "21_florida_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("Miami, 1925: some lots reportedly sold ten times a day.", [
    full(F + "Miami Beach - Beach scene (1925).jpg", "Miami Beach postcard, 1925" + PD,
         [S("MIAMI, 1925", "white", 760, 0.1, 62), S("SOLD 10× A DAY", "yellow", 890, 0.3, 84)], bw=True, grain=True),
@@ -79,7 +79,7 @@ florida = {"id": "21_florida_v3", "style": "v3", "format": "THE CRASH", "lead_in
 
 # ---------------------------------------------------------------- 22 Overend Gurney
 O = "images/22_overend/"; OP = O + "pixabay_"
-overend = {"id": "22_overend_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.12, "lines": [
+overend = {"id": "22_overend_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("London, 1866: the 'bankers' bank' collapses. Black Friday.", [
    full(O + "Political cartoon from Fun magazine about Overend Gurney.jpg", "\"A bank stock(ing)\", Fun magazine, 1866" + PD,
         [S("OVEREND, GURNEY & CO", "white", 760, 0.1, 58), S("BLACK FRIDAY", "red", 890, 0.3, 92)], grain=True),
@@ -116,7 +116,7 @@ overend = {"id": "22_overend_v3", "style": "v3", "format": "RICH TO RUIN", "lead
 
 # ---------------------------------------------------------------- 23 Panic of 1873
 P = "images/23_panic1873/"; PP = P + "pixabay_"
-panic = {"id": "23_panic1873_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.12, "lines": [
+panic = {"id": "23_panic1873_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("He sold 1.6 billion dollars of war bonds. Then crashed.", [
    full(P + "Jay Cooke during Civil War.png", "Jay Cooke, Civil War era" + PD,
         [S("JAY COOKE", "white", 760, 0.1, 70), S("$1.6 BILLION OF WAR BONDS", "yellow", 890, 0.3, 60)], bw=True, grain=True, cy=0.35),
@@ -159,7 +159,7 @@ panic = {"id": "23_panic1873_v3", "style": "v3", "format": "THE CRASH", "lead_in
 # ---------------------------------------------------------------- 24 Darien scheme
 D = "images/24_darien/"; DP = D + "pixabay_"
 DM = "A PLAN of the HARBOUR and Parts of adjacent on the ISTHMUS of DARIEN where the S.jpg"
-darien = {"id": "24_darien_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.12, "lines": [
+darien = {"id": "24_darien_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("Scotland bets £400,000 on a colony in Panama. 300 survive.", [
    full(D + "Company of Scotland arms.png", "Arms of the Company of Scotland, 1698" + PD,
         [S("£400,000", "yellow", 760, 0.1, 96), S("SCOTLAND → PANAMA", "white", 890, 0.3, 66)], grain=True),
@@ -200,7 +200,7 @@ darien = {"id": "24_darien_v3", "style": "v3", "format": "RICH TO RUIN", "lead_i
 
 # ---------------------------------------------------------------- 25 Salad oil swindle
 A = "images/25_saladoil/"; AP = A + "pixabay_"
-salad = {"id": "25_saladoil_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.12, "lines": [
+salad = {"id": "25_saladoil_v3", "style": "v3", "format": "THE SCAM", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("1.8 billion pounds of salad oil. Barely 100 million existed.", [
    full(AP + "342185.mp4", items=[S("1.8 BILLION LB CLAIMED", "yellow", 760, 0.1, 64), S("≈100 MILLION FOUND", "red", 890, 0.35, 70)]),
    full(A + "Constable Hook tanks jeh.jpg", "Oil tanks, Constable Hook, Bayonne (today)" + PD,

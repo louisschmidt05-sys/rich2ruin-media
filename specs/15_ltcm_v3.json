@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "RICH TO RUIN",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "Two Nobel winners. One hedge fund. A 3.6 billion dollar rescue.",
@@ -503,5 +503,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

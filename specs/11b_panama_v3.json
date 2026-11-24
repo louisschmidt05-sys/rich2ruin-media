@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "THE SCAM",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "The hero of the Suez Canal was sentenced to five years in prison.",
@@ -361,5 +361,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

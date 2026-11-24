@@ -126,7 +126,7 @@ def full(m, items, **kw):
     return d
 
 
-new = {"id": new_id, "style": "v3", "format": o.get("format"), "lead_in": 0.06, "speed": 1.12, "lines": []}
+new = {"id": new_id, "style": "v3", "format": o.get("format"), "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": []}
 last = None
 for l in o["lines"]:
     sc = l["scene"]

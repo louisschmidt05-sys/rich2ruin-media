@@ -3,7 +3,7 @@
  "style": "v3",
  "format": "RICH TO RUIN",
  "lead_in": 0.06,
- "speed": 1.12,
+ "speed": 1.05,
  "lines": [
   {
    "text": "London, 1866: the 'bankers' bank' collapses. Black Friday.",
@@ -353,5 +353,7 @@
     "type": "outro"
    }
   }
- ]
+ ],
+ "voice": "af_heart",
+ "pause": 0.25
 }

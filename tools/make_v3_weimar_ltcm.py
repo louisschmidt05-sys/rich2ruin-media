@@ -19,7 +19,7 @@ arch = dict(bw=True, grain=True)
 # ---------------- Weimar 1923 ----------------
 I = "images/14_weimar/"
 RB = "Reichsbank note · public domain"
-sw = {"id": "14_weimar_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.12, "lines": [
+sw = {"id": "14_weimar_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("A loaf of bread for 200 billion marks. Berlin, 1923.", [
    full(I + "pixabay_63066.mp4", PB, [S("1 LOAF OF BREAD", "white", 760, 0.1, 62), S("200,000,000,000 MARKS", "yellow", 900, 0.5, 66)], **arch),
    full(I + "note_100_trillion.jpg", "100 trillion mark note, 1924 · " + RB, [S("BERLIN · 1923", "red", 1000, 0.1, 64)], zoom=[1.0, 1.06], dim=0.0)],
@@ -69,7 +69,7 @@ sw = {"id": "14_weimar_v3", "style": "v3", "format": "THE CRASH", "lead_in": 0.0
 
 # ---------------- LTCM 1998 ----------------
 T = "images/15_ltcm/pixabay_"
-sl = {"id": "15_ltcm_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.12, "lines": [
+sl = {"id": "15_ltcm_v3", "style": "v3", "format": "RICH TO RUIN", "lead_in": 0.06, "speed": 1.05, "voice": "af_heart", "pause": 0.25, "lines": [
  L("Two Nobel winners. One hedge fund. A 3.6 billion dollar rescue.", [
    full(T + "278200.mp4", PB, [S("2 NOBEL PRIZE WINNERS", "yellow", 860, 0.1, 64)]),
    full(T + "338956.mp4", PB, [S("ONE HEDGE FUND", "white", 760, 0.0, 62), S("$3.6B RESCUE", "red", 900, 0.4, 84)])],
