@@ -205,7 +205,9 @@
    "title": "Japan's asset bubble burst (1990)",
    "format": "THE CRASH",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "26_japan_v3",
+   "date": "2026-12-10"
   },
   {
    "title": "The Great Salad Oil Swindle (1963)",
@@ -219,25 +221,33 @@
    "title": "Société Générale rogue trader Jérôme Kerviel (2008)",
    "format": "RICH TO RUIN",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "27_kerviel_v3",
+   "date": "2026-12-11"
   },
   {
    "title": "Allen Stanford's $7 billion Ponzi scheme (2009)",
    "format": "THE SCAM",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "28_stanford_v3",
+   "date": "2026-12-14"
   },
   {
    "title": "Northern Rock bank run (2007)",
    "format": "THE CRASH",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "29_northernrock_v3",
+   "date": "2026-12-15"
   },
   {
    "title": "The fall of the Medici Bank (1494)",
    "format": "RICH TO RUIN",
    "style": "v3",
-   "status": "backlog"
+   "status": "scheduled",
+   "id": "30_medici_v3",
+   "date": "2026-12-16"
   },
   {
    "title": "Herstatt Bank collapse (1974)",
@@ -302,6 +312,36 @@
   {
    "title": "The crash of the Union Générale (Paris, 1882)",
    "format": "RICH TO RUIN",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Silicon Valley Bank collapse (2023)",
+   "format": "THE CRASH",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Panic of 1837",
+   "format": "THE CRASH",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "The Baring crisis of 1890",
+   "format": "RICH TO RUIN",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Equity Funding Corporation fraud (1973)",
+   "format": "THE SCAM",
+   "style": "v3",
+   "status": "backlog"
+  },
+  {
+   "title": "Raj Rajaratnam and the Galleon insider trading case (2011)",
+   "format": "THE SCAM",
    "style": "v3",
    "status": "backlog"
   }
