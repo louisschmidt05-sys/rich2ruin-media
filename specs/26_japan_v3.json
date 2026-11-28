@@ -1,0 +1,427 @@
+{
+ "id": "26_japan_v3",
+ "style": "v3",
+ "format": "THE CRASH",
+ "lead_in": 0.06,
+ "speed": 1.05,
+ "voice": "af_heart",
+ "pause": 0.25,
+ "lines": [
+  {
+   "text": "Japan's stock market: 38,915 to 7,054. Over 80% gone.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_256109.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "NIKKEI 38,915 (1989)",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "→ 7,054 (2009)",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_338956.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "-80%",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 110,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_211067.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "img": "images/26_japan/Outside Tokyo Stock Exchange (98572).jpg",
+     "credit": "Tokyo Stock Exchange (today) · public domain"
+    }
+   ],
+   "hl": [
+    "38,915",
+    "7,054."
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "Japan's stock market: thirty-eight thousand, to seven thousand. Over eighty percent gone."
+  },
+  {
+   "text": "1985 to 1989: Japanese stocks quadruple.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_246618.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1985 → 1989",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "STOCKS ×4",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 90,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_88697.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_380567.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "quadruple."
+   ],
+   "say": "Nineteen eighty-five to eighty-nine: Japanese stocks quadruple."
+  },
+  {
+   "text": "Golf club memberships sold for millions of dollars.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_214267.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "GOLF CLUB MEMBERSHIP",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "MILLIONS OF DOLLARS",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_41828.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_52890.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "millions"
+   ]
+  },
+  {
+   "text": "December 29, 1989: the Nikkei closes at a record.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_20851.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "DECEMBER 29, 1989",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "RECORD: 38,915.87",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_204306.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "img": "images/26_japan/Inside Tokyo Stock Exchange (65002).jpg",
+     "credit": "Tokyo Stock Exchange (today) · public domain"
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_41957.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "record."
+   ],
+   "say": "December twenty-ninth, nineteen eighty-nine: the Nikkei closes at a record."
+  },
+  {
+   "text": "In 1990, it roughly halves. Property prices fall sharply.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1990",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "NIKKEI ≈ HALVED",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 84,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_5278.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "PROPERTY FALLS",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.15
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_154401.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_147893.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "halves."
+   ],
+   "say": "In nineteen ninety, it roughly halves. Property prices fall sharply."
+  },
+  {
+   "text": "Banks write off about 100 trillion yen of bad debts.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_3134.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BAD DEBTS WRITTEN OFF",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "≈ ¥100 TRILLION",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_1046.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "board",
+     "bg": "images/26_japan/pixabay_213815.mp4",
+     "items": [
+      {
+       "text": "NIKKEI 225",
+       "style": "white",
+       "y": 400,
+       "at": 0.0,
+       "size": 48,
+       "x": 540
+      },
+      {
+       "text": "1989 → 2009 → 2024",
+       "style": "yellow",
+       "y": 490,
+       "at": 0.2,
+       "size": 44,
+       "x": 540
+      }
+     ],
+     "points": [
+      38915.87,
+      7054.98,
+      39098.68
+     ],
+     "show_from": 0,
+     "show_to": 2,
+     "red_from": 0,
+     "labels": {
+      "0": "38,915",
+      "1": "7,054",
+      "2": "39,098"
+     }
+    }
+   ],
+   "hl": [
+    "100 trillion"
+   ],
+   "say": "Banks write off about a hundred trillion yen of bad debts."
+  },
+  {
+   "text": "The twist? The 1989 record only fell in February 2024.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_240973.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "FEBRUARY 22, 2024",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "34 YEARS LATER",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.4,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_181114.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_243075.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_19627.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "February 2024."
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.3
+    ]
+   ],
+   "say": "The twist? The nineteen eighty-nine record only fell in February twenty twenty-four."
+  },
+  {
+   "text": "Follow Rich to Ruin for the next crash.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

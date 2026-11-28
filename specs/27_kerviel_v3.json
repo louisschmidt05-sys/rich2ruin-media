@@ -1,0 +1,437 @@
+{
+ "id": "27_kerviel_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.05,
+ "voice": "af_heart",
+ "pause": 0.25,
+ "lines": [
+  {
+   "text": "One trader. €50 billion in secret bets. €4.9 billion lost.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_204291.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ONE TRADER",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "€4.9 BILLION LOST",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 80,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_263397.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "€50 BILLION IN BETS",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 72,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_153455.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_3819.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "€50 billion",
+    "€4.9 billion"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "One trader. Fifty billion euros in secret bets. Four point nine billion lost."
+  },
+  {
+   "text": "Jérôme Kerviel is a trader at Société Générale, Paris.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_8132.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "SOCIÉTÉ GÉNÉRALE",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "LA DÉFENSE, PARIS",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 60,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_282564.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_10822.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JÉRÔME KERVIEL",
+        "style": "white",
+        "y": 880,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    }
+   ],
+   "hl": [
+    "Société Générale,"
+   ],
+   "say": "Jérôme Kerviel is a trader at Société Générale, in Paris."
+  },
+  {
+   "text": "His positions reach €50 billion: more than the bank's capital.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_133501.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "≈ €50 BILLION",
+        "style": "yellow",
+        "y": 760,
+        "at": 0.1,
+        "size": 80,
+        "x": 540
+       },
+       {
+        "text": "> THE BANK'S CAPITAL",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "board",
+     "bg": "images/27_kerviel/pixabay_14900.mp4",
+     "items": [
+      {
+       "text": "ONE DESK",
+       "style": "white",
+       "y": 640,
+       "at": 0.05,
+       "size": 60,
+       "x": 540
+      },
+      {
+       "text": "↓",
+       "style": "yellow",
+       "y": 760,
+       "at": 0.25,
+       "size": 60,
+       "x": 540
+      },
+      {
+       "text": "€50 BILLION OF POSITIONS",
+       "style": "yellow",
+       "y": 880,
+       "at": 0.4,
+       "size": 58,
+       "x": 540
+      },
+      {
+       "text": "↓",
+       "style": "yellow",
+       "y": 1000,
+       "at": 0.6,
+       "size": 60,
+       "x": 540
+      },
+      {
+       "text": "> THE BANK'S TOTAL CAPITAL",
+       "style": "red",
+       "y": 1120,
+       "at": 0.75,
+       "size": 56,
+       "x": 540
+      }
+     ]
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_5395.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "€50 billion:"
+   ],
+   "say": "His positions reach fifty billion euros: more than the bank's capital."
+  },
+  {
+   "text": "January 2008: the bank finds them and unwinds them all.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_106217.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "JANUARY 2008",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "SELL EVERYTHING",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     },
+     "dim": 0.15
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_43559.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_256977.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "unwinds"
+   ],
+   "say": "January two thousand eight: the bank finds them and unwinds them all."
+  },
+  {
+   "text": "The final bill: €4.9 billion.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_139336.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "FINAL LOSS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       },
+       {
+        "text": "€4.9 BILLION",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 100,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/26_japan/pixabay_166289.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/25_saladoil/pixabay_33805.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "€4.9 billion."
+   ],
+   "say": "The final bill: four point nine billion euros."
+  },
+  {
+   "text": "2010: guilty, and ordered to repay €4.9 billion.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_162047.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "OCTOBER 5, 2010: GUILTY",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       },
+       {
+        "text": "5 YEARS, 2 SUSPENDED",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_74491.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "ORDERED TO REPAY €4.9 BILLION",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 54,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_1656.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "guilty."
+   ],
+   "say": "Twenty ten: guilty, and ordered to repay four point nine billion."
+  },
+  {
+   "text": "The twist? In 2014, France's top court scrapped that bill.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_188535.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "COUR DE CASSATION, 2014",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 56,
+        "x": 540
+       },
+       {
+        "text": "€4.9BN DAMAGES OVERTURNED",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.4,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_51721.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/27_kerviel/pixabay_8246.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "scrapped"
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.3
+    ]
+   ],
+   "say": "The twist? In twenty fourteen, France's top court scrapped that bill."
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}

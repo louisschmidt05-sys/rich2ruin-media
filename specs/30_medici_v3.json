@@ -1,0 +1,418 @@
+{
+ "id": "30_medici_v3",
+ "style": "v3",
+ "format": "RICH TO RUIN",
+ "lead_in": 0.06,
+ "speed": 1.05,
+ "voice": "af_heart",
+ "pause": 0.25,
+ "lines": [
+  {
+   "text": "Europe's biggest bank lost 51,533 gold florins in London alone.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/30_medici/King Edward IV.jpg",
+     "credit": "King Edward IV, c. 1540 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "KING EDWARD IV",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "MEDICI LOSS: 51,533 FLORINS",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 60,
+        "x": 540
+       }
+      ]
+     },
+     "grain": true,
+     "cy": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_29731.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "EUROPE'S BIGGEST BANK",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_13679.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "51,533"
+   ],
+   "sfx": [
+    [
+     "slam",
+     0.05
+    ]
+   ],
+   "say": "Europe's biggest bank lost fifty-one thousand gold florins in London alone."
+  },
+  {
+   "text": "Florence, 1397: Giovanni di Bicci de' Medici founds it.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/30_medici/Giovanni di Bicci de' Medici Portrait by Agnolo Bronzino.jpg",
+     "credit": "Giovanni di Bicci, Bronzino workshop · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "FLORENCE, 1397",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       },
+       {
+        "text": "GIOVANNI DI BICCI",
+        "style": "yellow",
+        "y": 890,
+        "at": 0.3,
+        "size": 64,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_292819.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "img": "images/30_medici/Lucantonio degli Uberti ? - Die große Ansicht von Florenz (Der \"Kettenplan\").jpg",
+     "credit": "View of Florence, c. 1500 · public domain",
+     "grain": true
+    }
+   ],
+   "hl": [
+    "1397:"
+   ],
+   "say": "Florence, thirteen ninety-seven: Giovanni di Bicci de' Medici founds it."
+  },
+  {
+   "text": "It banks for the Pope, from London to Bruges.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_107189.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "BANKER TO THE POPE",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "board",
+     "bg": "images/30_medici/pixabay_207982.mp4",
+     "items": [
+      {
+       "text": "ROME · VENICE · MILAN · PISA",
+       "style": "white",
+       "y": 680,
+       "at": 0.05,
+       "size": 54,
+       "x": 540
+      },
+      {
+       "text": "GENEVA · LYON · AVIGNON",
+       "style": "white",
+       "y": 800,
+       "at": 0.3,
+       "size": 54,
+       "x": 540
+      },
+      {
+       "text": "LONDON · BRUGES",
+       "style": "yellow",
+       "y": 920,
+       "at": 0.55,
+       "size": 64,
+       "x": 540
+      }
+     ]
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_56452.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "the Pope,"
+   ]
+  },
+  {
+   "text": "Then Lorenzo the Magnificent prefers politics and art.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/30_medici/Portrait of Lorenzo de' Medici, the Magnificent (1449–1492), by Giorgio Vasari -.jpg",
+     "credit": "Lorenzo de' Medici, Vasari · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "LORENZO THE MAGNIFICENT",
+        "style": "white",
+        "y": 880,
+        "at": 0.1,
+        "size": 58,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_143419.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE BANK IS NEGLECTED",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 62,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_325497.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "politics and art."
+   ]
+  },
+  {
+   "text": "Kings default: Edward IV in London, Charles the Bold in Bruges.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/30_medici/Rivers & Caxton Presenting book to Edward IV.jpg",
+     "credit": "Edward IV, presentation miniature, c. 1480 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "LONDON CLOSED, 1478",
+        "style": "red",
+        "y": 880,
+        "at": 0.1,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "img": "images/30_medici/Rogier van der Weyden - Portrait of Charles the Bold - WGA25709.jpg",
+     "credit": "Charles the Bold, Rogier van der Weyden · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "CHARLES THE BOLD",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 64,
+        "x": 540
+       },
+       {
+        "text": "BRUGES: BAD DEBTS",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 66,
+        "x": 540
+       }
+      ]
+     },
+     "cy": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_192011.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "hl": [
+    "Kings default:"
+   ]
+  },
+  {
+   "text": "1494: France invades. The Medici flee. The bank is seized.",
+   "shots": [
+    {
+     "type": "full",
+     "img": "images/30_medici/Francesco granacci, entrata di Carlo VIII a Firenze.jpg",
+     "credit": "Entry of Charles VIII into Florence, Granacci · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "1494",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 76,
+        "x": 540
+       },
+       {
+        "text": "BANK SEIZED",
+        "style": "red",
+        "y": 890,
+        "at": 0.3,
+        "size": 90,
+        "x": 540
+       }
+      ]
+     },
+     "flash": 0.3
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_38998.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "img": "images/30_medici/Giuseppe Bezzuoli - Entry of Charles VIII into Florence - WGA2144.jpg",
+     "credit": "Entry of Charles VIII into Florence, Bezzuoli, 1829 · public domain",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "THE MEDICI FLEE",
+        "style": "yellow",
+        "y": 880,
+        "at": 0.1,
+        "size": 70,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_53834.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "big": true,
+   "big_at": 0.3,
+   "big_sfx": "crash",
+   "drop": true,
+   "hl": [
+    "seized."
+   ],
+   "say": "Fourteen ninety-four: France invades. The Medici flee. The bank is seized."
+  },
+  {
+   "text": "The twist? A mob burned its Florence headquarters.",
+   "shots": [
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_236711.mp4",
+     "credit": "Footage: Pixabay",
+     "overlay": {
+      "type": "stickers",
+      "items": [
+       {
+        "text": "FLORENCE HEADQUARTERS",
+        "style": "white",
+        "y": 760,
+        "at": 0.1,
+        "size": 60,
+        "x": 540
+       },
+       {
+        "text": "BURNED BY A MOB",
+        "style": "red",
+        "y": 890,
+        "at": 0.4,
+        "size": 76,
+        "x": 540
+       }
+      ]
+     }
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_2173.mp4",
+     "credit": "Footage: Pixabay"
+    },
+    {
+     "type": "full",
+     "clip": "images/30_medici/pixabay_210104.mp4",
+     "credit": "Footage: Pixabay"
+    }
+   ],
+   "twist": true,
+   "hl": [
+    "burned"
+   ],
+   "sfx": [
+    [
+     "slam",
+     1.3
+    ]
+   ]
+  },
+  {
+   "text": "Follow Rich to Ruin for the next fall.",
+   "scene": {
+    "type": "outro"
+   }
+  }
+ ]
+}
